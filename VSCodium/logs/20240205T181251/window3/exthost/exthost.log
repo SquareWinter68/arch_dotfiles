@@ -1,0 +1,16 @@
+2024-02-05 18:32:31.462 [info] Extension host with pid 249101 started
+2024-02-05 18:32:31.462 [info] Skipping acquiring lock for /home/squarewinter/.config/VSCodium/User/workspaceStorage/3184162742ba764b6fd1b7221a01694a.
+2024-02-05 18:32:32.451 [info] ExtensionService#_doActivateExtension vscode.emmet, startup: false, activationEvent: 'onLanguage'
+2024-02-05 18:32:32.473 [info] ExtensionService#_doActivateExtension ms-python.python, startup: false, activationEvent: 'onLanguage:python'
+2024-02-05 18:32:32.910 [info] ExtensionService#_doActivateExtension vscode.git-base, startup: true, activationEvent: '*', root cause: vscode.git
+2024-02-05 18:32:32.917 [info] ExtensionService#_doActivateExtension dlasagno.wal-theme, startup: true, activationEvent: '*'
+2024-02-05 18:32:33.215 [info] ExtensionService#_doActivateExtension vscode.git, startup: true, activationEvent: '*'
+2024-02-05 18:32:33.274 [info] ExtensionService#_doActivateExtension vscode.github, startup: true, activationEvent: '*'
+2024-02-05 18:32:33.424 [info] Eager extensions activated
+2024-02-05 18:32:33.520 [info] ExtensionService#_doActivateExtension vscode.debug-auto-launch, startup: false, activationEvent: 'onStartupFinished'
+2024-02-05 18:32:33.524 [info] ExtensionService#_doActivateExtension vscode.merge-conflict, startup: false, activationEvent: 'onStartupFinished'
+2024-02-05 18:32:33.542 [info] ExtensionService#_doActivateExtension PKief.material-icon-theme, startup: false, activationEvent: 'onStartupFinished'
+2024-02-05 18:32:33.563 [info] ExtensionService#_doActivateExtension ritwickdey.LiveServer, startup: false, activationEvent: 'onStartupFinished'
+2024-02-05 18:32:52.323 [info] ExtensionService#_doActivateExtension vscode.npm, startup: false, activationEvent: 'onTerminalQuickFixRequest:ms-vscode.npm-command'
+2024-02-05 18:36:55.170 [info] Extension host terminating: renderer closed the MessagePort
+2024-02-05 18:36:55.195 [info] Extension host with pid 249101 exiting with code 0

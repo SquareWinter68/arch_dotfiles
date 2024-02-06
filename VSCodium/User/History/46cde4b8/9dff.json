@@ -1,0 +1,18 @@
+{
+    "window.zoomLevel": 1,
+    "workbench.iconTheme": "material-icon-theme",
+    "editor.fontFamily": "'Droid Sans Mono', 'monospace', monospace,  '0xProto Nerd Font'",
+    "workbench.colorTheme": "Monokai",
+    "terminal.integrated.inheritEnv": false,
+    "[dart]": {
+        "editor.formatOnSave": true,
+        "editor.formatOnType": true,
+        "editor.rulers": [
+            80
+        ],
+        "editor.selectionHighlight": false,
+        "editor.suggestSelection": "first",
+        "editor.tabCompletion": "onlySnippets",
+        "editor.wordBasedSuggestions": "off"
+    }
+}

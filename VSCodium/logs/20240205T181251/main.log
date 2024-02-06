@@ -1,0 +1,8 @@
+2024-02-05 18:12:52.069 [info] update#setState disabled
+2024-02-05 18:12:52.071 [info] update#ctor - updates are disabled as there is no update URL
+2024-02-05 18:28:28.332 [info] Extension host with pid 246801 exited with code: 0, signal: unknown.
+2024-02-05 18:36:55.198 [info] Extension host with pid 249101 exited with code: 0, signal: unknown.
+2024-02-06 12:22:42.477 [warning] [UtilityProcessWorker]: createWorker() found an existing worker that will be terminated (window: 5, moduleId: vs/platform/files/node/watcher/watcherMain)
+2024-02-06 12:22:42.493 [error] [UtilityProcess id: 5, type: fileWatcher, pid: 262169]: crashed with code 15 and reason 'killed'
+2024-02-06 12:25:36.860 [info] Extension host with pid 262186 exited with code: 0, signal: unknown.
+2024-02-06 12:25:36.958 [error] [UtilityProcess id: 5, type: fileWatcher, pid: 262406]: crashed with code 15 and reason 'killed'

@@ -1,0 +1,5 @@
+2024/02/02-01:23:19.955 1aafc Creating DB /home/squarewinter/.config/discord/Local Storage/leveldb since it was missing.
+2024/02/02-01:23:19.961 1aafc Reusing MANIFEST /home/squarewinter/.config/discord/Local Storage/leveldb/MANIFEST-000001
+2024/02/02-01:29:23.282 1ac38 Level-0 table #5: started
+2024/02/02-01:29:23.316 1ac38 Level-0 table #5: 2834261 bytes OK
+2024/02/02-01:29:23.318 1ac38 Delete type=0 #3

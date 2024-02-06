@@ -1,0 +1,43 @@
+2024-02-04 20:12:06.732 [info] Getting Manifest... ms-python.python
+2024-02-04 20:12:07.265 [info] Installing extension: ms-python.python
+2024-02-04 20:12:12.039 [info] Extension signature verification is not done: ms-python.python
+2024-02-04 20:12:15.744 [info] Extracted extension to file:///home/squarewinter/.vscode-oss/extensions/ms-python.python-2024.0.0-universal: ms-python.python
+2024-02-04 20:12:15.755 [info] Renamed to /home/squarewinter/.vscode-oss/extensions/ms-python.python-2024.0.0-universal
+2024-02-04 20:12:15.769 [info] Extracting extension completed. ms-python.python
+2024-02-04 20:12:15.797 [info] Extension installed successfully: ms-python.python
+2024-02-04 20:12:15.815 [info] Marked extension as uninstalled ms-python.python-2023.22.1-universal
+2024-02-04 20:12:15.871 [error] [uncaught exception in sharedProcess]: Error: ENOENT: no such file or directory, stat '/home/squarewinter/.vscode-oss/extensions/extensions.json.vsctmp': EntryNotFound (FileSystemError): Error: ENOENT: no such file or directory, stat '/home/squarewinter/.vscode-oss/extensions/extensions.json.vsctmp'
+    at r.create (/usr/share/vscodium/resources/app/out/vs/code/node/sharedProcess/sharedProcessMain.js:51:35852)
+    at a (/usr/share/vscodium/resources/app/out/vs/code/node/sharedProcess/sharedProcessMain.js:51:35986)
+    at s.toFileSystemProviderError (/usr/share/vscodium/resources/app/out/vs/code/node/sharedProcess/sharedProcessMain.js:56:47852)
+    at s.stat (/usr/share/vscodium/resources/app/out/vs/code/node/sharedProcess/sharedProcessMain.js:56:38447)
+    at async C.stat (/usr/share/vscodium/resources/app/out/vs/code/node/sharedProcess/sharedProcessMain.js:56:20932)
+    at async Y.onDidFilesChange (/usr/share/vscodium/resources/app/out/vs/code/node/sharedProcess/sharedProcessMain.js:100:138138)
+2024-02-04 20:13:12.368 [info] Getting Manifest... dart-code.flutter
+2024-02-04 20:13:12.537 [info] Installing extension: dart-code.flutter
+2024-02-04 20:13:13.011 [info] Getting Manifest... dart-code.dart-code
+2024-02-04 20:13:13.708 [info] Installing extension: dart-code.dart-code dart-code.flutter
+2024-02-04 20:13:25.466 [info] Extension signature verification is not done: dart-code.dart-code
+2024-02-04 20:13:59.693 [info] Extracted extension to file:///home/squarewinter/.vscode-oss/extensions/dart-code.dart-code-3.82.0-universal: dart-code.dart-code
+2024-02-04 20:13:59.712 [info] Renamed to /home/squarewinter/.vscode-oss/extensions/dart-code.dart-code-3.82.0-universal
+2024-02-04 20:13:59.720 [info] Extracting extension completed. dart-code.dart-code
+2024-02-04 20:13:59.858 [error] [uncaught exception in sharedProcess]: Error: ENOENT: no such file or directory, stat '/home/squarewinter/.vscode-oss/extensions/extensions.json.vsctmp': EntryNotFound (FileSystemError): Error: ENOENT: no such file or directory, stat '/home/squarewinter/.vscode-oss/extensions/extensions.json.vsctmp'
+    at r.create (/usr/share/vscodium/resources/app/out/vs/code/node/sharedProcess/sharedProcessMain.js:51:35852)
+    at a (/usr/share/vscodium/resources/app/out/vs/code/node/sharedProcess/sharedProcessMain.js:51:35986)
+    at s.toFileSystemProviderError (/usr/share/vscodium/resources/app/out/vs/code/node/sharedProcess/sharedProcessMain.js:56:47852)
+    at s.stat (/usr/share/vscodium/resources/app/out/vs/code/node/sharedProcess/sharedProcessMain.js:56:38447)
+    at async C.stat (/usr/share/vscodium/resources/app/out/vs/code/node/sharedProcess/sharedProcessMain.js:56:20932)
+    at async Y.onDidFilesChange (/usr/share/vscodium/resources/app/out/vs/code/node/sharedProcess/sharedProcessMain.js:100:138138)
+2024-02-04 20:14:00.554 [info] Extension signature verification is not done: dart-code.flutter
+2024-02-04 20:14:00.627 [info] Extracted extension to file:///home/squarewinter/.vscode-oss/extensions/dart-code.flutter-3.82.0-universal: dart-code.flutter
+2024-02-04 20:14:00.642 [info] Renamed to /home/squarewinter/.vscode-oss/extensions/dart-code.flutter-3.82.0-universal
+2024-02-04 20:14:00.650 [info] Extracting extension completed. dart-code.flutter
+2024-02-04 20:14:00.703 [info] Extension installed successfully: dart-code.dart-code
+2024-02-04 20:14:00.704 [info] Extension installed successfully: dart-code.flutter
+2024-02-04 20:14:00.755 [error] [uncaught exception in sharedProcess]: Error: ENOENT: no such file or directory, stat '/home/squarewinter/.vscode-oss/extensions/extensions.json.vsctmp': EntryNotFound (FileSystemError): Error: ENOENT: no such file or directory, stat '/home/squarewinter/.vscode-oss/extensions/extensions.json.vsctmp'
+    at r.create (/usr/share/vscodium/resources/app/out/vs/code/node/sharedProcess/sharedProcessMain.js:51:35852)
+    at a (/usr/share/vscodium/resources/app/out/vs/code/node/sharedProcess/sharedProcessMain.js:51:35986)
+    at s.toFileSystemProviderError (/usr/share/vscodium/resources/app/out/vs/code/node/sharedProcess/sharedProcessMain.js:56:47852)
+    at s.stat (/usr/share/vscodium/resources/app/out/vs/code/node/sharedProcess/sharedProcessMain.js:56:38447)
+    at async C.stat (/usr/share/vscodium/resources/app/out/vs/code/node/sharedProcess/sharedProcessMain.js:56:20932)
+    at async Y.onDidFilesChange (/usr/share/vscodium/resources/app/out/vs/code/node/sharedProcess/sharedProcessMain.js:100:138138)

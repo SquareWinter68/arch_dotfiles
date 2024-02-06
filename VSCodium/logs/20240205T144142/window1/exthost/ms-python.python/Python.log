@@ -1,0 +1,50 @@
+2024-02-05 14:42:02.103 [info] Telemetry level is off
+2024-02-05 14:42:02.103 [info] Experiments are disabled, only manually opted experiments are active.
+2024-02-05 14:42:02.103 [info] Default formatter is set to null for workspace /home/squarewinter/programming/python/wallpaper_frame_extractor
+2024-02-05 14:42:02.103 [info] Test server listening.
+2024-02-05 14:42:02.119 [info] > conda info --json
+2024-02-05 14:42:02.125 [warning] Retry failed, storage update failed for key PYTHON_GLOBAL_STORAGE_KEYS
+2024-02-05 14:42:02.125 [warning] Retry failed, storage update failed for key PYTHON_WORKSPACE_STORAGE_KEYS
+2024-02-05 14:42:02.125 [warning] Retry failed, storage update failed for key PYTHON_WORKSPACE_STORAGE_KEYS
+2024-02-05 14:42:02.125 [warning] Retry failed, storage update failed for key PYTHON_WORKSPACE_STORAGE_KEYS
+2024-02-05 14:42:02.125 [warning] Retry failed, storage update failed for key PYTHON_WORKSPACE_STORAGE_KEYS
+2024-02-05 14:42:02.132 [warning] Retry failed, storage update failed for key PYTHON_GLOBAL_STORAGE_KEYS
+2024-02-05 14:42:03.795 [info] > ~/miniconda3/envs/wallpaper_script/bin/python -I ~/.vscode-oss/extensions/ms-python.python-2024.0.0-universal/pythonFiles/get_output_via_markers.py ~/.vscode-oss/extensions/ms-python.python-2024.0.0-universal/pythonFiles/interpreterInfo.py
+2024-02-05 14:42:03.887 [info] VS Code was launched from an activated environment: 'wallpaper_script', selecting it as the interpreter for workspace.
+2024-02-05 14:42:03.893 [info] Python interpreter path: ~/miniconda3/envs/wallpaper_script/bin/python
+2024-02-05 14:42:03.941 [info] Discover tests for workspace name: wallpaper_frame_extractor - uri: /home/squarewinter/programming/python/wallpaper_frame_extractor
+2024-02-05 14:42:06.098 [info] Starting Jedi language server for wallpaper_frame_extractor.
+2024-02-05 14:42:06.456 [info] Starting Jedi language server for wallpaper_frame_extractor.
+2024-02-05 14:42:28.637 [info] Found: /bin/python --> /bin/python3.11
+2024-02-05 14:42:28.638 [info] Found: /bin/python3 --> /bin/python3.11
+2024-02-05 14:42:28.638 [info] Found: /bin/python3.11 --> /bin/python3.11
+2024-02-05 14:42:28.674 [info] > /bin/python -I ~/.vscode-oss/extensions/ms-python.python-2024.0.0-universal/pythonFiles/get_output_via_markers.py ~/.vscode-oss/extensions/ms-python.python-2024.0.0-universal/pythonFiles/interpreterInfo.py
+2024-02-05 14:42:28.707 [info] > ~/miniconda3/bin/python -I ~/.vscode-oss/extensions/ms-python.python-2024.0.0-universal/pythonFiles/get_output_via_markers.py ~/.vscode-oss/extensions/ms-python.python-2024.0.0-universal/pythonFiles/interpreterInfo.py
+2024-02-05 14:42:28.710 [info] Found: /sbin/python --> /sbin/python3.11
+2024-02-05 14:42:28.712 [info] Found: /sbin/python3 --> /sbin/python3.11
+2024-02-05 14:42:28.712 [info] Found: /sbin/python3.11 --> /sbin/python3.11
+2024-02-05 14:42:28.730 [info] Found: /usr/bin/python --> /usr/bin/python3.11
+2024-02-05 14:42:28.731 [info] Found: /usr/bin/python3 --> /usr/bin/python3.11
+2024-02-05 14:42:28.731 [info] Found: /usr/bin/python3.11 --> /usr/bin/python3.11
+2024-02-05 14:42:28.771 [info] > ~/miniconda3/envs/miscellanious/bin/python -I ~/.vscode-oss/extensions/ms-python.python-2024.0.0-universal/pythonFiles/get_output_via_markers.py ~/.vscode-oss/extensions/ms-python.python-2024.0.0-universal/pythonFiles/interpreterInfo.py
+2024-02-05 14:42:28.800 [info] Found: /usr/sbin/python --> /usr/sbin/python3.11
+2024-02-05 14:42:28.801 [info] Found: /usr/sbin/python3 --> /usr/sbin/python3.11
+2024-02-05 14:42:28.801 [info] Found: /usr/sbin/python3.11 --> /usr/sbin/python3.11
+2024-02-05 14:42:28.803 [info] Found: /home/squarewinter/miniconda3/envs/wallpaper_script/bin/python --> /home/squarewinter/miniconda3/envs/wallpaper_script/bin/python3.12
+2024-02-05 14:42:28.803 [info] Found: /home/squarewinter/miniconda3/envs/wallpaper_script/bin/python3 --> /home/squarewinter/miniconda3/envs/wallpaper_script/bin/python3.12
+2024-02-05 14:42:28.803 [info] Found: /home/squarewinter/miniconda3/envs/wallpaper_script/bin/python3.1 --> /home/squarewinter/miniconda3/envs/wallpaper_script/bin/python3.12
+2024-02-05 14:42:28.804 [info] Found: /home/squarewinter/miniconda3/envs/wallpaper_script/bin/python3.12 --> /home/squarewinter/miniconda3/envs/wallpaper_script/bin/python3.12
+2024-02-05 14:42:28.826 [info] > /sbin/python -I ~/.vscode-oss/extensions/ms-python.python-2024.0.0-universal/pythonFiles/get_output_via_markers.py ~/.vscode-oss/extensions/ms-python.python-2024.0.0-universal/pythonFiles/interpreterInfo.py
+2024-02-05 14:42:28.856 [info] > /usr/bin/python -I ~/.vscode-oss/extensions/ms-python.python-2024.0.0-universal/pythonFiles/get_output_via_markers.py ~/.vscode-oss/extensions/ms-python.python-2024.0.0-universal/pythonFiles/interpreterInfo.py
+2024-02-05 14:42:28.911 [info] > /usr/sbin/python -I ~/.vscode-oss/extensions/ms-python.python-2024.0.0-universal/pythonFiles/get_output_via_markers.py ~/.vscode-oss/extensions/ms-python.python-2024.0.0-universal/pythonFiles/interpreterInfo.py
+2024-02-05 14:42:45.938 [info] Starting Jedi language server for wallpaper_frame_extractor.
+2024-02-05 14:43:10.893 [info] > conda info --json
+2024-02-05 14:43:10.938 [info] Discover tests for workspace name: wallpaper_frame_extractor - uri: /home/squarewinter/programming/python/wallpaper_frame_extractor/gif_script.py
+2024-02-05 14:43:12.207 [info] Send text to terminal: conda activate wallpaper_script
+2024-02-05 14:43:12.709 [info] Send text to terminal: /home/squarewinter/miniconda3/envs/wallpaper_script/bin/python /home/squarewinter/programming/python/wallpaper_frame_extractor/gif_script.py
+2024-02-05 14:45:35.119 [info] Send text to terminal: /home/squarewinter/miniconda3/envs/wallpaper_script/bin/python /home/squarewinter/programming/python/wallpaper_frame_extractor/gif_script.py
+2024-02-05 14:45:43.536 [info] Send text to terminal: /home/squarewinter/miniconda3/envs/wallpaper_script/bin/python /home/squarewinter/programming/python/wallpaper_frame_extractor/gif_script.py
+2024-02-05 14:46:32.670 [info] Send text to terminal: /home/squarewinter/miniconda3/envs/wallpaper_script/bin/python /home/squarewinter/programming/python/wallpaper_frame_extractor/gif_script.py
+2024-02-05 14:47:51.235 [info] Send text to terminal: /home/squarewinter/miniconda3/envs/wallpaper_script/bin/python /home/squarewinter/programming/python/wallpaper_frame_extractor/gif_script.py
+2024-02-05 14:47:51.464 [info] Discover tests for workspace name: wallpaper_frame_extractor - uri: /home/squarewinter/programming/python/wallpaper_frame_extractor/gif_script.py
+2024-02-05 15:12:35.752 [info] Discover tests for workspace name: wallpaper_frame_extractor - uri: /home/squarewinter/programming/python/wallpaper_frame_extractor/gif_script.py

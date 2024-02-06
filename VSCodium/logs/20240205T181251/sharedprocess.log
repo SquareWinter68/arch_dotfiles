@@ -1,0 +1,14 @@
+2024-02-05 18:19:17.688 [info] Getting Manifest... ritwickdey.liveserver
+2024-02-05 18:19:17.902 [info] Installing extension: ritwickdey.liveserver
+2024-02-05 18:19:24.930 [info] Extension signature verification is not done: ritwickdey.liveserver
+2024-02-05 18:19:31.440 [info] Extracted extension to file:///home/squarewinter/.vscode-oss/extensions/ritwickdey.liveserver-5.7.9-universal: ritwickdey.liveserver
+2024-02-05 18:19:31.454 [info] Renamed to /home/squarewinter/.vscode-oss/extensions/ritwickdey.liveserver-5.7.9-universal
+2024-02-05 18:19:31.457 [info] Extracting extension completed. ritwickdey.liveserver
+2024-02-05 18:19:31.475 [info] Extension installed successfully: ritwickdey.liveserver
+2024-02-05 18:19:31.555 [error] [uncaught exception in sharedProcess]: Error: ENOENT: no such file or directory, stat '/home/squarewinter/.vscode-oss/extensions/extensions.json.vsctmp': EntryNotFound (FileSystemError): Error: ENOENT: no such file or directory, stat '/home/squarewinter/.vscode-oss/extensions/extensions.json.vsctmp'
+    at r.create (/usr/share/vscodium/resources/app/out/vs/code/node/sharedProcess/sharedProcessMain.js:51:35852)
+    at a (/usr/share/vscodium/resources/app/out/vs/code/node/sharedProcess/sharedProcessMain.js:51:35986)
+    at s.toFileSystemProviderError (/usr/share/vscodium/resources/app/out/vs/code/node/sharedProcess/sharedProcessMain.js:56:47852)
+    at s.stat (/usr/share/vscodium/resources/app/out/vs/code/node/sharedProcess/sharedProcessMain.js:56:38447)
+    at async C.stat (/usr/share/vscodium/resources/app/out/vs/code/node/sharedProcess/sharedProcessMain.js:56:20932)
+    at async Y.onDidFilesChange (/usr/share/vscodium/resources/app/out/vs/code/node/sharedProcess/sharedProcessMain.js:100:138138)

@@ -1,0 +1,9 @@
+2024/02/02-18:09:04.465 26c04 Reusing MANIFEST /home/squarewinter/.config/discord/Local Storage/leveldb/MANIFEST-000001
+2024/02/02-18:09:04.466 26c04 Recovering log #4
+2024/02/02-18:09:04.466 26c04 Reusing old log /home/squarewinter/.config/discord/Local Storage/leveldb/000004.log 
+2024/02/02-18:12:47.548 26cfa Level-0 table #8: started
+2024/02/02-18:12:47.582 26cfa Level-0 table #8: 2839025 bytes OK
+2024/02/02-18:12:47.585 26cfa Delete type=0 #4
+2024/02/02-18:15:33.682 26cfa Level-0 table #10: started
+2024/02/02-18:15:33.715 26cfa Level-0 table #10: 721959 bytes OK
+2024/02/02-18:15:33.717 26cfa Delete type=0 #7
