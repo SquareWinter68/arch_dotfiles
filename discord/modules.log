@@ -797,3 +797,145 @@
 2024-02-02T19:09:15.498Z [Modules] Host is up to date.
 2024-02-02T19:09:15.498Z [Modules] Checking for module updates at https://discord.com/api/modules/stable/versions.json
 2024-02-02T19:09:15.806Z [Modules] No module updates available.
+2024-02-06T19:15:52.989Z [Modules] Modules initializing
+2024-02-06T19:15:52.989Z [Modules] Distribution: remote
+2024-02-06T19:15:52.990Z [Modules] Host updates: enabled
+2024-02-06T19:15:52.990Z [Modules] Module updates: enabled
+2024-02-06T19:15:52.992Z [Modules] Module install path: /home/squarewinter/.config/discord/0.0.42/modules
+2024-02-06T19:15:52.992Z [Modules] Module installed file path: /home/squarewinter/.config/discord/0.0.42/modules/installed.json
+2024-02-06T19:15:52.993Z [Modules] Module download path: /home/squarewinter/.config/discord/0.0.42/modules/pending
+2024-02-06T19:15:53.423Z [Modules] No updates to install
+2024-02-06T19:15:53.425Z [Modules] Checking for host updates.
+2024-02-06T19:15:53.937Z [Modules] Host is up to date.
+2024-02-06T19:15:53.938Z [Modules] Checking for module updates at https://discord.com/api/modules/stable/versions.json
+2024-02-06T19:15:53.994Z [Modules] Module update available: discord_voice@2 [installed: 1]
+2024-02-06T19:15:53.997Z [Modules] Fetching discord_voice@2 from https://discord.com/api/modules/stable/discord_voice/2
+2024-02-06T19:15:53.997Z [Modules] Streaming discord_voice@2 to /home/squarewinter/.config/discord/0.0.42/modules/pending/discord_voice-2.zip
+2024-02-06T19:15:54.529Z [Modules] Streaming discord_voice@2 to /home/squarewinter/.config/discord/0.0.42/modules/pending/discord_voice-2.zip: 1%
+2024-02-06T19:15:54.591Z [Modules] Streaming discord_voice@2 to /home/squarewinter/.config/discord/0.0.42/modules/pending/discord_voice-2.zip: 2%
+2024-02-06T19:15:54.664Z [Modules] Streaming discord_voice@2 to /home/squarewinter/.config/discord/0.0.42/modules/pending/discord_voice-2.zip: 3%
+2024-02-06T19:15:54.713Z [Modules] Streaming discord_voice@2 to /home/squarewinter/.config/discord/0.0.42/modules/pending/discord_voice-2.zip: 4%
+2024-02-06T19:15:54.787Z [Modules] Streaming discord_voice@2 to /home/squarewinter/.config/discord/0.0.42/modules/pending/discord_voice-2.zip: 5%
+2024-02-06T19:15:54.841Z [Modules] Streaming discord_voice@2 to /home/squarewinter/.config/discord/0.0.42/modules/pending/discord_voice-2.zip: 6%
+2024-02-06T19:15:54.906Z [Modules] Streaming discord_voice@2 to /home/squarewinter/.config/discord/0.0.42/modules/pending/discord_voice-2.zip: 7%
+2024-02-06T19:15:54.968Z [Modules] Streaming discord_voice@2 to /home/squarewinter/.config/discord/0.0.42/modules/pending/discord_voice-2.zip: 8%
+2024-02-06T19:15:55.047Z [Modules] Streaming discord_voice@2 to /home/squarewinter/.config/discord/0.0.42/modules/pending/discord_voice-2.zip: 9%
+2024-02-06T19:15:55.102Z [Modules] Streaming discord_voice@2 to /home/squarewinter/.config/discord/0.0.42/modules/pending/discord_voice-2.zip: 10%
+2024-02-06T19:15:55.151Z [Modules] Streaming discord_voice@2 to /home/squarewinter/.config/discord/0.0.42/modules/pending/discord_voice-2.zip: 11%
+2024-02-06T19:15:55.238Z [Modules] Streaming discord_voice@2 to /home/squarewinter/.config/discord/0.0.42/modules/pending/discord_voice-2.zip: 12%
+2024-02-06T19:15:55.297Z [Modules] Streaming discord_voice@2 to /home/squarewinter/.config/discord/0.0.42/modules/pending/discord_voice-2.zip: 13%
+2024-02-06T19:15:55.365Z [Modules] Streaming discord_voice@2 to /home/squarewinter/.config/discord/0.0.42/modules/pending/discord_voice-2.zip: 14%
+2024-02-06T19:15:55.421Z [Modules] Streaming discord_voice@2 to /home/squarewinter/.config/discord/0.0.42/modules/pending/discord_voice-2.zip: 15%
+2024-02-06T19:15:55.462Z [Modules] Streaming discord_voice@2 to /home/squarewinter/.config/discord/0.0.42/modules/pending/discord_voice-2.zip: 16%
+2024-02-06T19:15:55.535Z [Modules] Streaming discord_voice@2 to /home/squarewinter/.config/discord/0.0.42/modules/pending/discord_voice-2.zip: 17%
+2024-02-06T19:15:55.579Z [Modules] Streaming discord_voice@2 to /home/squarewinter/.config/discord/0.0.42/modules/pending/discord_voice-2.zip: 18%
+2024-02-06T19:15:55.620Z [Modules] Streaming discord_voice@2 to /home/squarewinter/.config/discord/0.0.42/modules/pending/discord_voice-2.zip: 19%
+2024-02-06T19:15:55.672Z [Modules] Streaming discord_voice@2 to /home/squarewinter/.config/discord/0.0.42/modules/pending/discord_voice-2.zip: 20%
+2024-02-06T19:15:55.736Z [Modules] Streaming discord_voice@2 to /home/squarewinter/.config/discord/0.0.42/modules/pending/discord_voice-2.zip: 21%
+2024-02-06T19:15:55.804Z [Modules] Streaming discord_voice@2 to /home/squarewinter/.config/discord/0.0.42/modules/pending/discord_voice-2.zip: 22%
+2024-02-06T19:15:55.857Z [Modules] Streaming discord_voice@2 to /home/squarewinter/.config/discord/0.0.42/modules/pending/discord_voice-2.zip: 23%
+2024-02-06T19:15:55.903Z [Modules] Streaming discord_voice@2 to /home/squarewinter/.config/discord/0.0.42/modules/pending/discord_voice-2.zip: 24%
+2024-02-06T19:15:55.950Z [Modules] Streaming discord_voice@2 to /home/squarewinter/.config/discord/0.0.42/modules/pending/discord_voice-2.zip: 25%
+2024-02-06T19:15:56.016Z [Modules] Streaming discord_voice@2 to /home/squarewinter/.config/discord/0.0.42/modules/pending/discord_voice-2.zip: 26%
+2024-02-06T19:15:56.054Z [Modules] Streaming discord_voice@2 to /home/squarewinter/.config/discord/0.0.42/modules/pending/discord_voice-2.zip: 27%
+2024-02-06T19:15:56.102Z [Modules] Streaming discord_voice@2 to /home/squarewinter/.config/discord/0.0.42/modules/pending/discord_voice-2.zip: 28%
+2024-02-06T19:15:56.143Z [Modules] Streaming discord_voice@2 to /home/squarewinter/.config/discord/0.0.42/modules/pending/discord_voice-2.zip: 29%
+2024-02-06T19:15:56.208Z [Modules] Streaming discord_voice@2 to /home/squarewinter/.config/discord/0.0.42/modules/pending/discord_voice-2.zip: 30%
+2024-02-06T19:15:56.273Z [Modules] Streaming discord_voice@2 to /home/squarewinter/.config/discord/0.0.42/modules/pending/discord_voice-2.zip: 31%
+2024-02-06T19:15:56.331Z [Modules] Streaming discord_voice@2 to /home/squarewinter/.config/discord/0.0.42/modules/pending/discord_voice-2.zip: 32%
+2024-02-06T19:15:56.390Z [Modules] Streaming discord_voice@2 to /home/squarewinter/.config/discord/0.0.42/modules/pending/discord_voice-2.zip: 33%
+2024-02-06T19:15:56.441Z [Modules] Streaming discord_voice@2 to /home/squarewinter/.config/discord/0.0.42/modules/pending/discord_voice-2.zip: 34%
+2024-02-06T19:15:56.477Z [Modules] Streaming discord_voice@2 to /home/squarewinter/.config/discord/0.0.42/modules/pending/discord_voice-2.zip: 35%
+2024-02-06T19:15:56.534Z [Modules] Streaming discord_voice@2 to /home/squarewinter/.config/discord/0.0.42/modules/pending/discord_voice-2.zip: 36%
+2024-02-06T19:15:56.567Z [Modules] Streaming discord_voice@2 to /home/squarewinter/.config/discord/0.0.42/modules/pending/discord_voice-2.zip: 37%
+2024-02-06T19:15:56.621Z [Modules] Streaming discord_voice@2 to /home/squarewinter/.config/discord/0.0.42/modules/pending/discord_voice-2.zip: 38%
+2024-02-06T19:15:56.714Z [Modules] Streaming discord_voice@2 to /home/squarewinter/.config/discord/0.0.42/modules/pending/discord_voice-2.zip: 39%
+2024-02-06T19:15:56.756Z [Modules] Streaming discord_voice@2 to /home/squarewinter/.config/discord/0.0.42/modules/pending/discord_voice-2.zip: 40%
+2024-02-06T19:15:56.816Z [Modules] Streaming discord_voice@2 to /home/squarewinter/.config/discord/0.0.42/modules/pending/discord_voice-2.zip: 41%
+2024-02-06T19:15:56.840Z [Modules] Streaming discord_voice@2 to /home/squarewinter/.config/discord/0.0.42/modules/pending/discord_voice-2.zip: 42%
+2024-02-06T19:15:56.970Z [Modules] Streaming discord_voice@2 to /home/squarewinter/.config/discord/0.0.42/modules/pending/discord_voice-2.zip: 43%
+2024-02-06T19:15:56.974Z [Modules] Streaming discord_voice@2 to /home/squarewinter/.config/discord/0.0.42/modules/pending/discord_voice-2.zip: 44%
+2024-02-06T19:15:57.082Z [Modules] Streaming discord_voice@2 to /home/squarewinter/.config/discord/0.0.42/modules/pending/discord_voice-2.zip: 45%
+2024-02-06T19:15:57.150Z [Modules] Streaming discord_voice@2 to /home/squarewinter/.config/discord/0.0.42/modules/pending/discord_voice-2.zip: 46%
+2024-02-06T19:15:57.206Z [Modules] Streaming discord_voice@2 to /home/squarewinter/.config/discord/0.0.42/modules/pending/discord_voice-2.zip: 47%
+2024-02-06T19:15:57.285Z [Modules] Streaming discord_voice@2 to /home/squarewinter/.config/discord/0.0.42/modules/pending/discord_voice-2.zip: 48%
+2024-02-06T19:15:57.339Z [Modules] Streaming discord_voice@2 to /home/squarewinter/.config/discord/0.0.42/modules/pending/discord_voice-2.zip: 49%
+2024-02-06T19:15:57.402Z [Modules] Streaming discord_voice@2 to /home/squarewinter/.config/discord/0.0.42/modules/pending/discord_voice-2.zip: 50%
+2024-02-06T19:15:57.496Z [Modules] Streaming discord_voice@2 to /home/squarewinter/.config/discord/0.0.42/modules/pending/discord_voice-2.zip: 51%
+2024-02-06T19:15:57.556Z [Modules] Streaming discord_voice@2 to /home/squarewinter/.config/discord/0.0.42/modules/pending/discord_voice-2.zip: 52%
+2024-02-06T19:15:57.595Z [Modules] Streaming discord_voice@2 to /home/squarewinter/.config/discord/0.0.42/modules/pending/discord_voice-2.zip: 53%
+2024-02-06T19:15:57.658Z [Modules] Streaming discord_voice@2 to /home/squarewinter/.config/discord/0.0.42/modules/pending/discord_voice-2.zip: 54%
+2024-02-06T19:15:57.695Z [Modules] Streaming discord_voice@2 to /home/squarewinter/.config/discord/0.0.42/modules/pending/discord_voice-2.zip: 55%
+2024-02-06T19:15:57.760Z [Modules] Streaming discord_voice@2 to /home/squarewinter/.config/discord/0.0.42/modules/pending/discord_voice-2.zip: 56%
+2024-02-06T19:15:57.805Z [Modules] Streaming discord_voice@2 to /home/squarewinter/.config/discord/0.0.42/modules/pending/discord_voice-2.zip: 57%
+2024-02-06T19:15:57.850Z [Modules] Streaming discord_voice@2 to /home/squarewinter/.config/discord/0.0.42/modules/pending/discord_voice-2.zip: 58%
+2024-02-06T19:15:57.888Z [Modules] Streaming discord_voice@2 to /home/squarewinter/.config/discord/0.0.42/modules/pending/discord_voice-2.zip: 59%
+2024-02-06T19:15:57.928Z [Modules] Streaming discord_voice@2 to /home/squarewinter/.config/discord/0.0.42/modules/pending/discord_voice-2.zip: 60%
+2024-02-06T19:15:57.978Z [Modules] Streaming discord_voice@2 to /home/squarewinter/.config/discord/0.0.42/modules/pending/discord_voice-2.zip: 61%
+2024-02-06T19:15:58.025Z [Modules] Streaming discord_voice@2 to /home/squarewinter/.config/discord/0.0.42/modules/pending/discord_voice-2.zip: 62%
+2024-02-06T19:15:58.092Z [Modules] Streaming discord_voice@2 to /home/squarewinter/.config/discord/0.0.42/modules/pending/discord_voice-2.zip: 63%
+2024-02-06T19:15:58.139Z [Modules] Streaming discord_voice@2 to /home/squarewinter/.config/discord/0.0.42/modules/pending/discord_voice-2.zip: 64%
+2024-02-06T19:15:58.185Z [Modules] Streaming discord_voice@2 to /home/squarewinter/.config/discord/0.0.42/modules/pending/discord_voice-2.zip: 65%
+2024-02-06T19:15:58.238Z [Modules] Streaming discord_voice@2 to /home/squarewinter/.config/discord/0.0.42/modules/pending/discord_voice-2.zip: 66%
+2024-02-06T19:15:58.300Z [Modules] Streaming discord_voice@2 to /home/squarewinter/.config/discord/0.0.42/modules/pending/discord_voice-2.zip: 67%
+2024-02-06T19:15:58.392Z [Modules] Streaming discord_voice@2 to /home/squarewinter/.config/discord/0.0.42/modules/pending/discord_voice-2.zip: 68%
+2024-02-06T19:15:58.471Z [Modules] Streaming discord_voice@2 to /home/squarewinter/.config/discord/0.0.42/modules/pending/discord_voice-2.zip: 69%
+2024-02-06T19:15:58.517Z [Modules] Streaming discord_voice@2 to /home/squarewinter/.config/discord/0.0.42/modules/pending/discord_voice-2.zip: 70%
+2024-02-06T19:15:58.600Z [Modules] Streaming discord_voice@2 to /home/squarewinter/.config/discord/0.0.42/modules/pending/discord_voice-2.zip: 71%
+2024-02-06T19:15:58.666Z [Modules] Streaming discord_voice@2 to /home/squarewinter/.config/discord/0.0.42/modules/pending/discord_voice-2.zip: 72%
+2024-02-06T19:15:58.748Z [Modules] Streaming discord_voice@2 to /home/squarewinter/.config/discord/0.0.42/modules/pending/discord_voice-2.zip: 73%
+2024-02-06T19:15:58.862Z [Modules] Streaming discord_voice@2 to /home/squarewinter/.config/discord/0.0.42/modules/pending/discord_voice-2.zip: 74%
+2024-02-06T19:15:58.963Z [Modules] Streaming discord_voice@2 to /home/squarewinter/.config/discord/0.0.42/modules/pending/discord_voice-2.zip: 75%
+2024-02-06T19:15:59.106Z [Modules] Streaming discord_voice@2 to /home/squarewinter/.config/discord/0.0.42/modules/pending/discord_voice-2.zip: 76%
+2024-02-06T19:15:59.206Z [Modules] Streaming discord_voice@2 to /home/squarewinter/.config/discord/0.0.42/modules/pending/discord_voice-2.zip: 77%
+2024-02-06T19:15:59.301Z [Modules] Streaming discord_voice@2 to /home/squarewinter/.config/discord/0.0.42/modules/pending/discord_voice-2.zip: 78%
+2024-02-06T19:15:59.385Z [Modules] Streaming discord_voice@2 to /home/squarewinter/.config/discord/0.0.42/modules/pending/discord_voice-2.zip: 79%
+2024-02-06T19:15:59.455Z [Modules] Streaming discord_voice@2 to /home/squarewinter/.config/discord/0.0.42/modules/pending/discord_voice-2.zip: 80%
+2024-02-06T19:15:59.538Z [Modules] Streaming discord_voice@2 to /home/squarewinter/.config/discord/0.0.42/modules/pending/discord_voice-2.zip: 81%
+2024-02-06T19:15:59.635Z [Modules] Streaming discord_voice@2 to /home/squarewinter/.config/discord/0.0.42/modules/pending/discord_voice-2.zip: 82%
+2024-02-06T19:15:59.713Z [Modules] Streaming discord_voice@2 to /home/squarewinter/.config/discord/0.0.42/modules/pending/discord_voice-2.zip: 83%
+2024-02-06T19:15:59.798Z [Modules] Streaming discord_voice@2 to /home/squarewinter/.config/discord/0.0.42/modules/pending/discord_voice-2.zip: 84%
+2024-02-06T19:15:59.884Z [Modules] Streaming discord_voice@2 to /home/squarewinter/.config/discord/0.0.42/modules/pending/discord_voice-2.zip: 85%
+2024-02-06T19:15:59.945Z [Modules] Streaming discord_voice@2 to /home/squarewinter/.config/discord/0.0.42/modules/pending/discord_voice-2.zip: 86%
+2024-02-06T19:16:00.038Z [Modules] Streaming discord_voice@2 to /home/squarewinter/.config/discord/0.0.42/modules/pending/discord_voice-2.zip: 87%
+2024-02-06T19:16:00.149Z [Modules] Streaming discord_voice@2 to /home/squarewinter/.config/discord/0.0.42/modules/pending/discord_voice-2.zip: 88%
+2024-02-06T19:16:00.222Z [Modules] Streaming discord_voice@2 to /home/squarewinter/.config/discord/0.0.42/modules/pending/discord_voice-2.zip: 89%
+2024-02-06T19:16:00.329Z [Modules] Streaming discord_voice@2 to /home/squarewinter/.config/discord/0.0.42/modules/pending/discord_voice-2.zip: 90%
+2024-02-06T19:16:00.403Z [Modules] Streaming discord_voice@2 to /home/squarewinter/.config/discord/0.0.42/modules/pending/discord_voice-2.zip: 91%
+2024-02-06T19:16:00.486Z [Modules] Streaming discord_voice@2 to /home/squarewinter/.config/discord/0.0.42/modules/pending/discord_voice-2.zip: 92%
+2024-02-06T19:16:00.578Z [Modules] Streaming discord_voice@2 to /home/squarewinter/.config/discord/0.0.42/modules/pending/discord_voice-2.zip: 93%
+2024-02-06T19:16:00.655Z [Modules] Streaming discord_voice@2 to /home/squarewinter/.config/discord/0.0.42/modules/pending/discord_voice-2.zip: 94%
+2024-02-06T19:16:00.725Z [Modules] Streaming discord_voice@2 to /home/squarewinter/.config/discord/0.0.42/modules/pending/discord_voice-2.zip: 95%
+2024-02-06T19:16:00.826Z [Modules] Streaming discord_voice@2 to /home/squarewinter/.config/discord/0.0.42/modules/pending/discord_voice-2.zip: 96%
+2024-02-06T19:16:00.917Z [Modules] Streaming discord_voice@2 to /home/squarewinter/.config/discord/0.0.42/modules/pending/discord_voice-2.zip: 97%
+2024-02-06T19:16:00.987Z [Modules] Streaming discord_voice@2 to /home/squarewinter/.config/discord/0.0.42/modules/pending/discord_voice-2.zip: 98%
+2024-02-06T19:16:01.090Z [Modules] Streaming discord_voice@2 to /home/squarewinter/.config/discord/0.0.42/modules/pending/discord_voice-2.zip: 99%
+2024-02-06T19:16:01.161Z [Modules] Streaming discord_voice@2 to /home/squarewinter/.config/discord/0.0.42/modules/pending/discord_voice-2.zip: 100%
+2024-02-06T19:16:01.170Z [Modules] Finished module downloads. [success: 1] [failure: 0]
+2024-02-06T19:16:01.172Z [Modules] Installing updates...
+2024-02-06T19:16:01.174Z [Modules] Installing discord_voice@2 from /home/squarewinter/.config/discord/0.0.42/modules/pending/discord_voice-2.zip
+2024-02-06T19:16:02.872Z [Modules] Finished module installations. [success: 1] [failure: 0]
+2024-02-06T19:16:02.873Z [Modules] Checking for host updates.
+2024-02-06T19:16:03.156Z [Modules] Host is up to date.
+2024-02-06T19:16:03.157Z [Modules] Checking for module updates at https://discord.com/api/modules/stable/versions.json
+2024-02-06T19:16:03.168Z [Modules] No module updates available.
+2024-02-06T19:16:09.055Z [Modules] Checking for host updates.
+2024-02-06T19:16:09.411Z [Modules] Host is up to date.
+2024-02-06T19:16:09.411Z [Modules] Checking for module updates at https://discord.com/api/modules/stable/versions.json
+2024-02-06T19:16:09.417Z [Modules] No module updates available.
+2024-02-06T19:33:54.370Z [Modules] Modules initializing
+2024-02-06T19:33:54.371Z [Modules] Distribution: remote
+2024-02-06T19:33:54.371Z [Modules] Host updates: enabled
+2024-02-06T19:33:54.371Z [Modules] Module updates: enabled
+2024-02-06T19:33:54.372Z [Modules] Module install path: /home/squarewinter/.config/discord/0.0.42/modules
+2024-02-06T19:33:54.372Z [Modules] Module installed file path: /home/squarewinter/.config/discord/0.0.42/modules/installed.json
+2024-02-06T19:33:54.373Z [Modules] Module download path: /home/squarewinter/.config/discord/0.0.42/modules/pending
+2024-02-06T19:33:54.713Z [Modules] No updates to install
+2024-02-06T19:33:54.715Z [Modules] Checking for host updates.
+2024-02-06T19:33:55.996Z [Modules] Host is up to date.
+2024-02-06T19:33:55.998Z [Modules] Checking for module updates at https://discord.com/api/modules/stable/versions.json
+2024-02-06T19:33:56.827Z [Modules] No module updates available.
+2024-02-06T19:34:02.151Z [Modules] Checking for host updates.
+2024-02-06T19:34:02.397Z [Modules] Host is up to date.
+2024-02-06T19:34:02.398Z [Modules] Checking for module updates at https://discord.com/api/modules/stable/versions.json
+2024-02-06T19:34:02.405Z [Modules] No module updates available.

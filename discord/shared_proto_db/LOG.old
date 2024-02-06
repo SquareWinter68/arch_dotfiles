@@ -1,2 +1,3 @@
-2024/02/02-01:25:39.526 1ab83 Creating DB /home/squarewinter/.config/discord/shared_proto_db since it was missing.
-2024/02/02-01:25:39.530 1ab83 Reusing MANIFEST /home/squarewinter/.config/discord/shared_proto_db/MANIFEST-000001
+2024/02/06-20:16:09.732 78d Reusing MANIFEST /home/squarewinter/.config/discord/shared_proto_db/MANIFEST-000001
+2024/02/06-20:16:09.732 78d Recovering log #3
+2024/02/06-20:16:09.733 78d Reusing old log /home/squarewinter/.config/discord/shared_proto_db/000003.log 
