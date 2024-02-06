@@ -585,3 +585,824 @@ Render pre processor: 0
 [2024-02-06 20:37:35.993] [5349] (connection.cpp:934): Outbound audio stats for user: 752840103319044126, audio ssrc: 194950, packets sent: 4463, packets lost: 0
 [2024-02-06 20:37:35.993] [5349] (connection.cpp:1046): Transport stats for user: 752840103319044126, rtt: 124 [ms], available bitrate: 600000 [bps], outbound estimate: 600000 [bps], remb: 0 [bps], inbound estimate: 0 [bps], ssrcs: 194950: {seq: 64567, tseq: -1},  packets sent: 0, received: 0, bytes sent: 0, received: 0
 [2024-02-06 20:37:35.993] [5349] (connection.cpp:1082): Memory usage: 414 MB, CPU usage: 53%
+[2024-02-06 20:37:39.641] [5541] (udp_socket.cpp:898): Sending ping to 66.22.244.15:50004, seq: 32
+[2024-02-06 20:37:39.692] [5349] (socket_client.cpp:290): Ping received from 66.22.244.15:50004, seq: 32, rtt: 50
+[2024-02-06 20:37:44.581] [5358] (captured_audio_processor.cpp:82): Audio frames processed: 16008, noise canceller process time: 18217 [ms]
+[2024-02-06 20:37:44.581] [5358] (captured_audio_processor.cpp:93): Audio frame: 16008, samples: 480, channels: 1, rate: 48000 [Hz], bytes: 2, level: 511
+[2024-02-06 20:37:44.583] [5355] (audio_device_buffer.cc:434): [REC : 10010msec, 44kHz] callbacks: 1001, samples: 441441, rate: 44100, rate diff: 0%, level: 3803
+[2024-02-06 20:37:44.583] [5355] (audio_device_buffer.cc:460): [PLAY: 10010msec, 44kHz] callbacks: 1001, samples: 441441, rate: 44100, rate diff: 0%, level: 33
+[2024-02-06 20:37:44.641] [5541] (udp_socket.cpp:898): Sending ping to 66.22.244.15:50004, seq: 33
+[2024-02-06 20:37:44.683] [5349] (socket_client.cpp:290): Ping received from 66.22.244.15:50004, seq: 33, rtt: 41
+[2024-02-06 20:37:46.038] [5349] (connection.cpp:898): Inbound stats for user: 343453057922629634, audio ssrc: 194955, packets received: 611, lost: 6, audio frames normal: 982, silent: 12432, expand: 12, video ssrc: 0, packets received: 0, lost: 0, bytes received: 0, bitrate: 0 [bps], video frames received (key/delta): 0/0, decoded: 0 (rate: 0 [fps]), dropped: 0, resolution: 0 x 0, freeze (count/duration): 0/0, pause (count/duration): 0/0
+[2024-02-06 20:37:46.038] [5349] (connection.cpp:934): Outbound audio stats for user: 752840103319044126, audio ssrc: 194950, packets sent: 4740, packets lost: 0
+[2024-02-06 20:37:46.038] [5349] (connection.cpp:1046): Transport stats for user: 752840103319044126, rtt: 64 [ms], available bitrate: 600000 [bps], outbound estimate: 600000 [bps], remb: 0 [bps], inbound estimate: 0 [bps], ssrcs: 194950: {seq: 64839, tseq: -1},  packets sent: 0, received: 0, bytes sent: 0, received: 0
+[2024-02-06 20:37:46.038] [5349] (connection.cpp:1082): Memory usage: 417 MB, CPU usage: 43%
+[2024-02-06 20:37:49.323] [5317] (discord.cpp:755): JS console: ["%c[RTCControlSocket]","Sending heartbeat"]
+[2024-02-06 20:37:49.379] [5317] (discord.cpp:755): JS console: ["%c[RTCControlSocket]","Heartbeat ACK received"]
+[2024-02-06 20:37:49.642] [5541] (udp_socket.cpp:898): Sending ping to 66.22.244.15:50004, seq: 34
+[2024-02-06 20:37:49.681] [5349] (socket_client.cpp:290): Ping received from 66.22.244.15:50004, seq: 34, rtt: 39
+[2024-02-06 20:37:54.587] [5358] (captured_audio_processor.cpp:82): Audio frames processed: 17009, noise canceller process time: 19368 [ms]
+[2024-02-06 20:37:54.587] [5358] (captured_audio_processor.cpp:93): Audio frame: 17009, samples: 480, channels: 1, rate: 48000 [Hz], bytes: 2, level: 1437
+[2024-02-06 20:37:54.593] [5355] (audio_device_buffer.cc:434): [REC : 10010msec, 44kHz] callbacks: 1001, samples: 441441, rate: 44100, rate diff: 0%, level: 10829
+[2024-02-06 20:37:54.593] [5355] (audio_device_buffer.cc:460): [PLAY: 10010msec, 44kHz] callbacks: 1001, samples: 441441, rate: 44100, rate diff: 0%, level: 0
+[2024-02-06 20:37:54.642] [5541] (udp_socket.cpp:898): Sending ping to 66.22.244.15:50004, seq: 35
+[2024-02-06 20:37:54.684] [5349] (socket_client.cpp:290): Ping received from 66.22.244.15:50004, seq: 35, rtt: 41
+[2024-02-06 20:37:56.101] [5349] (connection.cpp:898): Inbound stats for user: 343453057922629634, audio ssrc: 194955, packets received: 611, lost: 6, audio frames normal: 982, silent: 13438, expand: 12, video ssrc: 0, packets received: 0, lost: 0, bytes received: 0, bitrate: 0 [bps], video frames received (key/delta): 0/0, decoded: 0 (rate: 0 [fps]), dropped: 0, resolution: 0 x 0, freeze (count/duration): 0/0, pause (count/duration): 0/0
+[2024-02-06 20:37:56.102] [5349] (connection.cpp:934): Outbound audio stats for user: 752840103319044126, audio ssrc: 194950, packets sent: 5097, packets lost: 0
+[2024-02-06 20:37:56.102] [5349] (connection.cpp:1046): Transport stats for user: 752840103319044126, rtt: 70 [ms], available bitrate: 600000 [bps], outbound estimate: 600000 [bps], remb: 0 [bps], inbound estimate: 0 [bps], ssrcs: 194950: {seq: 65201, tseq: -1},  packets sent: 0, received: 0, bytes sent: 0, received: 0
+[2024-02-06 20:37:56.102] [5349] (connection.cpp:1082): Memory usage: 419 MB, CPU usage: 54%
+[2024-02-06 20:37:59.643] [5541] (udp_socket.cpp:898): Sending ping to 66.22.244.15:50004, seq: 36
+[2024-02-06 20:37:59.689] [5349] (socket_client.cpp:290): Ping received from 66.22.244.15:50004, seq: 36, rtt: 45
+[2024-02-06 20:38:01.047] [5358] (agc_manager_direct.cc:137): Input clipping rate: 0%
+[2024-02-06 20:38:03.073] [5317] (discord.cpp:755): JS console: ["%c[RTCControlSocket]","Sending heartbeat"]
+[2024-02-06 20:38:03.125] [5317] (discord.cpp:755): JS console: ["%c[RTCControlSocket]","Heartbeat ACK received"]
+[2024-02-06 20:38:04.529] [5541] (udp_socket.cpp:625): Reconnection started, sending echo
+[2024-02-06 20:38:04.572] [5541] (udp_socket.cpp:207): ReconnectionAttemptFinished: succeeded, local address: 24.135.84.86:52007
+[2024-02-06 20:38:04.596] [5358] (captured_audio_processor.cpp:82): Audio frames processed: 18010, noise canceller process time: 20515 [ms]
+[2024-02-06 20:38:04.597] [5358] (captured_audio_processor.cpp:93): Audio frame: 18010, samples: 480, channels: 1, rate: 48000 [Hz], bytes: 2, level: 6498
+[2024-02-06 20:38:04.603] [5355] (audio_device_buffer.cc:434): [REC : 10010msec, 44kHz] callbacks: 1001, samples: 441441, rate: 44100, rate diff: 0%, level: 22621
+[2024-02-06 20:38:04.603] [5355] (audio_device_buffer.cc:460): [PLAY: 10010msec, 44kHz] callbacks: 1000, samples: 441000, rate: 44056, rate diff: 0%, level: 866
+[2024-02-06 20:38:04.644] [5541] (udp_socket.cpp:898): Sending ping to 66.22.244.15:50004, seq: 37
+[2024-02-06 20:38:04.684] [5349] (socket_client.cpp:290): Ping received from 66.22.244.15:50004, seq: 37, rtt: 39
+[2024-02-06 20:38:06.166] [5349] (connection.cpp:898): Inbound stats for user: 343453057922629634, audio ssrc: 194955, packets received: 693, lost: 6, audio frames normal: 1067, silent: 14316, expand: 12, video ssrc: 0, packets received: 0, lost: 0, bytes received: 0, bitrate: 0 [bps], video frames received (key/delta): 0/0, decoded: 0 (rate: 0 [fps]), dropped: 0, resolution: 0 x 0, freeze (count/duration): 0/0, pause (count/duration): 0/0
+[2024-02-06 20:38:06.166] [5349] (connection.cpp:934): Outbound audio stats for user: 752840103319044126, audio ssrc: 194950, packets sent: 5431, packets lost: 0
+[2024-02-06 20:38:06.166] [5349] (connection.cpp:1046): Transport stats for user: 752840103319044126, rtt: 41 [ms], available bitrate: 600000 [bps], outbound estimate: 600000 [bps], remb: 0 [bps], inbound estimate: 0 [bps], ssrcs: 194950: {seq: 36, tseq: -1},  packets sent: 0, received: 0, bytes sent: 0, received: 0
+[2024-02-06 20:38:06.166] [5349] (connection.cpp:1082): Memory usage: 419 MB, CPU usage: 49%
+[2024-02-06 20:38:09.645] [5541] (udp_socket.cpp:898): Sending ping to 66.22.244.15:50004, seq: 38
+[2024-02-06 20:38:09.686] [5349] (socket_client.cpp:290): Ping received from 66.22.244.15:50004, seq: 38, rtt: 40
+[2024-02-06 20:38:14.607] [5358] (captured_audio_processor.cpp:82): Audio frames processed: 19011, noise canceller process time: 21712 [ms]
+[2024-02-06 20:38:14.607] [5358] (captured_audio_processor.cpp:93): Audio frame: 19011, samples: 480, channels: 1, rate: 48000 [Hz], bytes: 2, level: 678
+[2024-02-06 20:38:14.609] [5355] (audio_device_buffer.cc:434): [REC : 10006msec, 44kHz] callbacks: 1001, samples: 441441, rate: 44118, rate diff: 0%, level: 25052
+[2024-02-06 20:38:14.610] [5355] (audio_device_buffer.cc:460): [PLAY: 10006msec, 44kHz] callbacks: 1001, samples: 441441, rate: 44118, rate diff: 0%, level: 25016
+[2024-02-06 20:38:14.644] [5541] (udp_socket.cpp:898): Sending ping to 66.22.244.15:50004, seq: 39
+[2024-02-06 20:38:14.693] [5349] (socket_client.cpp:290): Ping received from 66.22.244.15:50004, seq: 39, rtt: 48
+[2024-02-06 20:38:16.232] [5349] (connection.cpp:898): Inbound stats for user: 343453057922629634, audio ssrc: 194955, packets received: 1091, lost: 7, audio frames normal: 1642, silent: 14624, expand: 14, video ssrc: 0, packets received: 0, lost: 0, bytes received: 0, bitrate: 0 [bps], video frames received (key/delta): 0/0, decoded: 0 (rate: 0 [fps]), dropped: 0, resolution: 0 x 0, freeze (count/duration): 0/0, pause (count/duration): 0/0
+[2024-02-06 20:38:16.233] [5349] (connection.cpp:934): Outbound audio stats for user: 752840103319044126, audio ssrc: 194950, packets sent: 5536, packets lost: 0
+[2024-02-06 20:38:16.233] [5349] (connection.cpp:1046): Transport stats for user: 752840103319044126, rtt: 40 [ms], available bitrate: 600000 [bps], outbound estimate: 600000 [bps], remb: 0 [bps], inbound estimate: 0 [bps], ssrcs: 194950: {seq: 141, tseq: -1},  packets sent: 0, received: 0, bytes sent: 0, received: 0
+[2024-02-06 20:38:16.233] [5349] (connection.cpp:1082): Memory usage: 423 MB, CPU usage: 68%
+[2024-02-06 20:38:16.823] [5317] (discord.cpp:755): JS console: ["%c[RTCControlSocket]","Sending heartbeat"]
+[2024-02-06 20:38:16.887] [5317] (discord.cpp:755): JS console: ["%c[RTCControlSocket]","Heartbeat ACK received"]
+[2024-02-06 20:38:19.645] [5541] (udp_socket.cpp:898): Sending ping to 66.22.244.15:50004, seq: 40
+[2024-02-06 20:38:19.686] [5349] (socket_client.cpp:290): Ping received from 66.22.244.15:50004, seq: 40, rtt: 40
+[2024-02-06 20:38:24.615] [5358] (captured_audio_processor.cpp:82): Audio frames processed: 20012, noise canceller process time: 22817 [ms]
+[2024-02-06 20:38:24.615] [5358] (captured_audio_processor.cpp:93): Audio frame: 20012, samples: 480, channels: 1, rate: 48000 [Hz], bytes: 2, level: 660
+[2024-02-06 20:38:24.616] [5355] (audio_device_buffer.cc:434): [REC : 10007msec, 44kHz] callbacks: 1001, samples: 441441, rate: 44113, rate diff: 0%, level: 7400
+[2024-02-06 20:38:24.616] [5355] (audio_device_buffer.cc:460): [PLAY: 10007msec, 44kHz] callbacks: 1001, samples: 441441, rate: 44113, rate diff: 0%, level: 26580
+[2024-02-06 20:38:24.645] [5541] (udp_socket.cpp:898): Sending ping to 66.22.244.15:50004, seq: 41
+[2024-02-06 20:38:24.687] [5349] (socket_client.cpp:290): Ping received from 66.22.244.15:50004, seq: 41, rtt: 42
+[2024-02-06 20:38:26.288] [5349] (connection.cpp:898): Inbound stats for user: 343453057922629634, audio ssrc: 194955, packets received: 1406, lost: 12, audio frames normal: 2097, silent: 15054, expand: 25, video ssrc: 0, packets received: 0, lost: 0, bytes received: 0, bitrate: 0 [bps], video frames received (key/delta): 0/0, decoded: 0 (rate: 0 [fps]), dropped: 0, resolution: 0 x 0, freeze (count/duration): 0/0, pause (count/duration): 0/0
+[2024-02-06 20:38:26.288] [5349] (connection.cpp:934): Outbound audio stats for user: 752840103319044126, audio ssrc: 194950, packets sent: 5917, packets lost: 0
+[2024-02-06 20:38:26.288] [5349] (connection.cpp:1046): Transport stats for user: 752840103319044126, rtt: 42 [ms], available bitrate: 600000 [bps], outbound estimate: 600000 [bps], remb: 0 [bps], inbound estimate: 0 [bps], ssrcs: 194950: {seq: 515, tseq: -1},  packets sent: 0, received: 0, bytes sent: 0, received: 0
+[2024-02-06 20:38:26.288] [5349] (connection.cpp:1082): Memory usage: 426 MB, CPU usage: 54%
+[2024-02-06 20:38:29.645] [5541] (udp_socket.cpp:898): Sending ping to 66.22.244.15:50004, seq: 42
+[2024-02-06 20:38:29.765] [5349] (socket_client.cpp:290): Ping received from 66.22.244.15:50004, seq: 42, rtt: 119
+[2024-02-06 20:38:30.573] [5317] (discord.cpp:755): JS console: ["%c[RTCControlSocket]","Sending heartbeat"]
+[2024-02-06 20:38:30.645] [5317] (discord.cpp:755): JS console: ["%c[RTCControlSocket]","Heartbeat ACK received"]
+[2024-02-06 20:38:31.050] [5358] (agc_manager_direct.cc:137): Input clipping rate: 0%
+[2024-02-06 20:38:34.618] [5358] (captured_audio_processor.cpp:82): Audio frames processed: 21012, noise canceller process time: 23974 [ms]
+[2024-02-06 20:38:34.618] [5358] (captured_audio_processor.cpp:93): Audio frame: 21012, samples: 480, channels: 1, rate: 48000 [Hz], bytes: 2, level: 679
+[2024-02-06 20:38:34.626] [5355] (audio_device_buffer.cc:434): [REC : 10010msec, 44kHz] callbacks: 1000, samples: 441000, rate: 44056, rate diff: 0%, level: 6371
+[2024-02-06 20:38:34.626] [5355] (audio_device_buffer.cc:460): [PLAY: 10010msec, 44kHz] callbacks: 1001, samples: 441441, rate: 44100, rate diff: 0%, level: 24784
+[2024-02-06 20:38:34.645] [5541] (udp_socket.cpp:898): Sending ping to 66.22.244.15:50004, seq: 43
+[2024-02-06 20:38:34.685] [5349] (socket_client.cpp:290): Ping received from 66.22.244.15:50004, seq: 43, rtt: 39
+[2024-02-06 20:38:36.362] [5349] (connection.cpp:898): Inbound stats for user: 343453057922629634, audio ssrc: 194955, packets received: 1661, lost: 17, audio frames normal: 2546, silent: 15602, expand: 31, video ssrc: 0, packets received: 0, lost: 0, bytes received: 0, bitrate: 0 [bps], video frames received (key/delta): 0/0, decoded: 0 (rate: 0 [fps]), dropped: 0, resolution: 0 x 0, freeze (count/duration): 0/0, pause (count/duration): 0/0
+[2024-02-06 20:38:36.362] [5349] (connection.cpp:934): Outbound audio stats for user: 752840103319044126, audio ssrc: 194950, packets sent: 6090, packets lost: 0
+[2024-02-06 20:38:36.362] [5349] (connection.cpp:1046): Transport stats for user: 752840103319044126, rtt: 40 [ms], available bitrate: 600000 [bps], outbound estimate: 600000 [bps], remb: 0 [bps], inbound estimate: 0 [bps], ssrcs: 194950: {seq: 650, tseq: -1},  packets sent: 0, received: 0, bytes sent: 0, received: 0
+[2024-02-06 20:38:36.362] [5349] (connection.cpp:1082): Memory usage: 421 MB, CPU usage: 68%
+[2024-02-06 20:38:39.645] [5541] (udp_socket.cpp:898): Sending ping to 66.22.244.15:50004, seq: 44
+[2024-02-06 20:38:39.693] [5349] (socket_client.cpp:290): Ping received from 66.22.244.15:50004, seq: 44, rtt: 47
+[2024-02-06 20:38:44.324] [5317] (discord.cpp:755): JS console: ["%c[RTCControlSocket]","Sending heartbeat"]
+[2024-02-06 20:38:44.424] [5317] (discord.cpp:755): JS console: ["%c[RTCControlSocket]","Heartbeat ACK received"]
+[2024-02-06 20:38:44.618] [5358] (captured_audio_processor.cpp:82): Audio frames processed: 22012, noise canceller process time: 25134 [ms]
+[2024-02-06 20:38:44.618] [5358] (captured_audio_processor.cpp:93): Audio frame: 22012, samples: 480, channels: 1, rate: 48000 [Hz], bytes: 2, level: 430
+[2024-02-06 20:38:44.636] [5355] (audio_device_buffer.cc:434): [REC : 10010msec, 44kHz] callbacks: 1001, samples: 441441, rate: 44100, rate diff: 0%, level: 25950
+[2024-02-06 20:38:44.636] [5355] (audio_device_buffer.cc:460): [PLAY: 10010msec, 44kHz] callbacks: 1001, samples: 441441, rate: 44100, rate diff: 0%, level: 695
+[2024-02-06 20:38:44.645] [5541] (udp_socket.cpp:898): Sending ping to 66.22.244.15:50004, seq: 45
+[2024-02-06 20:38:44.689] [5349] (socket_client.cpp:290): Ping received from 66.22.244.15:50004, seq: 45, rtt: 43
+[2024-02-06 20:38:46.437] [5349] (connection.cpp:898): Inbound stats for user: 343453057922629634, audio ssrc: 194955, packets received: 1661, lost: 17, audio frames normal: 2546, silent: 16610, expand: 31, video ssrc: 0, packets received: 0, lost: 0, bytes received: 0, bitrate: 0 [bps], video frames received (key/delta): 0/0, decoded: 0 (rate: 0 [fps]), dropped: 0, resolution: 0 x 0, freeze (count/duration): 0/0, pause (count/duration): 0/0
+[2024-02-06 20:38:46.437] [5349] (connection.cpp:934): Outbound audio stats for user: 752840103319044126, audio ssrc: 194950, packets sent: 6399, packets lost: 0
+[2024-02-06 20:38:46.437] [5349] (connection.cpp:1046): Transport stats for user: 752840103319044126, rtt: 73 [ms], available bitrate: 600000 [bps], outbound estimate: 600000 [bps], remb: 0 [bps], inbound estimate: 0 [bps], ssrcs: 194950: {seq: 969, tseq: -1},  packets sent: 0, received: 0, bytes sent: 0, received: 0
+[2024-02-06 20:38:46.437] [5349] (connection.cpp:1082): Memory usage: 420 MB, CPU usage: 52%
+[2024-02-06 20:38:49.645] [5541] (udp_socket.cpp:898): Sending ping to 66.22.244.15:50004, seq: 46
+[2024-02-06 20:38:49.685] [5349] (socket_client.cpp:290): Ping received from 66.22.244.15:50004, seq: 46, rtt: 39
+[2024-02-06 20:38:54.621] [5358] (captured_audio_processor.cpp:82): Audio frames processed: 23012, noise canceller process time: 26380 [ms]
+[2024-02-06 20:38:54.621] [5358] (captured_audio_processor.cpp:93): Audio frame: 23012, samples: 480, channels: 1, rate: 48000 [Hz], bytes: 2, level: 335
+[2024-02-06 20:38:54.645] [5541] (udp_socket.cpp:898): Sending ping to 66.22.244.15:50004, seq: 47
+[2024-02-06 20:38:54.646] [5355] (audio_device_buffer.cc:434): [REC : 10010msec, 44kHz] callbacks: 1001, samples: 441441, rate: 44100, rate diff: 0%, level: 14359
+[2024-02-06 20:38:54.646] [5355] (audio_device_buffer.cc:460): [PLAY: 10010msec, 44kHz] callbacks: 1000, samples: 441000, rate: 44056, rate diff: 0%, level: 0
+[2024-02-06 20:38:54.685] [5349] (socket_client.cpp:290): Ping received from 66.22.244.15:50004, seq: 47, rtt: 39
+[2024-02-06 20:38:56.682] [5349] (connection.cpp:898): Inbound stats for user: 343453057922629634, audio ssrc: 194955, packets received: 1661, lost: 17, audio frames normal: 2546, silent: 17634, expand: 31, video ssrc: 0, packets received: 0, lost: 0, bytes received: 0, bitrate: 0 [bps], video frames received (key/delta): 0/0, decoded: 0 (rate: 0 [fps]), dropped: 0, resolution: 0 x 0, freeze (count/duration): 0/0, pause (count/duration): 0/0
+[2024-02-06 20:38:56.682] [5349] (connection.cpp:934): Outbound audio stats for user: 752840103319044126, audio ssrc: 194950, packets sent: 6722, packets lost: 0
+[2024-02-06 20:38:56.694] [5349] (connection.cpp:1046): Transport stats for user: 752840103319044126, rtt: 39 [ms], available bitrate: 600000 [bps], outbound estimate: 600000 [bps], remb: 0 [bps], inbound estimate: 0 [bps], ssrcs: 194950: {seq: 1329, tseq: -1},  packets sent: 0, received: 0, bytes sent: 0, received: 0
+[2024-02-06 20:38:56.694] [5349] (connection.cpp:1082): Memory usage: 431 MB, CPU usage: 52%
+[2024-02-06 20:38:58.073] [5317] (discord.cpp:755): JS console: ["%c[RTCControlSocket]","Sending heartbeat"]
+[2024-02-06 20:38:58.137] [5317] (discord.cpp:755): JS console: ["%c[RTCControlSocket]","Heartbeat ACK received"]
+[2024-02-06 20:38:59.645] [5541] (udp_socket.cpp:898): Sending ping to 66.22.244.15:50004, seq: 48
+[2024-02-06 20:38:59.685] [5349] (socket_client.cpp:290): Ping received from 66.22.244.15:50004, seq: 48, rtt: 40
+[2024-02-06 20:39:01.045] [5358] (agc_manager_direct.cc:137): Input clipping rate: 0%
+[2024-02-06 20:39:04.529] [5541] (udp_socket.cpp:625): Reconnection started, sending echo
+[2024-02-06 20:39:04.578] [5541] (udp_socket.cpp:207): ReconnectionAttemptFinished: succeeded, local address: 24.135.84.86:39601
+[2024-02-06 20:39:04.631] [5358] (captured_audio_processor.cpp:82): Audio frames processed: 24013, noise canceller process time: 27589 [ms]
+[2024-02-06 20:39:04.631] [5358] (captured_audio_processor.cpp:93): Audio frame: 24013, samples: 480, channels: 1, rate: 48000 [Hz], bytes: 2, level: 408
+[2024-02-06 20:39:04.645] [5541] (udp_socket.cpp:898): Sending ping to 66.22.244.15:50004, seq: 49
+[2024-02-06 20:39:04.656] [5355] (audio_device_buffer.cc:434): [REC : 10010msec, 44kHz] callbacks: 1001, samples: 441441, rate: 44100, rate diff: 0%, level: 3991
+[2024-02-06 20:39:04.656] [5355] (audio_device_buffer.cc:460): [PLAY: 10010msec, 44kHz] callbacks: 1001, samples: 441441, rate: 44100, rate diff: 0%, level: 0
+[2024-02-06 20:39:04.687] [5349] (socket_client.cpp:290): Ping received from 66.22.244.15:50004, seq: 49, rtt: 41
+[2024-02-06 20:39:06.768] [5349] (connection.cpp:898): Inbound stats for user: 343453057922629634, audio ssrc: 194955, packets received: 1661, lost: 17, audio frames normal: 2546, silent: 18641, expand: 31, video ssrc: 0, packets received: 0, lost: 0, bytes received: 0, bitrate: 0 [bps], video frames received (key/delta): 0/0, decoded: 0 (rate: 0 [fps]), dropped: 0, resolution: 0 x 0, freeze (count/duration): 0/0, pause (count/duration): 0/0
+[2024-02-06 20:39:06.768] [5349] (connection.cpp:934): Outbound audio stats for user: 752840103319044126, audio ssrc: 194950, packets sent: 7098, packets lost: 0
+[2024-02-06 20:39:06.769] [5349] (connection.cpp:1046): Transport stats for user: 752840103319044126, rtt: 64 [ms], available bitrate: 600000 [bps], outbound estimate: 600000 [bps], remb: 0 [bps], inbound estimate: 0 [bps], ssrcs: 194950: {seq: 1671, tseq: -1},  packets sent: 0, received: 0, bytes sent: 0, received: 0
+[2024-02-06 20:39:06.769] [5349] (connection.cpp:1082): Memory usage: 422 MB, CPU usage: 55%
+[2024-02-06 20:39:09.645] [5541] (udp_socket.cpp:898): Sending ping to 66.22.244.15:50004, seq: 50
+[2024-02-06 20:39:09.686] [5349] (socket_client.cpp:290): Ping received from 66.22.244.15:50004, seq: 50, rtt: 40
+[2024-02-06 20:39:11.823] [5317] (discord.cpp:755): JS console: ["%c[RTCControlSocket]","Sending heartbeat"]
+[2024-02-06 20:39:11.884] [5317] (discord.cpp:755): JS console: ["%c[RTCControlSocket]","Heartbeat ACK received"]
+[2024-02-06 20:39:14.632] [5358] (captured_audio_processor.cpp:82): Audio frames processed: 25013, noise canceller process time: 28753 [ms]
+[2024-02-06 20:39:14.632] [5358] (captured_audio_processor.cpp:93): Audio frame: 25013, samples: 480, channels: 1, rate: 48000 [Hz], bytes: 2, level: 1308
+[2024-02-06 20:39:14.645] [5541] (udp_socket.cpp:898): Sending ping to 66.22.244.15:50004, seq: 51
+[2024-02-06 20:39:14.663] [5355] (audio_device_buffer.cc:434): [REC : 10007msec, 44kHz] callbacks: 1001, samples: 441441, rate: 44113, rate diff: 0%, level: 6110
+[2024-02-06 20:39:14.663] [5355] (audio_device_buffer.cc:460): [PLAY: 10007msec, 44kHz] callbacks: 1001, samples: 441441, rate: 44113, rate diff: 0%, level: 0
+[2024-02-06 20:39:14.686] [5349] (socket_client.cpp:290): Ping received from 66.22.244.15:50004, seq: 51, rtt: 40
+[2024-02-06 20:39:16.831] [5349] (connection.cpp:898): Inbound stats for user: 343453057922629634, audio ssrc: 194955, packets received: 1661, lost: 17, audio frames normal: 2546, silent: 19649, expand: 31, video ssrc: 0, packets received: 0, lost: 0, bytes received: 0, bitrate: 0 [bps], video frames received (key/delta): 0/0, decoded: 0 (rate: 0 [fps]), dropped: 0, resolution: 0 x 0, freeze (count/duration): 0/0, pause (count/duration): 0/0
+[2024-02-06 20:39:16.833] [5349] (connection.cpp:934): Outbound audio stats for user: 752840103319044126, audio ssrc: 194950, packets sent: 7508, packets lost: 0
+[2024-02-06 20:39:16.833] [5349] (connection.cpp:1046): Transport stats for user: 752840103319044126, rtt: 55 [ms], available bitrate: 600000 [bps], outbound estimate: 600000 [bps], remb: 0 [bps], inbound estimate: 0 [bps], ssrcs: 194950: {seq: 2096, tseq: -1},  packets sent: 0, received: 0, bytes sent: 0, received: 0
+[2024-02-06 20:39:16.834] [5349] (connection.cpp:1082): Memory usage: 421 MB, CPU usage: 50%
+[2024-02-06 20:39:19.645] [5541] (udp_socket.cpp:898): Sending ping to 66.22.244.15:50004, seq: 52
+[2024-02-06 20:39:19.684] [5349] (socket_client.cpp:290): Ping received from 66.22.244.15:50004, seq: 52, rtt: 39
+[2024-02-06 20:39:24.633] [5358] (captured_audio_processor.cpp:82): Audio frames processed: 26013, noise canceller process time: 29935 [ms]
+[2024-02-06 20:39:24.633] [5358] (captured_audio_processor.cpp:93): Audio frame: 26013, samples: 480, channels: 1, rate: 48000 [Hz], bytes: 2, level: 2409
+[2024-02-06 20:39:24.645] [5541] (udp_socket.cpp:898): Sending ping to 66.22.244.15:50004, seq: 53
+[2024-02-06 20:39:24.673] [5355] (audio_device_buffer.cc:434): [REC : 10010msec, 44kHz] callbacks: 1000, samples: 441000, rate: 44056, rate diff: 0%, level: 8773
+[2024-02-06 20:39:24.673] [5355] (audio_device_buffer.cc:460): [PLAY: 10010msec, 44kHz] callbacks: 1001, samples: 441441, rate: 44100, rate diff: 0%, level: 0
+[2024-02-06 20:39:24.684] [5349] (socket_client.cpp:290): Ping received from 66.22.244.15:50004, seq: 53, rtt: 38
+[2024-02-06 20:39:25.573] [5317] (discord.cpp:755): JS console: ["%c[RTCControlSocket]","Sending heartbeat"]
+[2024-02-06 20:39:25.635] [5317] (discord.cpp:755): JS console: ["%c[RTCControlSocket]","Heartbeat ACK received"]
+[2024-02-06 20:39:26.927] [5349] (connection.cpp:898): Inbound stats for user: 343453057922629634, audio ssrc: 194955, packets received: 1661, lost: 17, audio frames normal: 2546, silent: 20659, expand: 31, video ssrc: 0, packets received: 0, lost: 0, bytes received: 0, bitrate: 0 [bps], video frames received (key/delta): 0/0, decoded: 0 (rate: 0 [fps]), dropped: 0, resolution: 0 x 0, freeze (count/duration): 0/0, pause (count/duration): 0/0
+[2024-02-06 20:39:26.927] [5349] (connection.cpp:934): Outbound audio stats for user: 752840103319044126, audio ssrc: 194950, packets sent: 7890, packets lost: 0
+[2024-02-06 20:39:26.927] [5349] (connection.cpp:1046): Transport stats for user: 752840103319044126, rtt: 39 [ms], available bitrate: 600000 [bps], outbound estimate: 600000 [bps], remb: 0 [bps], inbound estimate: 0 [bps], ssrcs: 194950: {seq: 2477, tseq: -1},  packets sent: 0, received: 0, bytes sent: 0, received: 0
+[2024-02-06 20:39:26.927] [5349] (connection.cpp:1082): Memory usage: 424 MB, CPU usage: 52%
+[2024-02-06 20:39:29.646] [5541] (udp_socket.cpp:898): Sending ping to 66.22.244.15:50004, seq: 54
+[2024-02-06 20:39:29.689] [5349] (socket_client.cpp:290): Ping received from 66.22.244.15:50004, seq: 54, rtt: 42
+[2024-02-06 20:39:31.052] [5358] (agc_manager_direct.cc:137): Input clipping rate: 0%
+[2024-02-06 20:39:34.634] [5358] (captured_audio_processor.cpp:82): Audio frames processed: 27014, noise canceller process time: 31111 [ms]
+[2024-02-06 20:39:34.634] [5358] (captured_audio_processor.cpp:93): Audio frame: 27014, samples: 480, channels: 1, rate: 48000 [Hz], bytes: 2, level: 426
+[2024-02-06 20:39:34.647] [5541] (udp_socket.cpp:898): Sending ping to 66.22.244.15:50004, seq: 55
+[2024-02-06 20:39:34.683] [5355] (audio_device_buffer.cc:434): [REC : 10010msec, 44kHz] callbacks: 1002, samples: 441882, rate: 44144, rate diff: 0%, level: 9374
+[2024-02-06 20:39:34.683] [5355] (audio_device_buffer.cc:460): [PLAY: 10010msec, 44kHz] callbacks: 1003, samples: 442323, rate: 44188, rate diff: 0%, level: 0
+[2024-02-06 20:39:34.688] [5349] (socket_client.cpp:290): Ping received from 66.22.244.15:50004, seq: 55, rtt: 40
+[2024-02-06 20:39:37.002] [5349] (connection.cpp:898): Inbound stats for user: 343453057922629634, audio ssrc: 194955, packets received: 1661, lost: 17, audio frames normal: 2546, silent: 21665, expand: 31, video ssrc: 0, packets received: 0, lost: 0, bytes received: 0, bitrate: 0 [bps], video frames received (key/delta): 0/0, decoded: 0 (rate: 0 [fps]), dropped: 0, resolution: 0 x 0, freeze (count/duration): 0/0, pause (count/duration): 0/0
+[2024-02-06 20:39:37.003] [5349] (connection.cpp:934): Outbound audio stats for user: 752840103319044126, audio ssrc: 194950, packets sent: 8099, packets lost: 0
+[2024-02-06 20:39:37.003] [5349] (connection.cpp:1046): Transport stats for user: 752840103319044126, rtt: 53 [ms], available bitrate: 600000 [bps], outbound estimate: 600000 [bps], remb: 0 [bps], inbound estimate: 0 [bps], ssrcs: 194950: {seq: 2690, tseq: -1},  packets sent: 0, received: 0, bytes sent: 0, received: 0
+[2024-02-06 20:39:37.003] [5349] (connection.cpp:1082): Memory usage: 426 MB, CPU usage: 44%
+[2024-02-06 20:39:39.323] [5317] (discord.cpp:755): JS console: ["%c[RTCControlSocket]","Sending heartbeat"]
+[2024-02-06 20:39:39.394] [5317] (discord.cpp:755): JS console: ["%c[RTCControlSocket]","Heartbeat ACK received"]
+[2024-02-06 20:39:39.648] [5541] (udp_socket.cpp:898): Sending ping to 66.22.244.15:50004, seq: 56
+[2024-02-06 20:39:39.688] [5349] (socket_client.cpp:290): Ping received from 66.22.244.15:50004, seq: 56, rtt: 40
+[2024-02-06 20:39:44.641] [5358] (captured_audio_processor.cpp:82): Audio frames processed: 28014, noise canceller process time: 32297 [ms]
+[2024-02-06 20:39:44.641] [5358] (captured_audio_processor.cpp:93): Audio frame: 28014, samples: 480, channels: 1, rate: 48000 [Hz], bytes: 2, level: 235
+[2024-02-06 20:39:44.648] [5541] (udp_socket.cpp:898): Sending ping to 66.22.244.15:50004, seq: 57
+[2024-02-06 20:39:44.690] [5349] (socket_client.cpp:290): Ping received from 66.22.244.15:50004, seq: 57, rtt: 41
+[2024-02-06 20:39:44.693] [5355] (audio_device_buffer.cc:434): [REC : 10010msec, 44kHz] callbacks: 1001, samples: 441441, rate: 44100, rate diff: 0%, level: 4439
+[2024-02-06 20:39:44.693] [5355] (audio_device_buffer.cc:460): [PLAY: 10010msec, 44kHz] callbacks: 1001, samples: 441441, rate: 44100, rate diff: 0%, level: 0
+[2024-02-06 20:39:47.063] [5349] (connection.cpp:898): Inbound stats for user: 343453057922629634, audio ssrc: 194955, packets received: 1661, lost: 17, audio frames normal: 2546, silent: 22672, expand: 31, video ssrc: 0, packets received: 0, lost: 0, bytes received: 0, bitrate: 0 [bps], video frames received (key/delta): 0/0, decoded: 0 (rate: 0 [fps]), dropped: 0, resolution: 0 x 0, freeze (count/duration): 0/0, pause (count/duration): 0/0
+[2024-02-06 20:39:47.064] [5349] (connection.cpp:934): Outbound audio stats for user: 752840103319044126, audio ssrc: 194950, packets sent: 8555, packets lost: 0
+[2024-02-06 20:39:47.064] [5349] (connection.cpp:1046): Transport stats for user: 752840103319044126, rtt: 68 [ms], available bitrate: 600000 [bps], outbound estimate: 600000 [bps], remb: 0 [bps], inbound estimate: 0 [bps], ssrcs: 194950: {seq: 3151, tseq: -1},  packets sent: 0, received: 0, bytes sent: 0, received: 0
+[2024-02-06 20:39:47.064] [5349] (connection.cpp:1082): Memory usage: 426 MB, CPU usage: 56%
+[2024-02-06 20:39:49.649] [5541] (udp_socket.cpp:898): Sending ping to 66.22.244.15:50004, seq: 58
+[2024-02-06 20:39:49.689] [5349] (socket_client.cpp:290): Ping received from 66.22.244.15:50004, seq: 58, rtt: 40
+[2024-02-06 20:39:53.073] [5317] (discord.cpp:755): JS console: ["%c[RTCControlSocket]","Sending heartbeat"]
+[2024-02-06 20:39:53.133] [5317] (discord.cpp:755): JS console: ["%c[RTCControlSocket]","Heartbeat ACK received"]
+[2024-02-06 20:39:54.647] [5358] (captured_audio_processor.cpp:82): Audio frames processed: 29015, noise canceller process time: 33452 [ms]
+[2024-02-06 20:39:54.647] [5358] (captured_audio_processor.cpp:93): Audio frame: 29015, samples: 480, channels: 1, rate: 48000 [Hz], bytes: 2, level: 3519
+[2024-02-06 20:39:54.649] [5541] (udp_socket.cpp:898): Sending ping to 66.22.244.15:50004, seq: 59
+[2024-02-06 20:39:54.688] [5349] (socket_client.cpp:290): Ping received from 66.22.244.15:50004, seq: 59, rtt: 38
+[2024-02-06 20:39:54.703] [5355] (audio_device_buffer.cc:434): [REC : 10010msec, 44kHz] callbacks: 1001, samples: 441441, rate: 44100, rate diff: 0%, level: 19527
+[2024-02-06 20:39:54.703] [5355] (audio_device_buffer.cc:460): [PLAY: 10010msec, 44kHz] callbacks: 1000, samples: 441000, rate: 44056, rate diff: 0%, level: 0
+[2024-02-06 20:39:57.134] [5349] (connection.cpp:898): Inbound stats for user: 343453057922629634, audio ssrc: 194955, packets received: 1661, lost: 17, audio frames normal: 2546, silent: 23678, expand: 31, video ssrc: 0, packets received: 0, lost: 0, bytes received: 0, bitrate: 0 [bps], video frames received (key/delta): 0/0, decoded: 0 (rate: 0 [fps]), dropped: 0, resolution: 0 x 0, freeze (count/duration): 0/0, pause (count/duration): 0/0
+[2024-02-06 20:39:57.135] [5349] (connection.cpp:934): Outbound audio stats for user: 752840103319044126, audio ssrc: 194950, packets sent: 8897, packets lost: 0
+[2024-02-06 20:39:57.135] [5349] (connection.cpp:1046): Transport stats for user: 752840103319044126, rtt: 75 [ms], available bitrate: 600000 [bps], outbound estimate: 600000 [bps], remb: 0 [bps], inbound estimate: 0 [bps], ssrcs: 194950: {seq: 3476, tseq: -1},  packets sent: 0, received: 0, bytes sent: 0, received: 0
+[2024-02-06 20:39:57.135] [5349] (connection.cpp:1082): Memory usage: 408 MB, CPU usage: 45%
+[2024-02-06 20:39:59.649] [5541] (udp_socket.cpp:898): Sending ping to 66.22.244.15:50004, seq: 60
+[2024-02-06 20:39:59.692] [5349] (socket_client.cpp:290): Ping received from 66.22.244.15:50004, seq: 60, rtt: 42
+[2024-02-06 20:40:01.047] [5358] (agc_manager_direct.cc:137): Input clipping rate: 0%
+[2024-02-06 20:40:04.531] [5541] (udp_socket.cpp:625): Reconnection started, sending echo
+[2024-02-06 20:40:04.575] [5541] (udp_socket.cpp:207): ReconnectionAttemptFinished: succeeded, local address: 24.135.84.86:36180
+[2024-02-06 20:40:04.649] [5541] (udp_socket.cpp:898): Sending ping to 66.22.244.15:50004, seq: 61
+[2024-02-06 20:40:04.650] [5358] (captured_audio_processor.cpp:82): Audio frames processed: 30015, noise canceller process time: 34665 [ms]
+[2024-02-06 20:40:04.650] [5358] (captured_audio_processor.cpp:93): Audio frame: 30015, samples: 480, channels: 1, rate: 48000 [Hz], bytes: 2, level: 375
+[2024-02-06 20:40:04.693] [5349] (socket_client.cpp:290): Ping received from 66.22.244.15:50004, seq: 61, rtt: 43
+[2024-02-06 20:40:04.713] [5355] (audio_device_buffer.cc:434): [REC : 10010msec, 44kHz] callbacks: 1001, samples: 441441, rate: 44100, rate diff: 0%, level: 8189
+[2024-02-06 20:40:04.713] [5355] (audio_device_buffer.cc:460): [PLAY: 10010msec, 44kHz] callbacks: 1001, samples: 441441, rate: 44100, rate diff: 0%, level: 0
+[2024-02-06 20:40:06.823] [5317] (discord.cpp:755): JS console: ["%c[RTCControlSocket]","Sending heartbeat"]
+[2024-02-06 20:40:06.891] [5317] (discord.cpp:755): JS console: ["%c[RTCControlSocket]","Heartbeat ACK received"]
+[2024-02-06 20:40:07.200] [5349] (connection.cpp:898): Inbound stats for user: 343453057922629634, audio ssrc: 194955, packets received: 1661, lost: 17, audio frames normal: 2546, silent: 24686, expand: 31, video ssrc: 0, packets received: 0, lost: 0, bytes received: 0, bitrate: 0 [bps], video frames received (key/delta): 0/0, decoded: 0 (rate: 0 [fps]), dropped: 0, resolution: 0 x 0, freeze (count/duration): 0/0, pause (count/duration): 0/0
+[2024-02-06 20:40:07.200] [5349] (connection.cpp:934): Outbound audio stats for user: 752840103319044126, audio ssrc: 194950, packets sent: 9033, packets lost: 0
+[2024-02-06 20:40:07.200] [5349] (connection.cpp:1046): Transport stats for user: 752840103319044126, rtt: 75 [ms], available bitrate: 600000 [bps], outbound estimate: 600000 [bps], remb: 0 [bps], inbound estimate: 0 [bps], ssrcs: 194950: {seq: 3611, tseq: -1},  packets sent: 0, received: 0, bytes sent: 0, received: 0
+[2024-02-06 20:40:07.200] [5349] (connection.cpp:1082): Memory usage: 408 MB, CPU usage: 46%
+[2024-02-06 20:40:09.649] [5541] (udp_socket.cpp:898): Sending ping to 66.22.244.15:50004, seq: 62
+[2024-02-06 20:40:09.697] [5349] (socket_client.cpp:290): Ping received from 66.22.244.15:50004, seq: 62, rtt: 47
+[2024-02-06 20:40:14.649] [5541] (udp_socket.cpp:898): Sending ping to 66.22.244.15:50004, seq: 63
+[2024-02-06 20:40:14.653] [5358] (captured_audio_processor.cpp:82): Audio frames processed: 31016, noise canceller process time: 35465 [ms]
+[2024-02-06 20:40:14.654] [5358] (captured_audio_processor.cpp:93): Audio frame: 31016, samples: 480, channels: 1, rate: 48000 [Hz], bytes: 2, level: 567
+[2024-02-06 20:40:14.692] [5349] (socket_client.cpp:290): Ping received from 66.22.244.15:50004, seq: 63, rtt: 43
+[2024-02-06 20:40:14.723] [5355] (audio_device_buffer.cc:434): [REC : 10010msec, 44kHz] callbacks: 1001, samples: 441441, rate: 44100, rate diff: 0%, level: 10769
+[2024-02-06 20:40:14.723] [5355] (audio_device_buffer.cc:460): [PLAY: 10010msec, 44kHz] callbacks: 1001, samples: 441441, rate: 44100, rate diff: 0%, level: 0
+[2024-02-06 20:40:17.234] [5349] (connection.cpp:898): Inbound stats for user: 343453057922629634, audio ssrc: 194955, packets received: 1661, lost: 17, audio frames normal: 2546, silent: 25689, expand: 31, video ssrc: 0, packets received: 0, lost: 0, bytes received: 0, bitrate: 0 [bps], video frames received (key/delta): 0/0, decoded: 0 (rate: 0 [fps]), dropped: 0, resolution: 0 x 0, freeze (count/duration): 0/0, pause (count/duration): 0/0
+[2024-02-06 20:40:17.234] [5349] (connection.cpp:934): Outbound audio stats for user: 752840103319044126, audio ssrc: 194950, packets sent: 9365, packets lost: 0
+[2024-02-06 20:40:17.234] [5349] (connection.cpp:1046): Transport stats for user: 752840103319044126, rtt: 39 [ms], available bitrate: 600000 [bps], outbound estimate: 600000 [bps], remb: 0 [bps], inbound estimate: 0 [bps], ssrcs: 194950: {seq: 3950, tseq: -1},  packets sent: 0, received: 0, bytes sent: 0, received: 0
+[2024-02-06 20:40:17.234] [5349] (connection.cpp:1082): Memory usage: 410 MB, CPU usage: 57%
+[2024-02-06 20:40:19.649] [5541] (udp_socket.cpp:898): Sending ping to 66.22.244.15:50004, seq: 64
+[2024-02-06 20:40:19.702] [5349] (socket_client.cpp:290): Ping received from 66.22.244.15:50004, seq: 64, rtt: 52
+[2024-02-06 20:40:20.573] [5317] (discord.cpp:755): JS console: ["%c[RTCControlSocket]","Sending heartbeat"]
+[2024-02-06 20:40:20.635] [5317] (discord.cpp:755): JS console: ["%c[RTCControlSocket]","Heartbeat ACK received"]
+[2024-02-06 20:40:24.649] [5541] (udp_socket.cpp:898): Sending ping to 66.22.244.15:50004, seq: 65
+[2024-02-06 20:40:24.662] [5358] (captured_audio_processor.cpp:82): Audio frames processed: 32016, noise canceller process time: 36557 [ms]
+[2024-02-06 20:40:24.662] [5358] (captured_audio_processor.cpp:93): Audio frame: 32016, samples: 480, channels: 1, rate: 48000 [Hz], bytes: 2, level: 218
+[2024-02-06 20:40:24.689] [5349] (socket_client.cpp:290): Ping received from 66.22.244.15:50004, seq: 65, rtt: 39
+[2024-02-06 20:40:24.733] [5355] (audio_device_buffer.cc:434): [REC : 10010msec, 44kHz] callbacks: 1001, samples: 441441, rate: 44100, rate diff: 0%, level: 8500
+[2024-02-06 20:40:24.733] [5355] (audio_device_buffer.cc:460): [PLAY: 10010msec, 44kHz] callbacks: 1001, samples: 441441, rate: 44100, rate diff: 0%, level: 15706
+[2024-02-06 20:40:27.297] [5349] (connection.cpp:898): Inbound stats for user: 343453057922629634, audio ssrc: 194955, packets received: 1841, lost: 17, audio frames normal: 2793, silent: 26382, expand: 31, video ssrc: 0, packets received: 0, lost: 0, bytes received: 0, bitrate: 0 [bps], video frames received (key/delta): 0/0, decoded: 0 (rate: 0 [fps]), dropped: 0, resolution: 0 x 0, freeze (count/duration): 0/0, pause (count/duration): 0/0
+[2024-02-06 20:40:27.298] [5349] (connection.cpp:934): Outbound audio stats for user: 752840103319044126, audio ssrc: 194950, packets sent: 9502, packets lost: 0
+[2024-02-06 20:40:27.298] [5349] (connection.cpp:1046): Transport stats for user: 752840103319044126, rtt: 53 [ms], available bitrate: 600000 [bps], outbound estimate: 600000 [bps], remb: 0 [bps], inbound estimate: 0 [bps], ssrcs: 194950: {seq: 4110, tseq: -1},  packets sent: 0, received: 0, bytes sent: 0, received: 0
+[2024-02-06 20:40:27.298] [5349] (connection.cpp:1082): Memory usage: 415 MB, CPU usage: 56%
+[2024-02-06 20:40:29.649] [5541] (udp_socket.cpp:898): Sending ping to 66.22.244.15:50004, seq: 66
+[2024-02-06 20:40:29.690] [5349] (socket_client.cpp:290): Ping received from 66.22.244.15:50004, seq: 66, rtt: 41
+[2024-02-06 20:40:31.049] [5358] (agc_manager_direct.cc:137): Input clipping rate: 0%
+[2024-02-06 20:40:34.323] [5317] (discord.cpp:755): JS console: ["%c[RTCControlSocket]","Sending heartbeat"]
+[2024-02-06 20:40:34.391] [5317] (discord.cpp:755): JS console: ["%c[RTCControlSocket]","Heartbeat ACK received"]
+[2024-02-06 20:40:34.649] [5541] (udp_socket.cpp:898): Sending ping to 66.22.244.15:50004, seq: 67
+[2024-02-06 20:40:34.664] [5358] (captured_audio_processor.cpp:82): Audio frames processed: 33017, noise canceller process time: 37676 [ms]
+[2024-02-06 20:40:34.665] [5358] (captured_audio_processor.cpp:93): Audio frame: 33017, samples: 480, channels: 1, rate: 48000 [Hz], bytes: 2, level: 340
+[2024-02-06 20:40:34.692] [5349] (socket_client.cpp:290): Ping received from 66.22.244.15:50004, seq: 67, rtt: 42
+[2024-02-06 20:40:34.743] [5355] (audio_device_buffer.cc:434): [REC : 10010msec, 44kHz] callbacks: 1001, samples: 441441, rate: 44100, rate diff: 0%, level: 8204
+[2024-02-06 20:40:34.743] [5355] (audio_device_buffer.cc:460): [PLAY: 10010msec, 44kHz] callbacks: 1000, samples: 441000, rate: 44056, rate diff: 0%, level: 27787
+[2024-02-06 20:40:37.349] [5349] (connection.cpp:898): Inbound stats for user: 343453057922629634, audio ssrc: 194955, packets received: 1887, lost: 18, audio frames normal: 2876, silent: 27302, expand: 33, video ssrc: 0, packets received: 0, lost: 0, bytes received: 0, bitrate: 0 [bps], video frames received (key/delta): 0/0, decoded: 0 (rate: 0 [fps]), dropped: 0, resolution: 0 x 0, freeze (count/duration): 0/0, pause (count/duration): 0/0
+[2024-02-06 20:40:37.350] [5349] (connection.cpp:934): Outbound audio stats for user: 752840103319044126, audio ssrc: 194950, packets sent: 9813, packets lost: 0
+[2024-02-06 20:40:37.350] [5349] (connection.cpp:1046): Transport stats for user: 752840103319044126, rtt: 42 [ms], available bitrate: 600000 [bps], outbound estimate: 600000 [bps], remb: 0 [bps], inbound estimate: 0 [bps], ssrcs: 194950: {seq: 4403, tseq: -1},  packets sent: 0, received: 0, bytes sent: 0, received: 0
+[2024-02-06 20:40:37.350] [5349] (connection.cpp:1082): Memory usage: 410 MB, CPU usage: 51%
+[2024-02-06 20:40:39.649] [5541] (udp_socket.cpp:898): Sending ping to 66.22.244.15:50004, seq: 68
+[2024-02-06 20:40:39.721] [5349] (socket_client.cpp:290): Ping received from 66.22.244.15:50004, seq: 68, rtt: 71
+[2024-02-06 20:40:44.650] [5541] (udp_socket.cpp:898): Sending ping to 66.22.244.15:50004, seq: 69
+[2024-02-06 20:40:44.669] [5358] (captured_audio_processor.cpp:82): Audio frames processed: 34017, noise canceller process time: 38560 [ms]
+[2024-02-06 20:40:44.670] [5358] (captured_audio_processor.cpp:93): Audio frame: 34017, samples: 480, channels: 1, rate: 48000 [Hz], bytes: 2, level: 195
+[2024-02-06 20:40:44.693] [5349] (socket_client.cpp:290): Ping received from 66.22.244.15:50004, seq: 69, rtt: 43
+[2024-02-06 20:40:44.753] [5355] (audio_device_buffer.cc:434): [REC : 10010msec, 44kHz] callbacks: 1001, samples: 441441, rate: 44100, rate diff: 0%, level: 20883
+[2024-02-06 20:40:44.753] [5355] (audio_device_buffer.cc:460): [PLAY: 10010msec, 44kHz] callbacks: 1001, samples: 441441, rate: 44100, rate diff: 0%, level: 5895
+[2024-02-06 20:40:47.399] [5349] (connection.cpp:898): Inbound stats for user: 343453057922629634, audio ssrc: 194955, packets received: 2054, lost: 20, audio frames normal: 3138, silent: 28011, expand: 38, video ssrc: 0, packets received: 0, lost: 0, bytes received: 0, bitrate: 0 [bps], video frames received (key/delta): 0/0, decoded: 0 (rate: 0 [fps]), dropped: 0, resolution: 0 x 0, freeze (count/duration): 0/0, pause (count/duration): 0/0
+[2024-02-06 20:40:47.400] [5349] (connection.cpp:934): Outbound audio stats for user: 752840103319044126, audio ssrc: 194950, packets sent: 9913, packets lost: 0
+[2024-02-06 20:40:47.400] [5349] (connection.cpp:1046): Transport stats for user: 752840103319044126, rtt: 46 [ms], available bitrate: 600000 [bps], outbound estimate: 600000 [bps], remb: 0 [bps], inbound estimate: 0 [bps], ssrcs: 194950: {seq: 4480, tseq: -1},  packets sent: 0, received: 0, bytes sent: 0, received: 0
+[2024-02-06 20:40:47.400] [5349] (connection.cpp:1082): Memory usage: 411 MB, CPU usage: 41%
+[2024-02-06 20:40:48.073] [5317] (discord.cpp:755): JS console: ["%c[RTCControlSocket]","Sending heartbeat"]
+[2024-02-06 20:40:48.158] [5317] (discord.cpp:755): JS console: ["%c[RTCControlSocket]","Heartbeat ACK received"]
+[2024-02-06 20:40:49.651] [5541] (udp_socket.cpp:898): Sending ping to 66.22.244.15:50004, seq: 70
+[2024-02-06 20:40:49.696] [5349] (socket_client.cpp:290): Ping received from 66.22.244.15:50004, seq: 70, rtt: 44
+[2024-02-06 20:40:54.651] [5541] (udp_socket.cpp:898): Sending ping to 66.22.244.15:50004, seq: 71
+[2024-02-06 20:40:54.670] [5358] (captured_audio_processor.cpp:82): Audio frames processed: 35017, noise canceller process time: 39659 [ms]
+[2024-02-06 20:40:54.670] [5358] (captured_audio_processor.cpp:93): Audio frame: 35017, samples: 480, channels: 1, rate: 48000 [Hz], bytes: 2, level: 240
+[2024-02-06 20:40:54.695] [5349] (socket_client.cpp:290): Ping received from 66.22.244.15:50004, seq: 71, rtt: 43
+[2024-02-06 20:40:54.763] [5355] (audio_device_buffer.cc:434): [REC : 10010msec, 44kHz] callbacks: 1001, samples: 441441, rate: 44100, rate diff: 0%, level: 29097
+[2024-02-06 20:40:54.763] [5355] (audio_device_buffer.cc:460): [PLAY: 10010msec, 44kHz] callbacks: 1001, samples: 441441, rate: 44100, rate diff: 0%, level: 27226
+[2024-02-06 20:40:57.452] [5349] (connection.cpp:898): Inbound stats for user: 343453057922629634, audio ssrc: 194955, packets received: 2421, lost: 28, audio frames normal: 3796, silent: 28331, expand: 55, video ssrc: 0, packets received: 0, lost: 0, bytes received: 0, bitrate: 0 [bps], video frames received (key/delta): 0/0, decoded: 0 (rate: 0 [fps]), dropped: 0, resolution: 0 x 0, freeze (count/duration): 0/0, pause (count/duration): 0/0
+[2024-02-06 20:40:57.453] [5349] (connection.cpp:934): Outbound audio stats for user: 752840103319044126, audio ssrc: 194950, packets sent: 10101, packets lost: 0
+[2024-02-06 20:40:57.453] [5349] (connection.cpp:1046): Transport stats for user: 752840103319044126, rtt: 49 [ms], available bitrate: 600000 [bps], outbound estimate: 600000 [bps], remb: 0 [bps], inbound estimate: 0 [bps], ssrcs: 194950: {seq: 4663, tseq: -1},  packets sent: 0, received: 0, bytes sent: 0, received: 0
+[2024-02-06 20:40:57.453] [5349] (connection.cpp:1082): Memory usage: 413 MB, CPU usage: 58%
+[2024-02-06 20:40:59.651] [5541] (udp_socket.cpp:898): Sending ping to 66.22.244.15:50004, seq: 72
+[2024-02-06 20:40:59.691] [5349] (socket_client.cpp:290): Ping received from 66.22.244.15:50004, seq: 72, rtt: 40
+[2024-02-06 20:41:01.049] [5358] (agc_manager_direct.cc:137): Input clipping rate: 8%
+[2024-02-06 20:41:01.823] [5317] (discord.cpp:755): JS console: ["%c[RTCControlSocket]","Sending heartbeat"]
+[2024-02-06 20:41:01.891] [5317] (discord.cpp:755): JS console: ["%c[RTCControlSocket]","Heartbeat ACK received"]
+[2024-02-06 20:41:04.532] [5541] (udp_socket.cpp:625): Reconnection started, sending echo
+[2024-02-06 20:41:04.572] [5541] (udp_socket.cpp:207): ReconnectionAttemptFinished: succeeded, local address: 24.135.84.86:41464
+[2024-02-06 20:41:04.651] [5541] (udp_socket.cpp:898): Sending ping to 66.22.244.15:50004, seq: 73
+[2024-02-06 20:41:04.678] [5358] (captured_audio_processor.cpp:82): Audio frames processed: 36018, noise canceller process time: 40833 [ms]
+[2024-02-06 20:41:04.678] [5358] (captured_audio_processor.cpp:93): Audio frame: 36018, samples: 480, channels: 1, rate: 48000 [Hz], bytes: 2, level: 293
+[2024-02-06 20:41:04.692] [5349] (socket_client.cpp:290): Ping received from 66.22.244.15:50004, seq: 73, rtt: 40
+[2024-02-06 20:41:04.773] [5355] (audio_device_buffer.cc:434): [REC : 10010msec, 44kHz] callbacks: 1001, samples: 441441, rate: 44100, rate diff: 0%, level: 20406
+[2024-02-06 20:41:04.773] [5355] (audio_device_buffer.cc:460): [PLAY: 10010msec, 44kHz] callbacks: 1001, samples: 441441, rate: 44100, rate diff: 0%, level: 27396
+[2024-02-06 20:41:07.502] [5349] (connection.cpp:898): Inbound stats for user: 343453057922629634, audio ssrc: 194955, packets received: 2529, lost: 29, audio frames normal: 3992, silent: 29126, expand: 57, video ssrc: 0, packets received: 0, lost: 0, bytes received: 0, bitrate: 0 [bps], video frames received (key/delta): 0/0, decoded: 0 (rate: 0 [fps]), dropped: 0, resolution: 0 x 0, freeze (count/duration): 0/0, pause (count/duration): 0/0
+[2024-02-06 20:41:07.502] [5349] (connection.cpp:934): Outbound audio stats for user: 752840103319044126, audio ssrc: 194950, packets sent: 10350, packets lost: 0
+[2024-02-06 20:41:07.502] [5349] (connection.cpp:1046): Transport stats for user: 752840103319044126, rtt: 48 [ms], available bitrate: 600000 [bps], outbound estimate: 600000 [bps], remb: 0 [bps], inbound estimate: 0 [bps], ssrcs: 194950: {seq: 4911, tseq: -1},  packets sent: 0, received: 0, bytes sent: 0, received: 0
+[2024-02-06 20:41:07.503] [5349] (connection.cpp:1082): Memory usage: 413 MB, CPU usage: 47%
+[2024-02-06 20:41:09.651] [5541] (udp_socket.cpp:898): Sending ping to 66.22.244.15:50004, seq: 74
+[2024-02-06 20:41:09.691] [5349] (socket_client.cpp:290): Ping received from 66.22.244.15:50004, seq: 74, rtt: 39
+[2024-02-06 20:41:14.652] [5541] (udp_socket.cpp:898): Sending ping to 66.22.244.15:50004, seq: 75
+[2024-02-06 20:41:14.684] [5358] (captured_audio_processor.cpp:82): Audio frames processed: 37018, noise canceller process time: 41958 [ms]
+[2024-02-06 20:41:14.684] [5358] (captured_audio_processor.cpp:93): Audio frame: 37018, samples: 480, channels: 1, rate: 48000 [Hz], bytes: 2, level: 203
+[2024-02-06 20:41:14.707] [5349] (socket_client.cpp:290): Ping received from 66.22.244.15:50004, seq: 75, rtt: 55
+[2024-02-06 20:41:14.782] [5355] (audio_device_buffer.cc:434): [REC : 10009msec, 44kHz] callbacks: 1001, samples: 441441, rate: 44104, rate diff: 0%, level: 15463
+[2024-02-06 20:41:14.782] [5355] (audio_device_buffer.cc:460): [PLAY: 10009msec, 44kHz] callbacks: 1001, samples: 441441, rate: 44104, rate diff: 0%, level: 13412
+[2024-02-06 20:41:15.573] [5317] (discord.cpp:755): JS console: ["%c[RTCControlSocket]","Sending heartbeat"]
+[2024-02-06 20:41:15.649] [5317] (discord.cpp:755): JS console: ["%c[RTCControlSocket]","Heartbeat ACK received"]
+[2024-02-06 20:41:17.566] [5349] (connection.cpp:898): Inbound stats for user: 343453057922629634, audio ssrc: 194955, packets received: 2819, lost: 31, audio frames normal: 4518, silent: 29585, expand: 60, video ssrc: 0, packets received: 0, lost: 0, bytes received: 0, bitrate: 0 [bps], video frames received (key/delta): 0/0, decoded: 0 (rate: 0 [fps]), dropped: 0, resolution: 0 x 0, freeze (count/duration): 0/0, pause (count/duration): 0/0
+[2024-02-06 20:41:17.566] [5349] (connection.cpp:934): Outbound audio stats for user: 752840103319044126, audio ssrc: 194950, packets sent: 10549, packets lost: 0
+[2024-02-06 20:41:17.566] [5349] (connection.cpp:1046): Transport stats for user: 752840103319044126, rtt: 44 [ms], available bitrate: 600000 [bps], outbound estimate: 600000 [bps], remb: 0 [bps], inbound estimate: 0 [bps], ssrcs: 194950: {seq: 5116, tseq: -1},  packets sent: 0, received: 0, bytes sent: 0, received: 0
+[2024-02-06 20:41:17.567] [5349] (connection.cpp:1082): Memory usage: 405 MB, CPU usage: 118%
+[2024-02-06 20:41:19.652] [5541] (udp_socket.cpp:898): Sending ping to 66.22.244.15:50004, seq: 76
+[2024-02-06 20:41:19.700] [5349] (socket_client.cpp:290): Ping received from 66.22.244.15:50004, seq: 76, rtt: 48
+[2024-02-06 20:41:24.652] [5541] (udp_socket.cpp:898): Sending ping to 66.22.244.15:50004, seq: 77
+[2024-02-06 20:41:24.687] [5358] (captured_audio_processor.cpp:82): Audio frames processed: 38019, noise canceller process time: 43088 [ms]
+[2024-02-06 20:41:24.687] [5358] (captured_audio_processor.cpp:93): Audio frame: 38019, samples: 480, channels: 1, rate: 48000 [Hz], bytes: 2, level: 218
+[2024-02-06 20:41:24.695] [5349] (socket_client.cpp:290): Ping received from 66.22.244.15:50004, seq: 77, rtt: 42
+[2024-02-06 20:41:24.792] [5355] (audio_device_buffer.cc:434): [REC : 10010msec, 44kHz] callbacks: 1001, samples: 441441, rate: 44100, rate diff: 0%, level: 11503
+[2024-02-06 20:41:24.792] [5355] (audio_device_buffer.cc:460): [PLAY: 10010msec, 44kHz] callbacks: 1003, samples: 442323, rate: 44188, rate diff: 0%, level: 22043
+[2024-02-06 20:41:27.625] [5349] (connection.cpp:898): Inbound stats for user: 343453057922629634, audio ssrc: 194955, packets received: 3018, lost: 37, audio frames normal: 4677, silent: 30215, expand: 109, video ssrc: 0, packets received: 0, lost: 0, bytes received: 0, bitrate: 0 [bps], video frames received (key/delta): 0/0, decoded: 0 (rate: 0 [fps]), dropped: 0, resolution: 0 x 0, freeze (count/duration): 0/0, pause (count/duration): 0/0
+[2024-02-06 20:41:27.625] [5349] (connection.cpp:934): Outbound audio stats for user: 752840103319044126, audio ssrc: 194950, packets sent: 10713, packets lost: 0
+[2024-02-06 20:41:27.625] [5349] (connection.cpp:1046): Transport stats for user: 752840103319044126, rtt: 65 [ms], available bitrate: 600000 [bps], outbound estimate: 600000 [bps], remb: 0 [bps], inbound estimate: 0 [bps], ssrcs: 194950: {seq: 5286, tseq: -1},  packets sent: 0, received: 0, bytes sent: 0, received: 0
+[2024-02-06 20:41:27.625] [5349] (connection.cpp:1082): Memory usage: 406 MB, CPU usage: 41%
+[2024-02-06 20:41:29.323] [5317] (discord.cpp:755): JS console: ["%c[RTCControlSocket]","Sending heartbeat"]
+[2024-02-06 20:41:29.424] [5317] (discord.cpp:755): JS console: ["%c[RTCControlSocket]","Heartbeat ACK received"]
+[2024-02-06 20:41:29.652] [5541] (udp_socket.cpp:898): Sending ping to 66.22.244.15:50004, seq: 78
+[2024-02-06 20:41:29.704] [5349] (socket_client.cpp:290): Ping received from 66.22.244.15:50004, seq: 78, rtt: 51
+[2024-02-06 20:41:31.051] [5358] (agc_manager_direct.cc:137): Input clipping rate: 0%
+[2024-02-06 20:41:34.652] [5541] (udp_socket.cpp:898): Sending ping to 66.22.244.15:50004, seq: 79
+[2024-02-06 20:41:34.692] [5358] (captured_audio_processor.cpp:82): Audio frames processed: 39019, noise canceller process time: 44225 [ms]
+[2024-02-06 20:41:34.692] [5358] (captured_audio_processor.cpp:93): Audio frame: 39019, samples: 480, channels: 1, rate: 48000 [Hz], bytes: 2, level: 962
+[2024-02-06 20:41:34.694] [5349] (socket_client.cpp:290): Ping received from 66.22.244.15:50004, seq: 79, rtt: 41
+[2024-02-06 20:41:34.799] [5355] (audio_device_buffer.cc:434): [REC : 10007msec, 44kHz] callbacks: 1000, samples: 441000, rate: 44069, rate diff: 0%, level: 6003
+[2024-02-06 20:41:34.799] [5355] (audio_device_buffer.cc:460): [PLAY: 10007msec, 44kHz] callbacks: 1000, samples: 441000, rate: 44069, rate diff: 0%, level: 883
+[2024-02-06 20:41:37.693] [5349] (connection.cpp:898): Inbound stats for user: 343453057922629634, audio ssrc: 194955, packets received: 3171, lost: 41, audio frames normal: 4880, silent: 30953, expand: 117, video ssrc: 0, packets received: 0, lost: 0, bytes received: 0, bitrate: 0 [bps], video frames received (key/delta): 0/0, decoded: 0 (rate: 0 [fps]), dropped: 0, resolution: 0 x 0, freeze (count/duration): 0/0, pause (count/duration): 0/0
+[2024-02-06 20:41:37.693] [5349] (connection.cpp:934): Outbound audio stats for user: 752840103319044126, audio ssrc: 194950, packets sent: 10864, packets lost: 0
+[2024-02-06 20:41:37.693] [5349] (connection.cpp:1046): Transport stats for user: 752840103319044126, rtt: 76 [ms], available bitrate: 600000 [bps], outbound estimate: 600000 [bps], remb: 0 [bps], inbound estimate: 0 [bps], ssrcs: 194950: {seq: 5467, tseq: -1},  packets sent: 0, received: 0, bytes sent: 0, received: 0
+[2024-02-06 20:41:37.694] [5349] (connection.cpp:1082): Memory usage: 416 MB, CPU usage: 44%
+[2024-02-06 20:41:39.651] [5541] (udp_socket.cpp:898): Sending ping to 66.22.244.15:50004, seq: 80
+[2024-02-06 20:41:39.690] [5349] (socket_client.cpp:290): Ping received from 66.22.244.15:50004, seq: 80, rtt: 38
+[2024-02-06 20:41:43.072] [5317] (discord.cpp:755): JS console: ["%c[RTCControlSocket]","Sending heartbeat"]
+[2024-02-06 20:41:43.151] [5317] (discord.cpp:755): JS console: ["%c[RTCControlSocket]","Heartbeat ACK received"]
+[2024-02-06 20:41:44.653] [5541] (udp_socket.cpp:898): Sending ping to 66.22.244.15:50004, seq: 81
+[2024-02-06 20:41:44.691] [5349] (socket_client.cpp:290): Ping received from 66.22.244.15:50004, seq: 81, rtt: 38
+[2024-02-06 20:41:44.701] [5358] (captured_audio_processor.cpp:82): Audio frames processed: 40020, noise canceller process time: 45182 [ms]
+[2024-02-06 20:41:44.701] [5358] (captured_audio_processor.cpp:93): Audio frame: 40020, samples: 480, channels: 1, rate: 48000 [Hz], bytes: 2, level: 676
+[2024-02-06 20:41:44.808] [5355] (audio_device_buffer.cc:434): [REC : 10009msec, 44kHz] callbacks: 1002, samples: 441882, rate: 44148, rate diff: 0%, level: 7157
+[2024-02-06 20:41:44.808] [5355] (audio_device_buffer.cc:460): [PLAY: 10009msec, 44kHz] callbacks: 1001, samples: 441441, rate: 44104, rate diff: 0%, level: 2024
+[2024-02-06 20:41:47.735] [5349] (connection.cpp:898): Inbound stats for user: 343453057922629634, audio ssrc: 194955, packets received: 3366, lost: 44, audio frames normal: 5131, silent: 31654, expand: 123, video ssrc: 0, packets received: 0, lost: 0, bytes received: 0, bitrate: 0 [bps], video frames received (key/delta): 0/0, decoded: 0 (rate: 0 [fps]), dropped: 0, resolution: 0 x 0, freeze (count/duration): 0/0, pause (count/duration): 0/0
+[2024-02-06 20:41:47.735] [5349] (connection.cpp:934): Outbound audio stats for user: 752840103319044126, audio ssrc: 194950, packets sent: 10988, packets lost: 0
+[2024-02-06 20:41:47.735] [5349] (connection.cpp:1046): Transport stats for user: 752840103319044126, rtt: 41 [ms], available bitrate: 600000 [bps], outbound estimate: 600000 [bps], remb: 0 [bps], inbound estimate: 0 [bps], ssrcs: 194950: {seq: 5590, tseq: -1},  packets sent: 0, received: 0, bytes sent: 0, received: 0
+[2024-02-06 20:41:47.735] [5349] (connection.cpp:1082): Memory usage: 414 MB, CPU usage: 28%
+[2024-02-06 20:41:49.653] [5541] (udp_socket.cpp:898): Sending ping to 66.22.244.15:50004, seq: 82
+[2024-02-06 20:41:49.691] [5349] (socket_client.cpp:290): Ping received from 66.22.244.15:50004, seq: 82, rtt: 38
+[2024-02-06 20:41:54.654] [5541] (udp_socket.cpp:898): Sending ping to 66.22.244.15:50004, seq: 83
+[2024-02-06 20:41:54.709] [5358] (captured_audio_processor.cpp:82): Audio frames processed: 41021, noise canceller process time: 46035 [ms]
+[2024-02-06 20:41:54.709] [5358] (captured_audio_processor.cpp:93): Audio frame: 41021, samples: 480, channels: 1, rate: 48000 [Hz], bytes: 2, level: 166
+[2024-02-06 20:41:54.710] [5349] (socket_client.cpp:290): Ping received from 66.22.244.15:50004, seq: 83, rtt: 56
+[2024-02-06 20:41:54.816] [5355] (audio_device_buffer.cc:434): [REC : 10008msec, 44kHz] callbacks: 1000, samples: 441000, rate: 44065, rate diff: 0%, level: 2057
+[2024-02-06 20:41:54.816] [5355] (audio_device_buffer.cc:460): [PLAY: 10008msec, 44kHz] callbacks: 1001, samples: 441441, rate: 44109, rate diff: 0%, level: 739
+[2024-02-06 20:41:56.823] [5317] (discord.cpp:755): JS console: ["%c[RTCControlSocket]","Sending heartbeat"]
+[2024-02-06 20:41:56.883] [5317] (discord.cpp:755): JS console: ["%c[RTCControlSocket]","Heartbeat ACK received"]
+[2024-02-06 20:41:57.795] [5349] (connection.cpp:898): Inbound stats for user: 343453057922629634, audio ssrc: 194955, packets received: 3469, lost: 45, audio frames normal: 5259, silent: 32521, expand: 124, video ssrc: 0, packets received: 0, lost: 0, bytes received: 0, bitrate: 0 [bps], video frames received (key/delta): 0/0, decoded: 0 (rate: 0 [fps]), dropped: 0, resolution: 0 x 0, freeze (count/duration): 0/0, pause (count/duration): 0/0
+[2024-02-06 20:41:57.795] [5349] (connection.cpp:934): Outbound audio stats for user: 752840103319044126, audio ssrc: 194950, packets sent: 11084, packets lost: 0
+[2024-02-06 20:41:57.795] [5349] (connection.cpp:1046): Transport stats for user: 752840103319044126, rtt: 103 [ms], available bitrate: 600000 [bps], outbound estimate: 600000 [bps], remb: 0 [bps], inbound estimate: 0 [bps], ssrcs: 194950: {seq: 5673, tseq: -1},  packets sent: 0, received: 0, bytes sent: 0, received: 0
+[2024-02-06 20:41:57.796] [5349] (connection.cpp:1082): Memory usage: 414 MB, CPU usage: 54%
+[2024-02-06 20:41:59.655] [5541] (udp_socket.cpp:898): Sending ping to 66.22.244.15:50004, seq: 84
+[2024-02-06 20:41:59.727] [5349] (socket_client.cpp:290): Ping received from 66.22.244.15:50004, seq: 84, rtt: 71
+[2024-02-06 20:42:01.044] [5358] (agc_manager_direct.cc:137): Input clipping rate: 0%
+[2024-02-06 20:42:04.533] [5541] (udp_socket.cpp:625): Reconnection started, sending echo
+[2024-02-06 20:42:04.589] [5541] (udp_socket.cpp:207): ReconnectionAttemptFinished: succeeded, local address: 24.135.84.86:38687
+[2024-02-06 20:42:04.656] [5541] (udp_socket.cpp:898): Sending ping to 66.22.244.15:50004, seq: 85
+[2024-02-06 20:42:04.718] [5358] (captured_audio_processor.cpp:82): Audio frames processed: 42022, noise canceller process time: 47160 [ms]
+[2024-02-06 20:42:04.718] [5358] (captured_audio_processor.cpp:93): Audio frame: 42022, samples: 480, channels: 1, rate: 48000 [Hz], bytes: 2, level: 441
+[2024-02-06 20:42:04.727] [5349] (socket_client.cpp:290): Ping received from 66.22.244.15:50004, seq: 85, rtt: 71
+[2024-02-06 20:42:04.826] [5355] (audio_device_buffer.cc:434): [REC : 10010msec, 44kHz] callbacks: 1001, samples: 441441, rate: 44100, rate diff: 0%, level: 15600
+[2024-02-06 20:42:04.826] [5355] (audio_device_buffer.cc:460): [PLAY: 10010msec, 44kHz] callbacks: 1001, samples: 441441, rate: 44100, rate diff: 0%, level: 169
+[2024-02-06 20:42:07.867] [5349] (connection.cpp:898): Inbound stats for user: 343453057922629634, audio ssrc: 194955, packets received: 3530, lost: 45, audio frames normal: 5335, silent: 33447, expand: 124, video ssrc: 0, packets received: 0, lost: 0, bytes received: 0, bitrate: 0 [bps], video frames received (key/delta): 0/0, decoded: 0 (rate: 0 [fps]), dropped: 0, resolution: 0 x 0, freeze (count/duration): 0/0, pause (count/duration): 0/0
+[2024-02-06 20:42:07.867] [5349] (connection.cpp:934): Outbound audio stats for user: 752840103319044126, audio ssrc: 194950, packets sent: 11184, packets lost: 0
+[2024-02-06 20:42:07.867] [5349] (connection.cpp:1046): Transport stats for user: 752840103319044126, rtt: 169 [ms], available bitrate: 600000 [bps], outbound estimate: 600000 [bps], remb: 0 [bps], inbound estimate: 0 [bps], ssrcs: 194950: {seq: 5771, tseq: -1},  packets sent: 0, received: 0, bytes sent: 0, received: 0
+[2024-02-06 20:42:07.868] [5349] (connection.cpp:1082): Memory usage: 414 MB, CPU usage: 36%
+[2024-02-06 20:42:09.656] [5541] (udp_socket.cpp:898): Sending ping to 66.22.244.15:50004, seq: 86
+[2024-02-06 20:42:09.707] [5349] (socket_client.cpp:290): Ping received from 66.22.244.15:50004, seq: 86, rtt: 51
+[2024-02-06 20:42:10.573] [5317] (discord.cpp:755): JS console: ["%c[RTCControlSocket]","Sending heartbeat"]
+[2024-02-06 20:42:10.646] [5317] (discord.cpp:755): JS console: ["%c[RTCControlSocket]","Heartbeat ACK received"]
+[2024-02-06 20:42:14.657] [5541] (udp_socket.cpp:898): Sending ping to 66.22.244.15:50004, seq: 87
+[2024-02-06 20:42:14.733] [5358] (captured_audio_processor.cpp:82): Audio frames processed: 43023, noise canceller process time: 48309 [ms]
+[2024-02-06 20:42:14.733] [5358] (captured_audio_processor.cpp:93): Audio frame: 43023, samples: 480, channels: 1, rate: 48000 [Hz], bytes: 2, level: 516
+[2024-02-06 20:42:14.828] [5349] (socket_client.cpp:290): Ping received from 66.22.244.15:50004, seq: 87, rtt: 170
+[2024-02-06 20:42:14.833] [5355] (audio_device_buffer.cc:434): [REC : 10007msec, 44kHz] callbacks: 1000, samples: 441000, rate: 44069, rate diff: 0%, level: 6740
+[2024-02-06 20:42:14.833] [5355] (audio_device_buffer.cc:460): [PLAY: 10007msec, 44kHz] callbacks: 1001, samples: 441441, rate: 44113, rate diff: 0%, level: 9131
+[2024-02-06 20:42:17.927] [5349] (connection.cpp:898): Inbound stats for user: 343453057922629634, audio ssrc: 194955, packets received: 3821, lost: 50, audio frames normal: 5753, silent: 33944, expand: 148, video ssrc: 0, packets received: 0, lost: 0, bytes received: 0, bitrate: 0 [bps], video frames received (key/delta): 0/0, decoded: 0 (rate: 0 [fps]), dropped: 0, resolution: 0 x 0, freeze (count/duration): 0/0, pause (count/duration): 0/0
+[2024-02-06 20:42:17.927] [5349] (connection.cpp:934): Outbound audio stats for user: 752840103319044126, audio ssrc: 194950, packets sent: 11232, packets lost: 0
+[2024-02-06 20:42:17.927] [5349] (connection.cpp:1046): Transport stats for user: 752840103319044126, rtt: 69 [ms], available bitrate: 600000 [bps], outbound estimate: 600000 [bps], remb: 0 [bps], inbound estimate: 0 [bps], ssrcs: 194950: {seq: 5793, tseq: -1},  packets sent: 0, received: 0, bytes sent: 0, received: 0
+[2024-02-06 20:42:17.927] [5349] (connection.cpp:1082): Memory usage: 416 MB, CPU usage: 46%
+[2024-02-06 20:42:19.657] [5541] (udp_socket.cpp:898): Sending ping to 66.22.244.15:50004, seq: 88
+[2024-02-06 20:42:19.717] [5349] (socket_client.cpp:290): Ping received from 66.22.244.15:50004, seq: 88, rtt: 59
+[2024-02-06 20:42:24.323] [5317] (discord.cpp:755): JS console: ["%c[RTCControlSocket]","Sending heartbeat"]
+[2024-02-06 20:42:24.418] [5317] (discord.cpp:755): JS console: ["%c[RTCControlSocket]","Heartbeat ACK received"]
+[2024-02-06 20:42:24.657] [5541] (udp_socket.cpp:898): Sending ping to 66.22.244.15:50004, seq: 89
+[2024-02-06 20:42:24.717] [5349] (socket_client.cpp:290): Ping received from 66.22.244.15:50004, seq: 89, rtt: 59
+[2024-02-06 20:42:24.739] [5358] (captured_audio_processor.cpp:82): Audio frames processed: 44024, noise canceller process time: 49240 [ms]
+[2024-02-06 20:42:24.739] [5358] (captured_audio_processor.cpp:93): Audio frame: 44024, samples: 480, channels: 1, rate: 48000 [Hz], bytes: 2, level: 156
+[2024-02-06 20:42:24.843] [5355] (audio_device_buffer.cc:434): [REC : 10010msec, 44kHz] callbacks: 1002, samples: 441882, rate: 44144, rate diff: 0%, level: 8367
+[2024-02-06 20:42:24.843] [5355] (audio_device_buffer.cc:460): [PLAY: 10010msec, 44kHz] callbacks: 1000, samples: 441000, rate: 44056, rate diff: 0%, level: 26456
+[2024-02-06 20:42:27.967] [5349] (connection.cpp:898): Inbound stats for user: 343453057922629634, audio ssrc: 194955, packets received: 4032, lost: 57, audio frames normal: 5914, silent: 34564, expand: 184, video ssrc: 0, packets received: 0, lost: 0, bytes received: 0, bitrate: 0 [bps], video frames received (key/delta): 0/0, decoded: 0 (rate: 0 [fps]), dropped: 0, resolution: 0 x 0, freeze (count/duration): 0/0, pause (count/duration): 0/0
+[2024-02-06 20:42:27.968] [5349] (connection.cpp:934): Outbound audio stats for user: 752840103319044126, audio ssrc: 194950, packets sent: 11256, packets lost: 0
+[2024-02-06 20:42:27.968] [5349] (connection.cpp:1046): Transport stats for user: 752840103319044126, rtt: 71 [ms], available bitrate: 600000 [bps], outbound estimate: 600000 [bps], remb: 0 [bps], inbound estimate: 0 [bps], ssrcs: 194950: {seq: 5841, tseq: -1},  packets sent: 0, received: 0, bytes sent: 0, received: 0
+[2024-02-06 20:42:27.968] [5349] (connection.cpp:1082): Memory usage: 412 MB, CPU usage: 37%
+[2024-02-06 20:42:29.657] [5541] (udp_socket.cpp:898): Sending ping to 66.22.244.15:50004, seq: 90
+[2024-02-06 20:42:29.708] [5349] (socket_client.cpp:290): Ping received from 66.22.244.15:50004, seq: 90, rtt: 50
+[2024-02-06 20:42:31.048] [5358] (agc_manager_direct.cc:137): Input clipping rate: 0%
+[2024-02-06 20:42:34.657] [5541] (udp_socket.cpp:898): Sending ping to 66.22.244.15:50004, seq: 91
+[2024-02-06 20:42:34.748] [5358] (captured_audio_processor.cpp:82): Audio frames processed: 45025, noise canceller process time: 50333 [ms]
+[2024-02-06 20:42:34.748] [5358] (captured_audio_processor.cpp:93): Audio frame: 45025, samples: 480, channels: 1, rate: 48000 [Hz], bytes: 2, level: 405
+[2024-02-06 20:42:34.843] [5349] (socket_client.cpp:290): Ping received from 66.22.244.15:50004, seq: 91, rtt: 185
+[2024-02-06 20:42:34.844] [5355] (audio_device_buffer.cc:434): [REC : 10002msec, 44kHz] callbacks: 1000, samples: 441000, rate: 44091, rate diff: 0%, level: 1225
+[2024-02-06 20:42:34.844] [5355] (audio_device_buffer.cc:460): [PLAY: 10002msec, 44kHz] callbacks: 999, samples: 440559, rate: 44047, rate diff: 0%, level: 523
+[2024-02-06 20:42:38.046] [5349] (connection.cpp:898): Inbound stats for user: 343453057922629634, audio ssrc: 194955, packets received: 4099, lost: 59, audio frames normal: 5965, silent: 35491, expand: 190, video ssrc: 0, packets received: 0, lost: 0, bytes received: 0, bitrate: 0 [bps], video frames received (key/delta): 0/0, decoded: 0 (rate: 0 [fps]), dropped: 0, resolution: 0 x 0, freeze (count/duration): 0/0, pause (count/duration): 0/0
+[2024-02-06 20:42:38.046] [5349] (connection.cpp:934): Outbound audio stats for user: 752840103319044126, audio ssrc: 194950, packets sent: 11300, packets lost: 0
+[2024-02-06 20:42:38.046] [5349] (connection.cpp:1046): Transport stats for user: 752840103319044126, rtt: 423 [ms], available bitrate: 600000 [bps], outbound estimate: 600000 [bps], remb: 0 [bps], inbound estimate: 0 [bps], ssrcs: 194950: {seq: 5865, tseq: -1},  packets sent: 0, received: 0, bytes sent: 0, received: 0
+[2024-02-06 20:42:38.046] [5349] (connection.cpp:1082): Memory usage: 413 MB, CPU usage: 53%
+[2024-02-06 20:42:38.073] [5317] (discord.cpp:755): JS console: ["%c[RTCControlSocket]","Sending heartbeat"]
+[2024-02-06 20:42:38.557] [5317] (discord.cpp:755): JS console: ["%c[RTCControlSocket]","Heartbeat ACK received"]
+[2024-02-06 20:42:39.657] [5541] (udp_socket.cpp:898): Sending ping to 66.22.244.15:50004, seq: 92
+[2024-02-06 20:42:39.930] [5349] (socket_client.cpp:290): Ping received from 66.22.244.15:50004, seq: 92, rtt: 272
+[2024-02-06 20:42:44.659] [5541] (udp_socket.cpp:898): Sending ping to 66.22.244.15:50004, seq: 93
+[2024-02-06 20:42:44.698] [5349] (socket_client.cpp:290): Ping received from 66.22.244.15:50004, seq: 93, rtt: 39
+[2024-02-06 20:42:44.756] [5358] (captured_audio_processor.cpp:82): Audio frames processed: 46026, noise canceller process time: 51506 [ms]
+[2024-02-06 20:42:44.756] [5358] (captured_audio_processor.cpp:93): Audio frame: 46026, samples: 480, channels: 1, rate: 48000 [Hz], bytes: 2, level: 352
+[2024-02-06 20:42:44.853] [5355] (audio_device_buffer.cc:434): [REC : 10008msec, 44kHz] callbacks: 1001, samples: 441441, rate: 44109, rate diff: 0%, level: 4584
+[2024-02-06 20:42:44.853] [5355] (audio_device_buffer.cc:460): [PLAY: 10008msec, 44kHz] callbacks: 1001, samples: 441441, rate: 44109, rate diff: 0%, level: 432
+[2024-02-06 20:42:48.101] [5349] (connection.cpp:898): Inbound stats for user: 343453057922629634, audio ssrc: 194955, packets received: 4153, lost: 60, audio frames normal: 6038, silent: 36414, expand: 190, video ssrc: 0, packets received: 0, lost: 0, bytes received: 0, bitrate: 0 [bps], video frames received (key/delta): 0/0, decoded: 0 (rate: 0 [fps]), dropped: 0, resolution: 0 x 0, freeze (count/duration): 0/0, pause (count/duration): 0/0
+[2024-02-06 20:42:48.101] [5349] (connection.cpp:934): Outbound audio stats for user: 752840103319044126, audio ssrc: 194950, packets sent: 11423, packets lost: 0
+[2024-02-06 20:42:48.101] [5349] (connection.cpp:1046): Transport stats for user: 752840103319044126, rtt: 104 [ms], available bitrate: 600000 [bps], outbound estimate: 600000 [bps], remb: 0 [bps], inbound estimate: 0 [bps], ssrcs: 194950: {seq: 6005, tseq: -1},  packets sent: 0, received: 0, bytes sent: 0, received: 0
+[2024-02-06 20:42:48.101] [5349] (connection.cpp:1082): Memory usage: 414 MB, CPU usage: 58%
+[2024-02-06 20:42:49.659] [5541] (udp_socket.cpp:898): Sending ping to 66.22.244.15:50004, seq: 94
+[2024-02-06 20:42:49.702] [5349] (socket_client.cpp:290): Ping received from 66.22.244.15:50004, seq: 94, rtt: 42
+[2024-02-06 20:42:51.823] [5317] (discord.cpp:755): JS console: ["%c[RTCControlSocket]","Sending heartbeat"]
+[2024-02-06 20:42:51.877] [5317] (discord.cpp:755): JS console: ["%c[RTCControlSocket]","Heartbeat ACK received"]
+[2024-02-06 20:42:54.659] [5541] (udp_socket.cpp:898): Sending ping to 66.22.244.15:50004, seq: 95
+[2024-02-06 20:42:54.702] [5349] (socket_client.cpp:290): Ping received from 66.22.244.15:50004, seq: 95, rtt: 42
+[2024-02-06 20:42:54.756] [5358] (captured_audio_processor.cpp:82): Audio frames processed: 47026, noise canceller process time: 52554 [ms]
+[2024-02-06 20:42:54.756] [5358] (captured_audio_processor.cpp:93): Audio frame: 47026, samples: 480, channels: 1, rate: 48000 [Hz], bytes: 2, level: 454
+[2024-02-06 20:42:54.863] [5355] (audio_device_buffer.cc:434): [REC : 10010msec, 44kHz] callbacks: 1001, samples: 441441, rate: 44100, rate diff: 0%, level: 3377
+[2024-02-06 20:42:54.863] [5355] (audio_device_buffer.cc:460): [PLAY: 10010msec, 44kHz] callbacks: 1003, samples: 442323, rate: 44188, rate diff: 0%, level: 0
+[2024-02-06 20:42:58.160] [5349] (connection.cpp:898): Inbound stats for user: 343453057922629634, audio ssrc: 194955, packets received: 4153, lost: 60, audio frames normal: 6038, silent: 37421, expand: 190, video ssrc: 0, packets received: 0, lost: 0, bytes received: 0, bitrate: 0 [bps], video frames received (key/delta): 0/0, decoded: 0 (rate: 0 [fps]), dropped: 0, resolution: 0 x 0, freeze (count/duration): 0/0, pause (count/duration): 0/0
+[2024-02-06 20:42:58.160] [5349] (connection.cpp:934): Outbound audio stats for user: 752840103319044126, audio ssrc: 194950, packets sent: 11614, packets lost: 0
+[2024-02-06 20:42:58.160] [5349] (connection.cpp:1046): Transport stats for user: 752840103319044126, rtt: 64 [ms], available bitrate: 600000 [bps], outbound estimate: 600000 [bps], remb: 0 [bps], inbound estimate: 0 [bps], ssrcs: 194950: {seq: 6214, tseq: -1},  packets sent: 0, received: 0, bytes sent: 0, received: 0
+[2024-02-06 20:42:58.161] [5349] (connection.cpp:1082): Memory usage: 413 MB, CPU usage: 48%
+[2024-02-06 20:42:59.660] [5541] (udp_socket.cpp:898): Sending ping to 66.22.244.15:50004, seq: 96
+[2024-02-06 20:42:59.700] [5349] (socket_client.cpp:290): Ping received from 66.22.244.15:50004, seq: 96, rtt: 40
+[2024-02-06 20:43:01.048] [5358] (agc_manager_direct.cc:137): Input clipping rate: 0%
+[2024-02-06 20:43:04.533] [5541] (udp_socket.cpp:625): Reconnection started, sending echo
+[2024-02-06 20:43:04.582] [5541] (udp_socket.cpp:207): ReconnectionAttemptFinished: succeeded, local address: 24.135.84.86:41739
+[2024-02-06 20:43:04.660] [5541] (udp_socket.cpp:898): Sending ping to 66.22.244.15:50004, seq: 97
+[2024-02-06 20:43:04.708] [5349] (socket_client.cpp:290): Ping received from 66.22.244.15:50004, seq: 97, rtt: 47
+[2024-02-06 20:43:04.764] [5358] (captured_audio_processor.cpp:82): Audio frames processed: 48027, noise canceller process time: 53810 [ms]
+[2024-02-06 20:43:04.764] [5358] (captured_audio_processor.cpp:93): Audio frame: 48027, samples: 480, channels: 1, rate: 48000 [Hz], bytes: 2, level: 338
+[2024-02-06 20:43:04.873] [5355] (audio_device_buffer.cc:434): [REC : 10010msec, 44kHz] callbacks: 1001, samples: 441441, rate: 44100, rate diff: 0%, level: 5561
+[2024-02-06 20:43:04.873] [5355] (audio_device_buffer.cc:460): [PLAY: 10010msec, 44kHz] callbacks: 1001, samples: 441441, rate: 44100, rate diff: 0%, level: 11
+[2024-02-06 20:43:05.573] [5317] (discord.cpp:755): JS console: ["%c[RTCControlSocket]","Sending heartbeat"]
+[2024-02-06 20:43:05.764] [5317] (discord.cpp:755): JS console: ["%c[RTCControlSocket]","Heartbeat ACK received"]
+[2024-02-06 20:43:08.233] [5349] (connection.cpp:898): Inbound stats for user: 343453057922629634, audio ssrc: 194955, packets received: 4242, lost: 62, audio frames normal: 6148, silent: 38298, expand: 192, video ssrc: 0, packets received: 0, lost: 0, bytes received: 0, bitrate: 0 [bps], video frames received (key/delta): 0/0, decoded: 0 (rate: 0 [fps]), dropped: 0, resolution: 0 x 0, freeze (count/duration): 0/0, pause (count/duration): 0/0
+[2024-02-06 20:43:08.236] [5349] (connection.cpp:934): Outbound audio stats for user: 752840103319044126, audio ssrc: 194950, packets sent: 11838, packets lost: 0
+[2024-02-06 20:43:08.236] [5349] (connection.cpp:1046): Transport stats for user: 752840103319044126, rtt: 74 [ms], available bitrate: 600000 [bps], outbound estimate: 600000 [bps], remb: 0 [bps], inbound estimate: 0 [bps], ssrcs: 194950: {seq: 6440, tseq: -1},  packets sent: 0, received: 0, bytes sent: 0, received: 0
+[2024-02-06 20:43:08.236] [5349] (connection.cpp:1082): Memory usage: 416 MB, CPU usage: 57%
+[2024-02-06 20:43:09.660] [5541] (udp_socket.cpp:898): Sending ping to 66.22.244.15:50004, seq: 98
+[2024-02-06 20:43:09.703] [5349] (socket_client.cpp:290): Ping received from 66.22.244.15:50004, seq: 98, rtt: 42
+[2024-02-06 20:43:14.660] [5541] (udp_socket.cpp:898): Sending ping to 66.22.244.15:50004, seq: 99
+[2024-02-06 20:43:14.704] [5349] (socket_client.cpp:290): Ping received from 66.22.244.15:50004, seq: 99, rtt: 44
+[2024-02-06 20:43:14.771] [5358] (captured_audio_processor.cpp:82): Audio frames processed: 49027, noise canceller process time: 54988 [ms]
+[2024-02-06 20:43:14.771] [5358] (captured_audio_processor.cpp:93): Audio frame: 49027, samples: 480, channels: 1, rate: 48000 [Hz], bytes: 2, level: 456
+[2024-02-06 20:43:14.883] [5355] (audio_device_buffer.cc:434): [REC : 10010msec, 44kHz] callbacks: 1001, samples: 441441, rate: 44100, rate diff: 0%, level: 7044
+[2024-02-06 20:43:14.883] [5355] (audio_device_buffer.cc:460): [PLAY: 10010msec, 44kHz] callbacks: 1000, samples: 441000, rate: 44056, rate diff: 0%, level: 4756
+[2024-02-06 20:43:18.295] [5349] (connection.cpp:898): Inbound stats for user: 343453057922629634, audio ssrc: 194955, packets received: 4385, lost: 62, audio frames normal: 6391, silent: 39061, expand: 192, video ssrc: 0, packets received: 0, lost: 0, bytes received: 0, bitrate: 0 [bps], video frames received (key/delta): 0/0, decoded: 0 (rate: 0 [fps]), dropped: 0, resolution: 0 x 0, freeze (count/duration): 0/0, pause (count/duration): 0/0
+[2024-02-06 20:43:18.295] [5349] (connection.cpp:934): Outbound audio stats for user: 752840103319044126, audio ssrc: 194950, packets sent: 11966, packets lost: 0
+[2024-02-06 20:43:18.295] [5349] (connection.cpp:1046): Transport stats for user: 752840103319044126, rtt: 117 [ms], available bitrate: 600000 [bps], outbound estimate: 600000 [bps], remb: 0 [bps], inbound estimate: 0 [bps], ssrcs: 194950: {seq: 6567, tseq: -1},  packets sent: 0, received: 0, bytes sent: 0, received: 0
+[2024-02-06 20:43:18.295] [5349] (connection.cpp:1082): Memory usage: 416 MB, CPU usage: 49%
+[2024-02-06 20:43:19.323] [5317] (discord.cpp:755): JS console: ["%c[RTCControlSocket]","Sending heartbeat"]
+[2024-02-06 20:43:19.387] [5317] (discord.cpp:755): JS console: ["%c[RTCControlSocket]","Heartbeat ACK received"]
+[2024-02-06 20:43:19.660] [5541] (udp_socket.cpp:898): Sending ping to 66.22.244.15:50004, seq: 100
+[2024-02-06 20:43:19.702] [5349] (socket_client.cpp:290): Ping received from 66.22.244.15:50004, seq: 100, rtt: 41
+[2024-02-06 20:43:24.661] [5541] (udp_socket.cpp:898): Sending ping to 66.22.244.15:50004, seq: 101
+[2024-02-06 20:43:24.779] [5358] (captured_audio_processor.cpp:82): Audio frames processed: 50028, noise canceller process time: 56191 [ms]
+[2024-02-06 20:43:24.779] [5358] (captured_audio_processor.cpp:93): Audio frame: 50028, samples: 480, channels: 1, rate: 48000 [Hz], bytes: 2, level: 243
+[2024-02-06 20:43:24.893] [5355] (audio_device_buffer.cc:434): [REC : 10010msec, 44kHz] callbacks: 1001, samples: 441441, rate: 44100, rate diff: 0%, level: 3405
+[2024-02-06 20:43:24.893] [5355] (audio_device_buffer.cc:460): [PLAY: 10010msec, 44kHz] callbacks: 1001, samples: 441441, rate: 44100, rate diff: 0%, level: 901
+[2024-02-06 20:43:24.898] [5349] (socket_client.cpp:290): Ping received from 66.22.244.15:50004, seq: 101, rtt: 236
+[2024-02-06 20:43:28.385] [5349] (connection.cpp:898): Inbound stats for user: 343453057922629634, audio ssrc: 194955, packets received: 4414, lost: 63, audio frames normal: 6427, silent: 40027, expand: 194, video ssrc: 0, packets received: 0, lost: 0, bytes received: 0, bitrate: 0 [bps], video frames received (key/delta): 0/0, decoded: 0 (rate: 0 [fps]), dropped: 0, resolution: 0 x 0, freeze (count/duration): 0/0, pause (count/duration): 0/0
+[2024-02-06 20:43:28.385] [5349] (connection.cpp:934): Outbound audio stats for user: 752840103319044126, audio ssrc: 194950, packets sent: 12318, packets lost: 0
+[2024-02-06 20:43:28.385] [5349] (connection.cpp:1046): Transport stats for user: 752840103319044126, rtt: 162 [ms], available bitrate: 600000 [bps], outbound estimate: 600000 [bps], remb: 0 [bps], inbound estimate: 0 [bps], ssrcs: 194950: {seq: 6925, tseq: -1},  packets sent: 0, received: 0, bytes sent: 0, received: 0
+[2024-02-06 20:43:28.385] [5349] (connection.cpp:1082): Memory usage: 413 MB, CPU usage: 49%
+[2024-02-06 20:43:29.661] [5541] (udp_socket.cpp:898): Sending ping to 66.22.244.15:50004, seq: 102
+[2024-02-06 20:43:29.706] [5349] (socket_client.cpp:290): Ping received from 66.22.244.15:50004, seq: 102, rtt: 44
+[2024-02-06 20:43:31.050] [5358] (agc_manager_direct.cc:137): Input clipping rate: 0%
+[2024-02-06 20:43:33.073] [5317] (discord.cpp:755): JS console: ["%c[RTCControlSocket]","Sending heartbeat"]
+[2024-02-06 20:43:33.139] [5317] (discord.cpp:755): JS console: ["%c[RTCControlSocket]","Heartbeat ACK received"]
+[2024-02-06 20:43:34.661] [5541] (udp_socket.cpp:898): Sending ping to 66.22.244.15:50004, seq: 103
+[2024-02-06 20:43:34.712] [5349] (socket_client.cpp:290): Ping received from 66.22.244.15:50004, seq: 103, rtt: 50
+[2024-02-06 20:43:34.786] [5358] (captured_audio_processor.cpp:82): Audio frames processed: 51029, noise canceller process time: 57318 [ms]
+[2024-02-06 20:43:34.786] [5358] (captured_audio_processor.cpp:93): Audio frame: 51029, samples: 480, channels: 1, rate: 48000 [Hz], bytes: 2, level: 433
+[2024-02-06 20:43:34.903] [5355] (audio_device_buffer.cc:434): [REC : 10010msec, 44kHz] callbacks: 1001, samples: 441441, rate: 44100, rate diff: 0%, level: 5774
+[2024-02-06 20:43:34.903] [5355] (audio_device_buffer.cc:460): [PLAY: 10010msec, 44kHz] callbacks: 1001, samples: 441441, rate: 44100, rate diff: 0%, level: 906
+[2024-02-06 20:43:38.491] [5349] (connection.cpp:898): Inbound stats for user: 343453057922629634, audio ssrc: 194955, packets received: 4567, lost: 63, audio frames normal: 6641, silent: 40809, expand: 194, video ssrc: 0, packets received: 0, lost: 0, bytes received: 0, bitrate: 0 [bps], video frames received (key/delta): 0/0, decoded: 0 (rate: 0 [fps]), dropped: 0, resolution: 0 x 0, freeze (count/duration): 0/0, pause (count/duration): 0/0
+[2024-02-06 20:43:38.491] [5349] (connection.cpp:934): Outbound audio stats for user: 752840103319044126, audio ssrc: 194950, packets sent: 12677, packets lost: 0
+[2024-02-06 20:43:38.491] [5349] (connection.cpp:1046): Transport stats for user: 752840103319044126, rtt: 81 [ms], available bitrate: 600000 [bps], outbound estimate: 600000 [bps], remb: 0 [bps], inbound estimate: 0 [bps], ssrcs: 194950: {seq: 7284, tseq: -1},  packets sent: 0, received: 0, bytes sent: 0, received: 0
+[2024-02-06 20:43:38.491] [5349] (connection.cpp:1082): Memory usage: 420 MB, CPU usage: 57%
+[2024-02-06 20:43:39.661] [5541] (udp_socket.cpp:898): Sending ping to 66.22.244.15:50004, seq: 104
+[2024-02-06 20:43:39.705] [5349] (socket_client.cpp:290): Ping received from 66.22.244.15:50004, seq: 104, rtt: 44
+[2024-02-06 20:43:44.661] [5541] (udp_socket.cpp:898): Sending ping to 66.22.244.15:50004, seq: 105
+[2024-02-06 20:43:44.706] [5349] (socket_client.cpp:290): Ping received from 66.22.244.15:50004, seq: 105, rtt: 44
+[2024-02-06 20:43:44.794] [5358] (captured_audio_processor.cpp:82): Audio frames processed: 52030, noise canceller process time: 58536 [ms]
+[2024-02-06 20:43:44.794] [5358] (captured_audio_processor.cpp:93): Audio frame: 52030, samples: 480, channels: 1, rate: 48000 [Hz], bytes: 2, level: 550
+[2024-02-06 20:43:44.913] [5355] (audio_device_buffer.cc:434): [REC : 10010msec, 44kHz] callbacks: 1001, samples: 441441, rate: 44100, rate diff: 0%, level: 1646
+[2024-02-06 20:43:44.913] [5355] (audio_device_buffer.cc:460): [PLAY: 10010msec, 44kHz] callbacks: 1001, samples: 441441, rate: 44100, rate diff: 0%, level: 1830
+[2024-02-06 20:43:46.823] [5317] (discord.cpp:755): JS console: ["%c[RTCControlSocket]","Sending heartbeat"]
+[2024-02-06 20:43:46.894] [5317] (discord.cpp:755): JS console: ["%c[RTCControlSocket]","Heartbeat ACK received"]
+[2024-02-06 20:43:48.557] [5349] (connection.cpp:898): Inbound stats for user: 343453057922629634, audio ssrc: 194955, packets received: 4567, lost: 63, audio frames normal: 6641, silent: 41815, expand: 194, video ssrc: 0, packets received: 0, lost: 0, bytes received: 0, bitrate: 0 [bps], video frames received (key/delta): 0/0, decoded: 0 (rate: 0 [fps]), dropped: 0, resolution: 0 x 0, freeze (count/duration): 0/0, pause (count/duration): 0/0
+[2024-02-06 20:43:48.557] [5349] (connection.cpp:934): Outbound audio stats for user: 752840103319044126, audio ssrc: 194950, packets sent: 12756, packets lost: 0
+[2024-02-06 20:43:48.557] [5349] (connection.cpp:1046): Transport stats for user: 752840103319044126, rtt: 74 [ms], available bitrate: 600000 [bps], outbound estimate: 600000 [bps], remb: 0 [bps], inbound estimate: 0 [bps], ssrcs: 194950: {seq: 7341, tseq: -1},  packets sent: 0, received: 0, bytes sent: 0, received: 0
+[2024-02-06 20:43:48.557] [5349] (connection.cpp:1082): Memory usage: 415 MB, CPU usage: 44%
+[2024-02-06 20:43:49.661] [5541] (udp_socket.cpp:898): Sending ping to 66.22.244.15:50004, seq: 106
+[2024-02-06 20:43:49.706] [5349] (socket_client.cpp:290): Ping received from 66.22.244.15:50004, seq: 106, rtt: 44
+[2024-02-06 20:43:54.661] [5541] (udp_socket.cpp:898): Sending ping to 66.22.244.15:50004, seq: 107
+[2024-02-06 20:43:54.709] [5349] (socket_client.cpp:290): Ping received from 66.22.244.15:50004, seq: 107, rtt: 47
+[2024-02-06 20:43:54.804] [5358] (captured_audio_processor.cpp:82): Audio frames processed: 53030, noise canceller process time: 59703 [ms]
+[2024-02-06 20:43:54.804] [5358] (captured_audio_processor.cpp:93): Audio frame: 53030, samples: 480, channels: 1, rate: 48000 [Hz], bytes: 2, level: 118
+[2024-02-06 20:43:54.923] [5355] (audio_device_buffer.cc:434): [REC : 10010msec, 44kHz] callbacks: 1001, samples: 441441, rate: 44100, rate diff: 0%, level: 3240
+[2024-02-06 20:43:54.923] [5355] (audio_device_buffer.cc:460): [PLAY: 10010msec, 44kHz] callbacks: 1000, samples: 441000, rate: 44056, rate diff: 0%, level: 0
+[2024-02-06 20:43:58.617] [5349] (connection.cpp:898): Inbound stats for user: 343453057922629634, audio ssrc: 194955, packets received: 4567, lost: 63, audio frames normal: 6641, silent: 42821, expand: 194, video ssrc: 0, packets received: 0, lost: 0, bytes received: 0, bitrate: 0 [bps], video frames received (key/delta): 0/0, decoded: 0 (rate: 0 [fps]), dropped: 0, resolution: 0 x 0, freeze (count/duration): 0/0, pause (count/duration): 0/0
+[2024-02-06 20:43:58.618] [5349] (connection.cpp:934): Outbound audio stats for user: 752840103319044126, audio ssrc: 194950, packets sent: 13178, packets lost: 0
+[2024-02-06 20:43:58.618] [5349] (connection.cpp:1046): Transport stats for user: 752840103319044126, rtt: 46 [ms], available bitrate: 600000 [bps], outbound estimate: 600000 [bps], remb: 0 [bps], inbound estimate: 0 [bps], ssrcs: 194950: {seq: 7781, tseq: -1},  packets sent: 0, received: 0, bytes sent: 0, received: 0
+[2024-02-06 20:43:58.618] [5349] (connection.cpp:1082): Memory usage: 403 MB, CPU usage: 45%
+[2024-02-06 20:43:59.661] [5541] (udp_socket.cpp:898): Sending ping to 66.22.244.15:50004, seq: 108
+[2024-02-06 20:43:59.770] [5349] (socket_client.cpp:290): Ping received from 66.22.244.15:50004, seq: 108, rtt: 109
+[2024-02-06 20:44:00.573] [5317] (discord.cpp:755): JS console: ["%c[RTCControlSocket]","Sending heartbeat"]
+[2024-02-06 20:44:00.625] [5317] (discord.cpp:755): JS console: ["%c[RTCControlSocket]","Heartbeat ACK received"]
+[2024-02-06 20:44:01.051] [5358] (agc_manager_direct.cc:137): Input clipping rate: 0%
+[2024-02-06 20:44:04.534] [5541] (udp_socket.cpp:625): Reconnection started, sending echo
+[2024-02-06 20:44:04.577] [5541] (udp_socket.cpp:207): ReconnectionAttemptFinished: succeeded, local address: 24.135.84.86:48615
+[2024-02-06 20:44:04.661] [5541] (udp_socket.cpp:898): Sending ping to 66.22.244.15:50004, seq: 109
+[2024-02-06 20:44:04.710] [5349] (socket_client.cpp:290): Ping received from 66.22.244.15:50004, seq: 109, rtt: 48
+[2024-02-06 20:44:04.813] [5358] (captured_audio_processor.cpp:82): Audio frames processed: 54031, noise canceller process time: 60876 [ms]
+[2024-02-06 20:44:04.814] [5358] (captured_audio_processor.cpp:93): Audio frame: 54031, samples: 480, channels: 1, rate: 48000 [Hz], bytes: 2, level: 229
+[2024-02-06 20:44:04.933] [5355] (audio_device_buffer.cc:434): [REC : 10010msec, 44kHz] callbacks: 1000, samples: 441000, rate: 44056, rate diff: 0%, level: 5068
+[2024-02-06 20:44:04.933] [5355] (audio_device_buffer.cc:460): [PLAY: 10010msec, 44kHz] callbacks: 1001, samples: 441441, rate: 44100, rate diff: 0%, level: 446
+[2024-02-06 20:44:08.704] [5349] (connection.cpp:898): Inbound stats for user: 343453057922629634, audio ssrc: 194955, packets received: 4655, lost: 66, audio frames normal: 6764, silent: 43701, expand: 197, video ssrc: 0, packets received: 0, lost: 0, bytes received: 0, bitrate: 0 [bps], video frames received (key/delta): 0/0, decoded: 0 (rate: 0 [fps]), dropped: 0, resolution: 0 x 0, freeze (count/duration): 0/0, pause (count/duration): 0/0
+[2024-02-06 20:44:08.704] [5349] (connection.cpp:934): Outbound audio stats for user: 752840103319044126, audio ssrc: 194950, packets sent: 13570, packets lost: 0
+[2024-02-06 20:44:08.704] [5349] (connection.cpp:1046): Transport stats for user: 752840103319044126, rtt: 48 [ms], available bitrate: 600000 [bps], outbound estimate: 600000 [bps], remb: 0 [bps], inbound estimate: 0 [bps], ssrcs: 194950: {seq: 8148, tseq: -1},  packets sent: 0, received: 0, bytes sent: 0, received: 0
+[2024-02-06 20:44:08.704] [5349] (connection.cpp:1082): Memory usage: 418 MB, CPU usage: 144%
+[2024-02-06 20:44:09.661] [5541] (udp_socket.cpp:898): Sending ping to 66.22.244.15:50004, seq: 110
+[2024-02-06 20:44:09.700] [5349] (socket_client.cpp:290): Ping received from 66.22.244.15:50004, seq: 110, rtt: 38
+[2024-02-06 20:44:14.340] [5317] (discord.cpp:755): JS console: ["%c[RTCControlSocket]","Sending heartbeat"]
+[2024-02-06 20:44:14.400] [5317] (discord.cpp:755): JS console: ["%c[RTCControlSocket]","Heartbeat ACK received"]
+[2024-02-06 20:44:14.661] [5541] (udp_socket.cpp:898): Sending ping to 66.22.244.15:50004, seq: 111
+[2024-02-06 20:44:14.702] [5349] (socket_client.cpp:290): Ping received from 66.22.244.15:50004, seq: 111, rtt: 41
+[2024-02-06 20:44:14.816] [5358] (captured_audio_processor.cpp:82): Audio frames processed: 55032, noise canceller process time: 62080 [ms]
+[2024-02-06 20:44:14.816] [5358] (captured_audio_processor.cpp:93): Audio frame: 55032, samples: 480, channels: 1, rate: 48000 [Hz], bytes: 2, level: 365
+[2024-02-06 20:44:14.943] [5355] (audio_device_buffer.cc:434): [REC : 10010msec, 44kHz] callbacks: 1002, samples: 441882, rate: 44144, rate diff: 0%, level: 4964
+[2024-02-06 20:44:14.943] [5355] (audio_device_buffer.cc:460): [PLAY: 10010msec, 44kHz] callbacks: 1001, samples: 441441, rate: 44100, rate diff: 0%, level: 987
+[2024-02-06 20:44:18.763] [5349] (connection.cpp:898): Inbound stats for user: 343453057922629634, audio ssrc: 194955, packets received: 4836, lost: 67, audio frames normal: 7033, silent: 44406, expand: 199, video ssrc: 0, packets received: 0, lost: 0, bytes received: 0, bitrate: 0 [bps], video frames received (key/delta): 0/0, decoded: 0 (rate: 0 [fps]), dropped: 0, resolution: 0 x 0, freeze (count/duration): 0/0, pause (count/duration): 0/0
+[2024-02-06 20:44:18.763] [5349] (connection.cpp:934): Outbound audio stats for user: 752840103319044126, audio ssrc: 194950, packets sent: 14056, packets lost: 0
+[2024-02-06 20:44:18.763] [5349] (connection.cpp:1046): Transport stats for user: 752840103319044126, rtt: 43 [ms], available bitrate: 600000 [bps], outbound estimate: 600000 [bps], remb: 0 [bps], inbound estimate: 0 [bps], ssrcs: 194950: {seq: 8642, tseq: -1},  packets sent: 0, received: 0, bytes sent: 0, received: 0
+[2024-02-06 20:44:18.763] [5349] (connection.cpp:1082): Memory usage: 408 MB, CPU usage: 56%
+[2024-02-06 20:44:19.661] [5541] (udp_socket.cpp:898): Sending ping to 66.22.244.15:50004, seq: 112
+[2024-02-06 20:44:19.703] [5349] (socket_client.cpp:290): Ping received from 66.22.244.15:50004, seq: 112, rtt: 42
+[2024-02-06 20:44:24.661] [5541] (udp_socket.cpp:898): Sending ping to 66.22.244.15:50004, seq: 113
+[2024-02-06 20:44:24.706] [5349] (socket_client.cpp:290): Ping received from 66.22.244.15:50004, seq: 113, rtt: 44
+[2024-02-06 20:44:24.821] [5358] (captured_audio_processor.cpp:82): Audio frames processed: 56032, noise canceller process time: 63209 [ms]
+[2024-02-06 20:44:24.821] [5358] (captured_audio_processor.cpp:93): Audio frame: 56032, samples: 480, channels: 1, rate: 48000 [Hz], bytes: 2, level: 728
+[2024-02-06 20:44:24.953] [5355] (audio_device_buffer.cc:434): [REC : 10010msec, 44kHz] callbacks: 1001, samples: 441441, rate: 44100, rate diff: 0%, level: 6845
+[2024-02-06 20:44:24.953] [5355] (audio_device_buffer.cc:460): [PLAY: 10010msec, 44kHz] callbacks: 1001, samples: 441441, rate: 44100, rate diff: 0%, level: 1189
+[2024-02-06 20:44:28.073] [5317] (discord.cpp:755): JS console: ["%c[RTCControlSocket]","Sending heartbeat"]
+[2024-02-06 20:44:28.134] [5317] (discord.cpp:755): JS console: ["%c[RTCControlSocket]","Heartbeat ACK received"]
+[2024-02-06 20:44:28.834] [5349] (connection.cpp:898): Inbound stats for user: 343453057922629634, audio ssrc: 194955, packets received: 5011, lost: 71, audio frames normal: 7288, silent: 45127, expand: 203, video ssrc: 0, packets received: 0, lost: 0, bytes received: 0, bitrate: 0 [bps], video frames received (key/delta): 0/0, decoded: 0 (rate: 0 [fps]), dropped: 0, resolution: 0 x 0, freeze (count/duration): 0/0, pause (count/duration): 0/0
+[2024-02-06 20:44:28.834] [5349] (connection.cpp:934): Outbound audio stats for user: 752840103319044126, audio ssrc: 194950, packets sent: 14505, packets lost: 0
+[2024-02-06 20:44:28.834] [5349] (connection.cpp:1046): Transport stats for user: 752840103319044126, rtt: 47 [ms], available bitrate: 600000 [bps], outbound estimate: 600000 [bps], remb: 0 [bps], inbound estimate: 0 [bps], ssrcs: 194950: {seq: 9106, tseq: -1},  packets sent: 0, received: 0, bytes sent: 0, received: 0
+[2024-02-06 20:44:28.834] [5349] (connection.cpp:1082): Memory usage: 413 MB, CPU usage: 58%
+[2024-02-06 20:44:29.662] [5541] (udp_socket.cpp:898): Sending ping to 66.22.244.15:50004, seq: 114
+[2024-02-06 20:44:29.704] [5349] (socket_client.cpp:290): Ping received from 66.22.244.15:50004, seq: 114, rtt: 42
+[2024-02-06 20:44:31.050] [5358] (agc_manager_direct.cc:137): Input clipping rate: 0%
+[2024-02-06 20:44:34.662] [5541] (udp_socket.cpp:898): Sending ping to 66.22.244.15:50004, seq: 115
+[2024-02-06 20:44:34.747] [5349] (socket_client.cpp:290): Ping received from 66.22.244.15:50004, seq: 115, rtt: 84
+[2024-02-06 20:44:34.827] [5358] (captured_audio_processor.cpp:82): Audio frames processed: 57033, noise canceller process time: 64362 [ms]
+[2024-02-06 20:44:34.827] [5358] (captured_audio_processor.cpp:93): Audio frame: 57033, samples: 480, channels: 1, rate: 48000 [Hz], bytes: 2, level: 204
+[2024-02-06 20:44:34.963] [5355] (audio_device_buffer.cc:434): [REC : 10010msec, 44kHz] callbacks: 1001, samples: 441441, rate: 44100, rate diff: 0%, level: 6405
+[2024-02-06 20:44:34.963] [5355] (audio_device_buffer.cc:460): [PLAY: 10010msec, 44kHz] callbacks: 1003, samples: 442323, rate: 44188, rate diff: 0%, level: 995
+[2024-02-06 20:44:38.896] [5349] (connection.cpp:898): Inbound stats for user: 343453057922629634, audio ssrc: 194955, packets received: 5021, lost: 71, audio frames normal: 7297, silent: 46123, expand: 203, video ssrc: 0, packets received: 0, lost: 0, bytes received: 0, bitrate: 0 [bps], video frames received (key/delta): 0/0, decoded: 0 (rate: 0 [fps]), dropped: 0, resolution: 0 x 0, freeze (count/duration): 0/0, pause (count/duration): 0/0
+[2024-02-06 20:44:38.896] [5349] (connection.cpp:934): Outbound audio stats for user: 752840103319044126, audio ssrc: 194950, packets sent: 15008, packets lost: 0
+[2024-02-06 20:44:38.896] [5349] (connection.cpp:1046): Transport stats for user: 752840103319044126, rtt: 42 [ms], available bitrate: 600000 [bps], outbound estimate: 600000 [bps], remb: 0 [bps], inbound estimate: 0 [bps], ssrcs: 194950: {seq: 9610, tseq: -1},  packets sent: 0, received: 0, bytes sent: 0, received: 0
+[2024-02-06 20:44:38.896] [5349] (connection.cpp:1082): Memory usage: 413 MB, CPU usage: 46%
+[2024-02-06 20:44:39.663] [5541] (udp_socket.cpp:898): Sending ping to 66.22.244.15:50004, seq: 116
+[2024-02-06 20:44:39.719] [5349] (socket_client.cpp:290): Ping received from 66.22.244.15:50004, seq: 116, rtt: 56
+[2024-02-06 20:44:41.836] [5317] (discord.cpp:755): JS console: ["%c[RTCControlSocket]","Sending heartbeat"]
+[2024-02-06 20:44:41.897] [5317] (discord.cpp:755): JS console: ["%c[RTCControlSocket]","Heartbeat ACK received"]
+[2024-02-06 20:44:44.663] [5541] (udp_socket.cpp:898): Sending ping to 66.22.244.15:50004, seq: 117
+[2024-02-06 20:44:44.701] [5349] (socket_client.cpp:290): Ping received from 66.22.244.15:50004, seq: 117, rtt: 37
+[2024-02-06 20:44:44.831] [5358] (captured_audio_processor.cpp:82): Audio frames processed: 58033, noise canceller process time: 65498 [ms]
+[2024-02-06 20:44:44.831] [5358] (captured_audio_processor.cpp:93): Audio frame: 58033, samples: 480, channels: 1, rate: 48000 [Hz], bytes: 2, level: 320
+[2024-02-06 20:44:44.973] [5355] (audio_device_buffer.cc:434): [REC : 10010msec, 44kHz] callbacks: 1001, samples: 441441, rate: 44100, rate diff: 0%, level: 4846
+[2024-02-06 20:44:44.973] [5355] (audio_device_buffer.cc:460): [PLAY: 10010msec, 44kHz] callbacks: 1001, samples: 441441, rate: 44100, rate diff: 0%, level: 17282
+[2024-02-06 20:44:48.970] [5349] (connection.cpp:898): Inbound stats for user: 343453057922629634, audio ssrc: 194955, packets received: 5305, lost: 77, audio frames normal: 7688, silent: 46644, expand: 217, video ssrc: 0, packets received: 0, lost: 0, bytes received: 0, bitrate: 0 [bps], video frames received (key/delta): 0/0, decoded: 0 (rate: 0 [fps]), dropped: 0, resolution: 0 x 0, freeze (count/duration): 0/0, pause (count/duration): 0/0
+[2024-02-06 20:44:48.970] [5349] (connection.cpp:934): Outbound audio stats for user: 752840103319044126, audio ssrc: 194950, packets sent: 15280, packets lost: 0
+[2024-02-06 20:44:48.970] [5349] (connection.cpp:1046): Transport stats for user: 752840103319044126, rtt: 42 [ms], available bitrate: 600000 [bps], outbound estimate: 600000 [bps], remb: 0 [bps], inbound estimate: 0 [bps], ssrcs: 194950: {seq: 9886, tseq: -1},  packets sent: 0, received: 0, bytes sent: 0, received: 0
+[2024-02-06 20:44:48.970] [5349] (connection.cpp:1082): Memory usage: 410 MB, CPU usage: 50%
+[2024-02-06 20:44:49.664] [5541] (udp_socket.cpp:898): Sending ping to 66.22.244.15:50004, seq: 118
+[2024-02-06 20:44:49.710] [5349] (socket_client.cpp:290): Ping received from 66.22.244.15:50004, seq: 118, rtt: 45
+[2024-02-06 20:44:54.665] [5541] (udp_socket.cpp:898): Sending ping to 66.22.244.15:50004, seq: 119
+[2024-02-06 20:44:54.706] [5349] (socket_client.cpp:290): Ping received from 66.22.244.15:50004, seq: 119, rtt: 41
+[2024-02-06 20:44:54.832] [5358] (captured_audio_processor.cpp:82): Audio frames processed: 59033, noise canceller process time: 66657 [ms]
+[2024-02-06 20:44:54.833] [5358] (captured_audio_processor.cpp:93): Audio frame: 59033, samples: 480, channels: 1, rate: 48000 [Hz], bytes: 2, level: 18684
+[2024-02-06 20:44:54.983] [5355] (audio_device_buffer.cc:434): [REC : 10010msec, 44kHz] callbacks: 1001, samples: 441441, rate: 44100, rate diff: 0%, level: 17090
+[2024-02-06 20:44:54.983] [5355] (audio_device_buffer.cc:460): [PLAY: 10010msec, 44kHz] callbacks: 1000, samples: 441000, rate: 44056, rate diff: 0%, level: 23238
+[2024-02-06 20:44:55.573] [5317] (discord.cpp:755): JS console: ["%c[RTCControlSocket]","Sending heartbeat"]
+[2024-02-06 20:44:55.625] [5317] (discord.cpp:755): JS console: ["%c[RTCControlSocket]","Heartbeat ACK received"]
+[2024-02-06 20:44:59.056] [5349] (connection.cpp:898): Inbound stats for user: 343453057922629634, audio ssrc: 194955, packets received: 5664, lost: 78, audio frames normal: 8302, silent: 47019, expand: 220, video ssrc: 0, packets received: 0, lost: 0, bytes received: 0, bitrate: 0 [bps], video frames received (key/delta): 0/0, decoded: 0 (rate: 0 [fps]), dropped: 0, resolution: 0 x 0, freeze (count/duration): 0/0, pause (count/duration): 0/0
+[2024-02-06 20:44:59.056] [5349] (connection.cpp:934): Outbound audio stats for user: 752840103319044126, audio ssrc: 194950, packets sent: 15565, packets lost: 0
+[2024-02-06 20:44:59.056] [5349] (connection.cpp:1046): Transport stats for user: 752840103319044126, rtt: 39 [ms], available bitrate: 600000 [bps], outbound estimate: 600000 [bps], remb: 0 [bps], inbound estimate: 0 [bps], ssrcs: 194950: {seq: 10137, tseq: -1},  packets sent: 0, received: 0, bytes sent: 0, received: 0
+[2024-02-06 20:44:59.056] [5349] (connection.cpp:1082): Memory usage: 408 MB, CPU usage: 64%
+[2024-02-06 20:44:59.665] [5541] (udp_socket.cpp:898): Sending ping to 66.22.244.15:50004, seq: 120
+[2024-02-06 20:44:59.706] [5349] (socket_client.cpp:290): Ping received from 66.22.244.15:50004, seq: 120, rtt: 40
+[2024-02-06 20:45:01.048] [5358] (agc_manager_direct.cc:137): Input clipping rate: 12%
+[2024-02-06 20:45:04.534] [5541] (udp_socket.cpp:625): Reconnection started, sending echo
+[2024-02-06 20:45:04.581] [5541] (udp_socket.cpp:207): ReconnectionAttemptFinished: succeeded, local address: 24.135.84.86:57220
+[2024-02-06 20:45:04.665] [5541] (udp_socket.cpp:898): Sending ping to 66.22.244.15:50004, seq: 121
+[2024-02-06 20:45:04.707] [5349] (socket_client.cpp:290): Ping received from 66.22.244.15:50004, seq: 121, rtt: 41
+[2024-02-06 20:45:04.836] [5358] (captured_audio_processor.cpp:82): Audio frames processed: 60034, noise canceller process time: 67886 [ms]
+[2024-02-06 20:45:04.836] [5358] (captured_audio_processor.cpp:93): Audio frame: 60034, samples: 480, channels: 1, rate: 48000 [Hz], bytes: 2, level: 1272
+[2024-02-06 20:45:04.993] [5355] (audio_device_buffer.cc:434): [REC : 10010msec, 44kHz] callbacks: 1001, samples: 441441, rate: 44100, rate diff: 0%, level: 32767
+[2024-02-06 20:45:04.993] [5355] (audio_device_buffer.cc:460): [PLAY: 10010msec, 44kHz] callbacks: 1001, samples: 441441, rate: 44100, rate diff: 0%, level: 22079
+[2024-02-06 20:45:09.108] [5349] (connection.cpp:898): Inbound stats for user: 343453057922629634, audio ssrc: 194955, packets received: 5768, lost: 78, audio frames normal: 8440, silent: 47861, expand: 220, video ssrc: 0, packets received: 0, lost: 0, bytes received: 0, bitrate: 0 [bps], video frames received (key/delta): 0/0, decoded: 0 (rate: 0 [fps]), dropped: 0, resolution: 0 x 0, freeze (count/duration): 0/0, pause (count/duration): 0/0
+[2024-02-06 20:45:09.108] [5349] (connection.cpp:934): Outbound audio stats for user: 752840103319044126, audio ssrc: 194950, packets sent: 15946, packets lost: 0
+[2024-02-06 20:45:09.108] [5349] (connection.cpp:1046): Transport stats for user: 752840103319044126, rtt: 47 [ms], available bitrate: 600000 [bps], outbound estimate: 600000 [bps], remb: 0 [bps], inbound estimate: 0 [bps], ssrcs: 194950: {seq: 10507, tseq: -1},  packets sent: 0, received: 0, bytes sent: 0, received: 0
+[2024-02-06 20:45:09.108] [5349] (connection.cpp:1082): Memory usage: 416 MB, CPU usage: 37%
+[2024-02-06 20:45:09.323] [5317] (discord.cpp:755): JS console: ["%c[RTCControlSocket]","Sending heartbeat"]
+[2024-02-06 20:45:09.386] [5317] (discord.cpp:755): JS console: ["%c[RTCControlSocket]","Heartbeat ACK received"]
+[2024-02-06 20:45:09.666] [5541] (udp_socket.cpp:898): Sending ping to 66.22.244.15:50004, seq: 122
+[2024-02-06 20:45:09.709] [5349] (socket_client.cpp:290): Ping received from 66.22.244.15:50004, seq: 122, rtt: 42
+[2024-02-06 20:45:14.666] [5541] (udp_socket.cpp:898): Sending ping to 66.22.244.15:50004, seq: 123
+[2024-02-06 20:45:14.713] [5349] (socket_client.cpp:290): Ping received from 66.22.244.15:50004, seq: 123, rtt: 46
+[2024-02-06 20:45:14.838] [5358] (captured_audio_processor.cpp:82): Audio frames processed: 61034, noise canceller process time: 69031 [ms]
+[2024-02-06 20:45:14.838] [5358] (captured_audio_processor.cpp:93): Audio frame: 61034, samples: 480, channels: 1, rate: 48000 [Hz], bytes: 2, level: 4489
+[2024-02-06 20:45:15.003] [5355] (audio_device_buffer.cc:434): [REC : 10010msec, 44kHz] callbacks: 1001, samples: 441441, rate: 44100, rate diff: 0%, level: 10562
+[2024-02-06 20:45:15.003] [5355] (audio_device_buffer.cc:460): [PLAY: 10010msec, 44kHz] callbacks: 1001, samples: 441441, rate: 44100, rate diff: 0%, level: 2084
+[2024-02-06 20:45:19.524] [5349] (connection.cpp:898): Inbound stats for user: 343453057922629634, audio ssrc: 194955, packets received: 5814, lost: 78, audio frames normal: 8512, silent: 48831, expand: 220, video ssrc: 0, packets received: 0, lost: 0, bytes received: 0, bitrate: 0 [bps], video frames received (key/delta): 0/0, decoded: 0 (rate: 0 [fps]), dropped: 0, resolution: 0 x 0, freeze (count/duration): 0/0, pause (count/duration): 0/0
+[2024-02-06 20:45:19.524] [5349] (connection.cpp:934): Outbound audio stats for user: 752840103319044126, audio ssrc: 194950, packets sent: 16321, packets lost: 0
+[2024-02-06 20:45:19.524] [5349] (connection.cpp:1046): Transport stats for user: 752840103319044126, rtt: 71 [ms], available bitrate: 600000 [bps], outbound estimate: 600000 [bps], remb: 0 [bps], inbound estimate: 0 [bps], ssrcs: 194950: {seq: 10913, tseq: -1},  packets sent: 0, received: 0, bytes sent: 0, received: 0
+[2024-02-06 20:45:19.524] [5349] (connection.cpp:1082): Memory usage: 403 MB, CPU usage: 39%
+[2024-02-06 20:45:19.666] [5541] (udp_socket.cpp:898): Sending ping to 66.22.244.15:50004, seq: 124
+[2024-02-06 20:45:19.715] [5349] (socket_client.cpp:290): Ping received from 66.22.244.15:50004, seq: 124, rtt: 47
+[2024-02-06 20:45:23.073] [5317] (discord.cpp:755): JS console: ["%c[RTCControlSocket]","Sending heartbeat"]
+[2024-02-06 20:45:23.136] [5317] (discord.cpp:755): JS console: ["%c[RTCControlSocket]","Heartbeat ACK received"]
+[2024-02-06 20:45:24.666] [5541] (udp_socket.cpp:898): Sending ping to 66.22.244.15:50004, seq: 125
+[2024-02-06 20:45:24.708] [5349] (socket_client.cpp:290): Ping received from 66.22.244.15:50004, seq: 125, rtt: 42
+[2024-02-06 20:45:24.847] [5358] (captured_audio_processor.cpp:82): Audio frames processed: 62035, noise canceller process time: 70191 [ms]
+[2024-02-06 20:45:24.847] [5358] (captured_audio_processor.cpp:93): Audio frame: 62035, samples: 480, channels: 1, rate: 48000 [Hz], bytes: 2, level: 884
+[2024-02-06 20:45:25.013] [5355] (audio_device_buffer.cc:434): [REC : 10010msec, 44kHz] callbacks: 1001, samples: 441441, rate: 44100, rate diff: 0%, level: 13075
+[2024-02-06 20:45:25.013] [5355] (audio_device_buffer.cc:460): [PLAY: 10010msec, 44kHz] callbacks: 1001, samples: 441441, rate: 44100, rate diff: 0%, level: 27286
+[2024-02-06 20:45:29.604] [5349] (connection.cpp:898): Inbound stats for user: 343453057922629634, audio ssrc: 194955, packets received: 5907, lost: 78, audio frames normal: 8628, silent: 49673, expand: 233, video ssrc: 0, packets received: 0, lost: 0, bytes received: 0, bitrate: 0 [bps], video frames received (key/delta): 0/0, decoded: 0 (rate: 0 [fps]), dropped: 0, resolution: 0 x 0, freeze (count/duration): 0/0, pause (count/duration): 0/0
+[2024-02-06 20:45:29.604] [5349] (connection.cpp:934): Outbound audio stats for user: 752840103319044126, audio ssrc: 194950, packets sent: 16673, packets lost: 0
+[2024-02-06 20:45:29.604] [5349] (connection.cpp:1046): Transport stats for user: 752840103319044126, rtt: 44 [ms], available bitrate: 600000 [bps], outbound estimate: 600000 [bps], remb: 0 [bps], inbound estimate: 0 [bps], ssrcs: 194950: {seq: 11232, tseq: -1},  packets sent: 0, received: 0, bytes sent: 0, received: 0
+[2024-02-06 20:45:29.604] [5349] (connection.cpp:1082): Memory usage: 400 MB, CPU usage: 45%
+[2024-02-06 20:45:29.666] [5541] (udp_socket.cpp:898): Sending ping to 66.22.244.15:50004, seq: 126
+[2024-02-06 20:45:29.706] [5349] (socket_client.cpp:290): Ping received from 66.22.244.15:50004, seq: 126, rtt: 39
+[2024-02-06 20:45:31.046] [5358] (agc_manager_direct.cc:137): Input clipping rate: 0%
+[2024-02-06 20:45:34.667] [5541] (udp_socket.cpp:898): Sending ping to 66.22.244.15:50004, seq: 127
+[2024-02-06 20:45:34.707] [5349] (socket_client.cpp:290): Ping received from 66.22.244.15:50004, seq: 127, rtt: 39
+[2024-02-06 20:45:34.847] [5358] (captured_audio_processor.cpp:82): Audio frames processed: 63035, noise canceller process time: 71399 [ms]
+[2024-02-06 20:45:34.847] [5358] (captured_audio_processor.cpp:93): Audio frame: 63035, samples: 480, channels: 1, rate: 48000 [Hz], bytes: 2, level: 1126
+[2024-02-06 20:45:35.023] [5355] (audio_device_buffer.cc:434): [REC : 10010msec, 44kHz] callbacks: 1001, samples: 441441, rate: 44100, rate diff: 0%, level: 17546
+[2024-02-06 20:45:35.023] [5355] (audio_device_buffer.cc:460): [PLAY: 10010msec, 44kHz] callbacks: 1001, samples: 441441, rate: 44100, rate diff: 0%, level: 54
+[2024-02-06 20:45:36.823] [5317] (discord.cpp:755): JS console: ["%c[RTCControlSocket]","Sending heartbeat"]
+[2024-02-06 20:45:36.888] [5317] (discord.cpp:755): JS console: ["%c[RTCControlSocket]","Heartbeat ACK received"]
+[2024-02-06 20:45:39.663] [5349] (connection.cpp:898): Inbound stats for user: 343453057922629634, audio ssrc: 194955, packets received: 5907, lost: 78, audio frames normal: 8628, silent: 50678, expand: 233, video ssrc: 0, packets received: 0, lost: 0, bytes received: 0, bitrate: 0 [bps], video frames received (key/delta): 0/0, decoded: 0 (rate: 0 [fps]), dropped: 0, resolution: 0 x 0, freeze (count/duration): 0/0, pause (count/duration): 0/0
+[2024-02-06 20:45:39.663] [5349] (connection.cpp:934): Outbound audio stats for user: 752840103319044126, audio ssrc: 194950, packets sent: 16949, packets lost: 0
+[2024-02-06 20:45:39.663] [5349] (connection.cpp:1046): Transport stats for user: 752840103319044126, rtt: 91 [ms], available bitrate: 600000 [bps], outbound estimate: 600000 [bps], remb: 0 [bps], inbound estimate: 0 [bps], ssrcs: 194950: {seq: 11522, tseq: -1},  packets sent: 0, received: 0, bytes sent: 0, received: 0
+[2024-02-06 20:45:39.663] [5349] (connection.cpp:1082): Memory usage: 401 MB, CPU usage: 43%
+[2024-02-06 20:45:39.668] [5541] (udp_socket.cpp:898): Sending ping to 66.22.244.15:50004, seq: 128
+[2024-02-06 20:45:39.715] [5349] (socket_client.cpp:290): Ping received from 66.22.244.15:50004, seq: 128, rtt: 46
+[2024-02-06 20:45:44.668] [5541] (udp_socket.cpp:898): Sending ping to 66.22.244.15:50004, seq: 129
+[2024-02-06 20:45:44.710] [5349] (socket_client.cpp:290): Ping received from 66.22.244.15:50004, seq: 129, rtt: 41
+[2024-02-06 20:45:44.848] [5358] (captured_audio_processor.cpp:82): Audio frames processed: 64035, noise canceller process time: 72580 [ms]
+[2024-02-06 20:45:44.848] [5358] (captured_audio_processor.cpp:93): Audio frame: 64035, samples: 480, channels: 1, rate: 48000 [Hz], bytes: 2, level: 353
+[2024-02-06 20:45:45.033] [5355] (audio_device_buffer.cc:434): [REC : 10010msec, 44kHz] callbacks: 1001, samples: 441441, rate: 44100, rate diff: 0%, level: 14178
+[2024-02-06 20:45:45.033] [5355] (audio_device_buffer.cc:460): [PLAY: 10010msec, 44kHz] callbacks: 1000, samples: 441000, rate: 44056, rate diff: 0%, level: 0
+[2024-02-06 20:45:49.668] [5541] (udp_socket.cpp:898): Sending ping to 66.22.244.15:50004, seq: 130
+[2024-02-06 20:45:49.722] [5349] (connection.cpp:898): Inbound stats for user: 343453057922629634, audio ssrc: 194955, packets received: 5907, lost: 78, audio frames normal: 8628, silent: 51683, expand: 233, video ssrc: 0, packets received: 0, lost: 0, bytes received: 0, bitrate: 0 [bps], video frames received (key/delta): 0/0, decoded: 0 (rate: 0 [fps]), dropped: 0, resolution: 0 x 0, freeze (count/duration): 0/0, pause (count/duration): 0/0
+[2024-02-06 20:45:49.722] [5349] (connection.cpp:934): Outbound audio stats for user: 752840103319044126, audio ssrc: 194950, packets sent: 17122, packets lost: 0
+[2024-02-06 20:45:49.722] [5349] (connection.cpp:1046): Transport stats for user: 752840103319044126, rtt: 108 [ms], available bitrate: 600000 [bps], outbound estimate: 600000 [bps], remb: 0 [bps], inbound estimate: 0 [bps], ssrcs: 194950: {seq: 11709, tseq: -1},  packets sent: 0, received: 0, bytes sent: 0, received: 0
+[2024-02-06 20:45:49.722] [5349] (connection.cpp:1082): Memory usage: 401 MB, CPU usage: 25%
+[2024-02-06 20:45:49.732] [5349] (socket_client.cpp:290): Ping received from 66.22.244.15:50004, seq: 130, rtt: 63
+[2024-02-06 20:45:50.573] [5317] (discord.cpp:755): JS console: ["%c[RTCControlSocket]","Sending heartbeat"]
+[2024-02-06 20:45:50.626] [5317] (discord.cpp:755): JS console: ["%c[RTCControlSocket]","Heartbeat ACK received"]
+[2024-02-06 20:45:54.669] [5541] (udp_socket.cpp:898): Sending ping to 66.22.244.15:50004, seq: 131
+[2024-02-06 20:45:54.711] [5349] (socket_client.cpp:290): Ping received from 66.22.244.15:50004, seq: 131, rtt: 41
+[2024-02-06 20:45:54.849] [5358] (captured_audio_processor.cpp:82): Audio frames processed: 65035, noise canceller process time: 73602 [ms]
+[2024-02-06 20:45:54.849] [5358] (captured_audio_processor.cpp:93): Audio frame: 65035, samples: 480, channels: 1, rate: 48000 [Hz], bytes: 2, level: 440
+[2024-02-06 20:45:55.042] [5355] (audio_device_buffer.cc:434): [REC : 10010msec, 44kHz] callbacks: 1001, samples: 441441, rate: 44100, rate diff: 0%, level: 1078
+[2024-02-06 20:45:55.043] [5355] (audio_device_buffer.cc:460): [PLAY: 10010msec, 44kHz] callbacks: 1001, samples: 441441, rate: 44100, rate diff: 0%, level: 0
+[2024-02-06 20:45:59.669] [5541] (udp_socket.cpp:898): Sending ping to 66.22.244.15:50004, seq: 132
+[2024-02-06 20:45:59.715] [5349] (socket_client.cpp:290): Ping received from 66.22.244.15:50004, seq: 132, rtt: 45
+[2024-02-06 20:45:59.797] [5349] (connection.cpp:898): Inbound stats for user: 343453057922629634, audio ssrc: 194955, packets received: 5907, lost: 78, audio frames normal: 8628, silent: 52691, expand: 233, video ssrc: 0, packets received: 0, lost: 0, bytes received: 0, bitrate: 0 [bps], video frames received (key/delta): 0/0, decoded: 0 (rate: 0 [fps]), dropped: 0, resolution: 0 x 0, freeze (count/duration): 0/0, pause (count/duration): 0/0
+[2024-02-06 20:45:59.798] [5349] (connection.cpp:934): Outbound audio stats for user: 752840103319044126, audio ssrc: 194950, packets sent: 17389, packets lost: 0
+[2024-02-06 20:45:59.798] [5349] (connection.cpp:1046): Transport stats for user: 752840103319044126, rtt: 40 [ms], available bitrate: 600000 [bps], outbound estimate: 600000 [bps], remb: 0 [bps], inbound estimate: 0 [bps], ssrcs: 194950: {seq: 11953, tseq: -1},  packets sent: 0, received: 0, bytes sent: 0, received: 0
+[2024-02-06 20:45:59.798] [5349] (connection.cpp:1082): Memory usage: 407 MB, CPU usage: 52%
+[2024-02-06 20:46:01.048] [5358] (agc_manager_direct.cc:137): Input clipping rate: 0%
+[2024-02-06 20:46:04.323] [5317] (discord.cpp:755): JS console: ["%c[RTCControlSocket]","Sending heartbeat"]
+[2024-02-06 20:46:04.376] [5317] (discord.cpp:755): JS console: ["%c[RTCControlSocket]","Heartbeat ACK received"]
+[2024-02-06 20:46:04.534] [5541] (udp_socket.cpp:625): Reconnection started, sending echo
+[2024-02-06 20:46:04.590] [5541] (udp_socket.cpp:207): ReconnectionAttemptFinished: succeeded, local address: 24.135.84.86:37287
+[2024-02-06 20:46:04.669] [5541] (udp_socket.cpp:898): Sending ping to 66.22.244.15:50004, seq: 133
+[2024-02-06 20:46:04.717] [5349] (socket_client.cpp:290): Ping received from 66.22.244.15:50004, seq: 133, rtt: 47
+[2024-02-06 20:46:04.857] [5358] (captured_audio_processor.cpp:82): Audio frames processed: 66036, noise canceller process time: 74469 [ms]
+[2024-02-06 20:46:04.857] [5358] (captured_audio_processor.cpp:93): Audio frame: 66036, samples: 480, channels: 1, rate: 48000 [Hz], bytes: 2, level: 370
+[2024-02-06 20:46:05.053] [5355] (audio_device_buffer.cc:434): [REC : 10010msec, 44kHz] callbacks: 1001, samples: 441441, rate: 44100, rate diff: 0%, level: 1544
+[2024-02-06 20:46:05.053] [5355] (audio_device_buffer.cc:460): [PLAY: 10010msec, 44kHz] callbacks: 1001, samples: 441441, rate: 44100, rate diff: 0%, level: 0
+[2024-02-06 20:46:09.670] [5541] (udp_socket.cpp:898): Sending ping to 66.22.244.15:50004, seq: 134
+[2024-02-06 20:46:09.712] [5349] (socket_client.cpp:290): Ping received from 66.22.244.15:50004, seq: 134, rtt: 41
+[2024-02-06 20:46:09.837] [5349] (connection.cpp:898): Inbound stats for user: 343453057922629634, audio ssrc: 194955, packets received: 5907, lost: 78, audio frames normal: 8628, silent: 53694, expand: 233, video ssrc: 0, packets received: 0, lost: 0, bytes received: 0, bitrate: 0 [bps], video frames received (key/delta): 0/0, decoded: 0 (rate: 0 [fps]), dropped: 0, resolution: 0 x 0, freeze (count/duration): 0/0, pause (count/duration): 0/0
+[2024-02-06 20:46:09.837] [5349] (connection.cpp:934): Outbound audio stats for user: 752840103319044126, audio ssrc: 194950, packets sent: 17863, packets lost: 0
+[2024-02-06 20:46:09.837] [5349] (connection.cpp:1046): Transport stats for user: 752840103319044126, rtt: 41 [ms], available bitrate: 600000 [bps], outbound estimate: 600000 [bps], remb: 0 [bps], inbound estimate: 0 [bps], ssrcs: 194950: {seq: 12435, tseq: -1},  packets sent: 0, received: 0, bytes sent: 0, received: 0
+[2024-02-06 20:46:09.837] [5349] (connection.cpp:1082): Memory usage: 407 MB, CPU usage: 111%
+[2024-02-06 20:46:14.671] [5541] (udp_socket.cpp:898): Sending ping to 66.22.244.15:50004, seq: 135
+[2024-02-06 20:46:14.712] [5349] (socket_client.cpp:290): Ping received from 66.22.244.15:50004, seq: 135, rtt: 40
+[2024-02-06 20:46:14.861] [5358] (captured_audio_processor.cpp:82): Audio frames processed: 67036, noise canceller process time: 75439 [ms]
+[2024-02-06 20:46:14.861] [5358] (captured_audio_processor.cpp:93): Audio frame: 67036, samples: 480, channels: 1, rate: 48000 [Hz], bytes: 2, level: 497
+[2024-02-06 20:46:15.063] [5355] (audio_device_buffer.cc:434): [REC : 10010msec, 44kHz] callbacks: 1001, samples: 441441, rate: 44100, rate diff: 0%, level: 1960
+[2024-02-06 20:46:15.063] [5355] (audio_device_buffer.cc:460): [PLAY: 10010msec, 44kHz] callbacks: 1001, samples: 441441, rate: 44100, rate diff: 0%, level: 0
+[2024-02-06 20:46:18.073] [5317] (discord.cpp:755): JS console: ["%c[RTCControlSocket]","Sending heartbeat"]
+[2024-02-06 20:46:18.128] [5317] (discord.cpp:755): JS console: ["%c[RTCControlSocket]","Heartbeat ACK received"]
+[2024-02-06 20:46:19.671] [5541] (udp_socket.cpp:898): Sending ping to 66.22.244.15:50004, seq: 136
+[2024-02-06 20:46:19.711] [5349] (socket_client.cpp:290): Ping received from 66.22.244.15:50004, seq: 136, rtt: 39
+[2024-02-06 20:46:19.898] [5349] (connection.cpp:898): Inbound stats for user: 343453057922629634, audio ssrc: 194955, packets received: 5907, lost: 78, audio frames normal: 8628, silent: 54702, expand: 233, video ssrc: 0, packets received: 0, lost: 0, bytes received: 0, bitrate: 0 [bps], video frames received (key/delta): 0/0, decoded: 0 (rate: 0 [fps]), dropped: 0, resolution: 0 x 0, freeze (count/duration): 0/0, pause (count/duration): 0/0
+[2024-02-06 20:46:19.898] [5349] (connection.cpp:934): Outbound audio stats for user: 752840103319044126, audio ssrc: 194950, packets sent: 18349, packets lost: 0
+[2024-02-06 20:46:19.898] [5349] (connection.cpp:1046): Transport stats for user: 752840103319044126, rtt: 39 [ms], available bitrate: 600000 [bps], outbound estimate: 600000 [bps], remb: 0 [bps], inbound estimate: 0 [bps], ssrcs: 194950: {seq: 12916, tseq: -1},  packets sent: 0, received: 0, bytes sent: 0, received: 0
+[2024-02-06 20:46:19.898] [5349] (connection.cpp:1082): Memory usage: 410 MB, CPU usage: 64%
+[2024-02-06 20:46:24.671] [5541] (udp_socket.cpp:898): Sending ping to 66.22.244.15:50004, seq: 137
+[2024-02-06 20:46:24.727] [5349] (socket_client.cpp:290): Ping received from 66.22.244.15:50004, seq: 137, rtt: 55
+[2024-02-06 20:46:24.863] [5358] (captured_audio_processor.cpp:82): Audio frames processed: 68036, noise canceller process time: 76426 [ms]
+[2024-02-06 20:46:24.863] [5358] (captured_audio_processor.cpp:93): Audio frame: 68036, samples: 480, channels: 1, rate: 48000 [Hz], bytes: 2, level: 1633
+[2024-02-06 20:46:25.073] [5355] (audio_device_buffer.cc:434): [REC : 10010msec, 44kHz] callbacks: 1000, samples: 441000, rate: 44056, rate diff: 0%, level: 4564
+[2024-02-06 20:46:25.073] [5355] (audio_device_buffer.cc:460): [PLAY: 10010msec, 44kHz] callbacks: 1003, samples: 442323, rate: 44188, rate diff: 0%, level: 117
+[2024-02-06 20:46:29.672] [5541] (udp_socket.cpp:898): Sending ping to 66.22.244.15:50004, seq: 138
+[2024-02-06 20:46:29.713] [5349] (socket_client.cpp:290): Ping received from 66.22.244.15:50004, seq: 138, rtt: 40
+[2024-02-06 20:46:29.944] [5349] (connection.cpp:898): Inbound stats for user: 343453057922629634, audio ssrc: 194955, packets received: 5937, lost: 78, audio frames normal: 8668, silent: 55664, expand: 233, video ssrc: 0, packets received: 0, lost: 0, bytes received: 0, bitrate: 0 [bps], video frames received (key/delta): 0/0, decoded: 0 (rate: 0 [fps]), dropped: 0, resolution: 0 x 0, freeze (count/duration): 0/0, pause (count/duration): 0/0
+[2024-02-06 20:46:29.944] [5349] (connection.cpp:934): Outbound audio stats for user: 752840103319044126, audio ssrc: 194950, packets sent: 18652, packets lost: 0
+[2024-02-06 20:46:29.945] [5349] (connection.cpp:1046): Transport stats for user: 752840103319044126, rtt: 49 [ms], available bitrate: 600000 [bps], outbound estimate: 600000 [bps], remb: 0 [bps], inbound estimate: 0 [bps], ssrcs: 194950: {seq: 13231, tseq: -1},  packets sent: 0, received: 0, bytes sent: 0, received: 0
+[2024-02-06 20:46:29.945] [5349] (connection.cpp:1082): Memory usage: 406 MB, CPU usage: 28%
+[2024-02-06 20:46:31.045] [5358] (agc_manager_direct.cc:137): Input clipping rate: 0%
+[2024-02-06 20:46:31.823] [5317] (discord.cpp:755): JS console: ["%c[RTCControlSocket]","Sending heartbeat"]
+[2024-02-06 20:46:31.879] [5317] (discord.cpp:755): JS console: ["%c[RTCControlSocket]","Heartbeat ACK received"]
+[2024-02-06 20:46:34.672] [5541] (udp_socket.cpp:898): Sending ping to 66.22.244.15:50004, seq: 139
+[2024-02-06 20:46:34.711] [5349] (socket_client.cpp:290): Ping received from 66.22.244.15:50004, seq: 139, rtt: 38
+[2024-02-06 20:46:34.869] [5358] (captured_audio_processor.cpp:82): Audio frames processed: 69037, noise canceller process time: 77250 [ms]
+[2024-02-06 20:46:34.869] [5358] (captured_audio_processor.cpp:93): Audio frame: 69037, samples: 480, channels: 1, rate: 48000 [Hz], bytes: 2, level: 205
+[2024-02-06 20:46:35.083] [5355] (audio_device_buffer.cc:434): [REC : 10010msec, 44kHz] callbacks: 1001, samples: 441441, rate: 44100, rate diff: 0%, level: 5555
+[2024-02-06 20:46:35.083] [5355] (audio_device_buffer.cc:460): [PLAY: 10010msec, 44kHz] callbacks: 1001, samples: 441441, rate: 44100, rate diff: 0%, level: 19997
+[2024-02-06 20:46:39.672] [5541] (udp_socket.cpp:898): Sending ping to 66.22.244.15:50004, seq: 140
+[2024-02-06 20:46:39.713] [5349] (socket_client.cpp:290): Ping received from 66.22.244.15:50004, seq: 140, rtt: 40
+[2024-02-06 20:46:39.980] [5349] (connection.cpp:898): Inbound stats for user: 343453057922629634, audio ssrc: 194955, packets received: 6146, lost: 87, audio frames normal: 9003, silent: 56306, expand: 248, video ssrc: 0, packets received: 0, lost: 0, bytes received: 0, bitrate: 0 [bps], video frames received (key/delta): 0/0, decoded: 0 (rate: 0 [fps]), dropped: 0, resolution: 0 x 0, freeze (count/duration): 0/0, pause (count/duration): 0/0
+[2024-02-06 20:46:39.980] [5349] (connection.cpp:934): Outbound audio stats for user: 752840103319044126, audio ssrc: 194950, packets sent: 18918, packets lost: 0
+[2024-02-06 20:46:39.980] [5349] (connection.cpp:1046): Transport stats for user: 752840103319044126, rtt: 59 [ms], available bitrate: 600000 [bps], outbound estimate: 600000 [bps], remb: 0 [bps], inbound estimate: 0 [bps], ssrcs: 194950: {seq: 13510, tseq: -1},  packets sent: 0, received: 0, bytes sent: 0, received: 0
+[2024-02-06 20:46:39.980] [5349] (connection.cpp:1082): Memory usage: 411 MB, CPU usage: 53%
+[2024-02-06 20:46:44.672] [5541] (udp_socket.cpp:898): Sending ping to 66.22.244.15:50004, seq: 141
+[2024-02-06 20:46:44.714] [5349] (socket_client.cpp:290): Ping received from 66.22.244.15:50004, seq: 141, rtt: 41
+[2024-02-06 20:46:44.873] [5358] (captured_audio_processor.cpp:82): Audio frames processed: 70037, noise canceller process time: 78083 [ms]
+[2024-02-06 20:46:44.874] [5358] (captured_audio_processor.cpp:93): Audio frame: 70037, samples: 480, channels: 1, rate: 48000 [Hz], bytes: 2, level: 149
+[2024-02-06 20:46:45.093] [5355] (audio_device_buffer.cc:434): [REC : 10010msec, 44kHz] callbacks: 1002, samples: 441882, rate: 44144, rate diff: 0%, level: 7548
+[2024-02-06 20:46:45.093] [5355] (audio_device_buffer.cc:460): [PLAY: 10010msec, 44kHz] callbacks: 1000, samples: 441000, rate: 44056, rate diff: 0%, level: 16746
+[2024-02-06 20:46:45.573] [5317] (discord.cpp:755): JS console: ["%c[RTCControlSocket]","Sending heartbeat"]
+[2024-02-06 20:46:45.630] [5317] (discord.cpp:755): JS console: ["%c[RTCControlSocket]","Heartbeat ACK received"]
+[2024-02-06 20:46:49.672] [5541] (udp_socket.cpp:898): Sending ping to 66.22.244.15:50004, seq: 142
+[2024-02-06 20:46:49.719] [5349] (socket_client.cpp:290): Ping received from 66.22.244.15:50004, seq: 142, rtt: 46
+[2024-02-06 20:46:50.040] [5349] (connection.cpp:898): Inbound stats for user: 343453057922629634, audio ssrc: 194955, packets received: 6344, lost: 88, audio frames normal: 9334, silent: 56976, expand: 250, video ssrc: 0, packets received: 0, lost: 0, bytes received: 0, bitrate: 0 [bps], video frames received (key/delta): 0/0, decoded: 0 (rate: 0 [fps]), dropped: 0, resolution: 0 x 0, freeze (count/duration): 0/0, pause (count/duration): 0/0
+[2024-02-06 20:46:50.040] [5349] (connection.cpp:934): Outbound audio stats for user: 752840103319044126, audio ssrc: 194950, packets sent: 19003, packets lost: 0
+[2024-02-06 20:46:50.040] [5349] (connection.cpp:1046): Transport stats for user: 752840103319044126, rtt: 49 [ms], available bitrate: 600000 [bps], outbound estimate: 600000 [bps], remb: 0 [bps], inbound estimate: 0 [bps], ssrcs: 194950: {seq: 13574, tseq: -1},  packets sent: 0, received: 0, bytes sent: 0, received: 0
+[2024-02-06 20:46:50.040] [5349] (connection.cpp:1082): Memory usage: 407 MB, CPU usage: 55%
+[2024-02-06 20:46:54.671] [5541] (udp_socket.cpp:898): Sending ping to 66.22.244.15:50004, seq: 143
+[2024-02-06 20:46:54.711] [5349] (socket_client.cpp:290): Ping received from 66.22.244.15:50004, seq: 143, rtt: 39
+[2024-02-06 20:46:54.879] [5358] (captured_audio_processor.cpp:82): Audio frames processed: 71038, noise canceller process time: 79205 [ms]
+[2024-02-06 20:46:54.879] [5358] (captured_audio_processor.cpp:93): Audio frame: 71038, samples: 480, channels: 1, rate: 48000 [Hz], bytes: 2, level: 240
+[2024-02-06 20:46:55.103] [5355] (audio_device_buffer.cc:434): [REC : 10010msec, 44kHz] callbacks: 1001, samples: 441441, rate: 44100, rate diff: 0%, level: 24896
+[2024-02-06 20:46:55.103] [5355] (audio_device_buffer.cc:460): [PLAY: 10010msec, 44kHz] callbacks: 1001, samples: 441441, rate: 44100, rate diff: 0%, level: 10061
+[2024-02-06 20:46:59.323] [5317] (discord.cpp:755): JS console: ["%c[RTCControlSocket]","Sending heartbeat"]
+[2024-02-06 20:46:59.380] [5317] (discord.cpp:755): JS console: ["%c[RTCControlSocket]","Heartbeat ACK received"]
+[2024-02-06 20:46:59.672] [5541] (udp_socket.cpp:898): Sending ping to 66.22.244.15:50004, seq: 144
+[2024-02-06 20:46:59.717] [5349] (socket_client.cpp:290): Ping received from 66.22.244.15:50004, seq: 144, rtt: 45
+[2024-02-06 20:47:00.106] [5349] (connection.cpp:898): Inbound stats for user: 343453057922629634, audio ssrc: 194955, packets received: 6438, lost: 88, audio frames normal: 9462, silent: 57850, expand: 250, video ssrc: 0, packets received: 0, lost: 0, bytes received: 0, bitrate: 0 [bps], video frames received (key/delta): 0/0, decoded: 0 (rate: 0 [fps]), dropped: 0, resolution: 0 x 0, freeze (count/duration): 0/0, pause (count/duration): 0/0
+[2024-02-06 20:47:00.106] [5349] (connection.cpp:934): Outbound audio stats for user: 752840103319044126, audio ssrc: 194950, packets sent: 19279, packets lost: 0
+[2024-02-06 20:47:00.106] [5349] (connection.cpp:1046): Transport stats for user: 752840103319044126, rtt: 85 [ms], available bitrate: 600000 [bps], outbound estimate: 600000 [bps], remb: 0 [bps], inbound estimate: 0 [bps], ssrcs: 194950: {seq: 13843, tseq: -1},  packets sent: 0, received: 0, bytes sent: 0, received: 0
+[2024-02-06 20:47:00.106] [5349] (connection.cpp:1082): Memory usage: 408 MB, CPU usage: 53%
+[2024-02-06 20:47:01.047] [5358] (agc_manager_direct.cc:137): Input clipping rate: 0%
+[2024-02-06 20:47:04.534] [5541] (udp_socket.cpp:625): Reconnection started, sending echo
+[2024-02-06 20:47:04.584] [5541] (udp_socket.cpp:207): ReconnectionAttemptFinished: succeeded, local address: 24.135.84.86:49203
+[2024-02-06 20:47:04.673] [5541] (udp_socket.cpp:898): Sending ping to 66.22.244.15:50004, seq: 145
+[2024-02-06 20:47:04.717] [5349] (socket_client.cpp:290): Ping received from 66.22.244.15:50004, seq: 145, rtt: 44
+[2024-02-06 20:47:04.885] [5358] (captured_audio_processor.cpp:82): Audio frames processed: 72039, noise canceller process time: 80377 [ms]
+[2024-02-06 20:47:04.885] [5358] (captured_audio_processor.cpp:93): Audio frame: 72039, samples: 480, channels: 1, rate: 48000 [Hz], bytes: 2, level: 227
+[2024-02-06 20:47:05.112] [5355] (audio_device_buffer.cc:434): [REC : 10010msec, 44kHz] callbacks: 1001, samples: 441441, rate: 44100, rate diff: 0%, level: 11703
+[2024-02-06 20:47:05.113] [5355] (audio_device_buffer.cc:460): [PLAY: 10010msec, 44kHz] callbacks: 1001, samples: 441441, rate: 44100, rate diff: 0%, level: 0
+[2024-02-06 20:47:09.673] [5541] (udp_socket.cpp:898): Sending ping to 66.22.244.15:50004, seq: 146
+[2024-02-06 20:47:09.717] [5349] (socket_client.cpp:290): Ping received from 66.22.244.15:50004, seq: 146, rtt: 43
+[2024-02-06 20:47:10.158] [5349] (connection.cpp:898): Inbound stats for user: 343453057922629634, audio ssrc: 194955, packets received: 6438, lost: 88, audio frames normal: 9462, silent: 58856, expand: 250, video ssrc: 0, packets received: 0, lost: 0, bytes received: 0, bitrate: 0 [bps], video frames received (key/delta): 0/0, decoded: 0 (rate: 0 [fps]), dropped: 0, resolution: 0 x 0, freeze (count/duration): 0/0, pause (count/duration): 0/0
+[2024-02-06 20:47:10.158] [5349] (connection.cpp:934): Outbound audio stats for user: 752840103319044126, audio ssrc: 194950, packets sent: 19635, packets lost: 0
+[2024-02-06 20:47:10.158] [5349] (connection.cpp:1046): Transport stats for user: 752840103319044126, rtt: 70 [ms], available bitrate: 600000 [bps], outbound estimate: 600000 [bps], remb: 0 [bps], inbound estimate: 0 [bps], ssrcs: 194950: {seq: 14242, tseq: -1},  packets sent: 0, received: 0, bytes sent: 0, received: 0
+[2024-02-06 20:47:10.158] [5349] (connection.cpp:1082): Memory usage: 409 MB, CPU usage: 38%
+[2024-02-06 20:47:13.073] [5317] (discord.cpp:755): JS console: ["%c[RTCControlSocket]","Sending heartbeat"]
+[2024-02-06 20:47:13.151] [5317] (discord.cpp:755): JS console: ["%c[RTCControlSocket]","Heartbeat ACK received"]
+[2024-02-06 20:47:14.674] [5541] (udp_socket.cpp:898): Sending ping to 66.22.244.15:50004, seq: 147
+[2024-02-06 20:47:14.760] [5349] (socket_client.cpp:290): Ping received from 66.22.244.15:50004, seq: 147, rtt: 85
+[2024-02-06 20:47:14.890] [5358] (captured_audio_processor.cpp:82): Audio frames processed: 73039, noise canceller process time: 81543 [ms]
+[2024-02-06 20:47:14.890] [5358] (captured_audio_processor.cpp:93): Audio frame: 73039, samples: 480, channels: 1, rate: 48000 [Hz], bytes: 2, level: 614
+[2024-02-06 20:47:15.123] [5355] (audio_device_buffer.cc:434): [REC : 10010msec, 44kHz] callbacks: 1001, samples: 441441, rate: 44100, rate diff: 0%, level: 2558
+[2024-02-06 20:47:15.123] [5355] (audio_device_buffer.cc:460): [PLAY: 10010msec, 44kHz] callbacks: 1001, samples: 441441, rate: 44100, rate diff: 0%, level: 0
+[2024-02-06 20:47:19.674] [5541] (udp_socket.cpp:898): Sending ping to 66.22.244.15:50004, seq: 148
+[2024-02-06 20:47:19.717] [5349] (socket_client.cpp:290): Ping received from 66.22.244.15:50004, seq: 148, rtt: 42
+[2024-02-06 20:47:20.220] [5349] (connection.cpp:898): Inbound stats for user: 343453057922629634, audio ssrc: 194955, packets received: 6491, lost: 91, audio frames normal: 9519, silent: 59779, expand: 254, video ssrc: 0, packets received: 0, lost: 0, bytes received: 0, bitrate: 0 [bps], video frames received (key/delta): 0/0, decoded: 0 (rate: 0 [fps]), dropped: 0, resolution: 0 x 0, freeze (count/duration): 0/0, pause (count/duration): 0/0
+[2024-02-06 20:47:20.220] [5349] (connection.cpp:934): Outbound audio stats for user: 752840103319044126, audio ssrc: 194950, packets sent: 19812, packets lost: 0
+[2024-02-06 20:47:20.220] [5349] (connection.cpp:1046): Transport stats for user: 752840103319044126, rtt: 145 [ms], available bitrate: 600000 [bps], outbound estimate: 600000 [bps], remb: 0 [bps], inbound estimate: 0 [bps], ssrcs: 194950: {seq: 14379, tseq: -1},  packets sent: 0, received: 0, bytes sent: 0, received: 0
+[2024-02-06 20:47:20.220] [5349] (connection.cpp:1082): Memory usage: 413 MB, CPU usage: 64%

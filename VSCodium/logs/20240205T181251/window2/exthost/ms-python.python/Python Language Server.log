@@ -1,3 +1,0 @@
-2024-02-05 18:18:18.321 [info] [Error - 6:18:18 PM] Server process exited with signal SIGTERM.
-2024-02-05 18:24:42.796 [info] WARNING:pygls.protocol:Cancel notification for unknown message id "6"
-
