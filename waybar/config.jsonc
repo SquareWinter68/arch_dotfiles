@@ -8,7 +8,7 @@
     //"modules-left": ["sway/workspaces", "sway/mode", "sway/scratchpad", "custom/media"],
     //"modules-center": ["hyprland/workspaces"],
     //"modules-right": ["mpd", "idle_inhibitor", "pulseaudio", "network", "cpu", "memory", "temperature", "backlight", "keyboard-state", "sway/language", "battery", "battery#bat2", "clock", "tray"],
-    "modules-left": ["pulseaudio","network", "cpu", "memory", "battery", "clock", "custom/recorder"],
+    "modules-left": ["pulseaudio","network", "cpu", "memory", "battery", "clock", "custom/screenshot"],
     "modules-center":["hyprland/workspaces"],
     "modules-right": ["custom/pwr"],
     // Modules configuration
@@ -144,6 +144,11 @@
     "custom/recorder":{
         "format": " ",
 	    "on-click": "kooha",
+	    "tooltip": false
+    },
+    "custom/screenshot":{
+        "format": " ",
+	    "on-click": "grim -g \"$(slurp)\"",
 	    "tooltip": false
     }
 }

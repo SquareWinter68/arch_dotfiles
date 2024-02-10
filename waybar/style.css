@@ -10,7 +10,7 @@
 
 window#waybar {
    /*  background-color: rgba(129, 174, 202, 0.3); */
-   background-color: @backgroundAlpha;
+   background-color: @background;
 }
 
 #workspaces{
@@ -52,6 +52,7 @@ window#waybar {
 #disk,
 #custom-recorder,
 #custom-audiorec,
+#custom-screenshot,
 #battery,
 #clock, 
 #network{
