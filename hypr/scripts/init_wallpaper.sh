@@ -5,7 +5,7 @@ swww init
 
 #    echo "Cached colors exist. Using existing colors."
 #else
-    DIR="/home/squarewinter/Pictures/wallpapers"
+    DIR="$HOME/Pictures/wallpapers"
     PICS=($(ls ${DIR}))
 
     RANDOMPICS=${PICS[ $RANDOM % ${#PICS[@]} ]}
