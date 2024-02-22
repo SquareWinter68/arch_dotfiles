@@ -22,6 +22,7 @@ case $1 in
         else
             new_brightness=$((current_brightness + scaled_value))
             echo $new_brightness > "$brightness_dir/brightness"
+            calculate_brightness
         fi
         send_notification
         ;;
@@ -33,6 +34,7 @@ case $1 in
         else
             new_brightness=$((current_brightness - scaled_value))
              echo $new_brightness > "$brightness_dir/brightness"
+             calculate_brightness
         fi
         send_notification
         ;;
