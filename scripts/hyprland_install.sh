@@ -1,8 +1,6 @@
 #!/bin/bash
 
-echo "Do you want to install Gui elements
-this includes rofi, swww, mpv, slurp, grim, wlogout, dunst, pywal, pywalfox
-? (y/n)"
+echo "Do you want to install Hyprland (wayland compositor/window manager) As well as other needed system tools Kitty(terminal emulator), Starship (shell prompt) and Thunar(file manager)? (y/n)"
 read userInput
 
 # Convert userInput to lowercase using tr
@@ -12,9 +10,8 @@ userInputLower=$(echo "$userInput" | tr '[:upper:]' '[:lower:]')
 # userInputLower="${userInput,,}"
 
 if [ "$userInputLower" == "y" ]; then
-    echo "Installing GUI elements..."
-    sudo pacman -Sy rofi grim slurp mpv python-pywal dunst neofetch
-    yay -Sy swww wlogout python-pywalfox
+    echo "Installing Hyprland..."
+    sudo pacman -Sy hyprland kitty thunar starship
     # Add your installation command here
 elif [ "$userInputLower" == "n" ]; then
     echo "Installation canceled."

@@ -13,7 +13,8 @@ userInputLower=$(echo "$userInput" | tr '[:upper:]' '[:lower:]')
 
 if [ "$userInputLower" == "y" ]; then
     echo "Installing sound utils..."
-    sudo pacman -Sy bluez bluez-utils pulseaudio-alsa pulseaudio-bluetooth pulseaudio-equalizer pulseaudio-jack pavucontrol
+    #sudo pacman -Sy bluez bluez-utils pulseaudio-alsa pulseaudio-bluetooth pulseaudio-equalizer pulseaudio-jack pavucontrol
+    sudo pacman -Sy pipewire wireplumber pipewire-audio pipewire-alsa pipewire-pulse
     # Add your installation command here
 elif [ "$userInputLower" == "n" ]; then
     echo "Installation canceled."
