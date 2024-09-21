@@ -55,16 +55,16 @@
     },
 
     "clock": {
-        // "timezone": "America/New_York",
+        //"timezone": "Europe/Berlin",
         "tooltip-format": "<big>{:%Y %B}</big>\n<tt><small>{calendar}</small></tt>",
         "format-alt": "{:%Y-%m-%d}"
     },
     "cpu": {
-        "format": "{usage}% ",
+        "format": "{usage}%  ",
         "tooltip": false
     },
     "memory": {
-        "format": "{}% "
+        "format": "{}%  "
     },
     "temperature": {
         // "thermal-zone": 2,
@@ -91,14 +91,14 @@
         "format-alt": "{time} {icon}",
         // "format-good": "", // An empty format will hide the module
         // "format-full": "",
-        "format-icons": ["", "", "", "", ""]
+        "format-icons": [" ", " ", " ", " ", " "]
     },
     "battery#bat2": {
         "bat": "BAT2"
     },
     "network": {
         // "interface": "wlp2*", // (Optional) To force the use of this interface
-        "format-wifi": "{essid} ({signalStrength}%) ",
+        "format-wifi": "{essid} ({signalStrength}%)  ",
         "format-ethernet": "{ipaddr}/{cidr} ",
         "tooltip-format": "{ifname} via {gwaddr} ",
         "format-linked": "{ifname} (No IP) ",
@@ -120,7 +120,7 @@
             "phone": "",
             "portable": "",
             "car": "",
-            "default": ["", "", ""]
+            "default": ["", "", " "]
         },
         "on-click": "pavucontrol"
     },

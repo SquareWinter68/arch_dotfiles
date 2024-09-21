@@ -44,10 +44,10 @@ env = QT_QPA_PLATFORMTHEME,qt5ct # change to qt6ct if you have that
 
 # For all categories, see https://wiki.hyprland.org/Configuring/Variables/
 input {
-    kb_layout = us, no
+    kb_layout = us 
     kb_variant =
     kb_model =
-    kb_options = grp:win_space_toggle#&&notify-send test
+    kb_options =
     kb_rules =
 
     follow_mouse = 1
@@ -131,7 +131,7 @@ gestures {
 
 misc {
     # See https://wiki.hyprland.org/Configuring/Variables/ for more
-    force_default_wallpaper = 0  # -1 
+    force_default_wallpaper = -1  # -1 
     # Set to 0 to disable the anime mascot wallpapers
 }
 

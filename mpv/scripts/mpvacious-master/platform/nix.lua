@@ -33,7 +33,6 @@ elseif h.is_wayland() then
         local handle = h.subprocess { 'wl-copy', '--version' }
         return handle.status == 0 and contains(split_string(handle.stdout, "%s"), "wl-clipboard")--handle.stdout:match("wl-clipboard") ~= nil
     end
-    print(is_wl_copy_installed())
     self.clip_util = "wl-copy"
     self.clip_cmd = self.clip_util
     self.healthy = is_wl_copy_installed()

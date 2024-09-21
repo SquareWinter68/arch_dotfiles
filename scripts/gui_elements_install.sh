@@ -13,8 +13,8 @@ userInputLower=$(echo "$userInput" | tr '[:upper:]' '[:lower:]')
 
 if [ "$userInputLower" == "y" ]; then
     echo "Installing GUI elements..."
-    sudo pacman -Sy rofi grim slurp mpv python-pywal dunst neofetch
-    yay -Sy swww wlogout python-pywalfox
+    sudo pacman -Sy rofi grim slurp mpv python-pywal dunst neofetch hyprlock
+    yay -Sy swww wlogout python-pywalfox catnip
     # Add your installation command here
 elif [ "$userInputLower" == "n" ]; then
     echo "Installation canceled."

@@ -3,3 +3,6 @@ symbol = " "
 
 [conda]
 symbol = "󱔎 "
+
+
+command_timeout = 1000

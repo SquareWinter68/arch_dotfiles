@@ -1,5 +1,12 @@
 [Default Applications]
 image/png=firefox.desktop
+x-scheme-handler/eclipse+command=_usr_lib_dbeaver_.desktop
+x-scheme-handler/mailto=userapp-Daily-A5QVN2.desktop
+message/rfc822=userapp-Daily-A5QVN2.desktop
+x-scheme-handler/mid=userapp-Daily-A5QVN2.desktop
 
 [Added Associations]
 image/png=kitty.desktop;firefox.desktop;
+x-scheme-handler/mailto=userapp-Daily-A5QVN2.desktop;
+x-scheme-handler/mid=userapp-Daily-A5QVN2.desktop;
+application/vnd.openxmlformats-officedocument.spreadsheetml.sheet=firefox.desktop;

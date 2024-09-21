@@ -11,7 +11,7 @@ userInputLower=$(echo "$userInput" | tr '[:upper:]' '[:lower:]')
 # userInputLower="${userInput,,}"
 
 if [ "$userInputLower" == "y" ]; then
-    cp -r arch_dotfiles ~/.config/
+    #cp -r arch_dotfiles ~/.config/
     source ./yay_install.sh
     source ./hyprland_install.sh
     source ./waybar_install.sh
